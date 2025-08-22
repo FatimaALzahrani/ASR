@@ -1,0 +1,215 @@
+
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\TRY 8> python main.py --data_path "C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\Try 5\output_files\enhanced_audio_data" 
+2025-08-11 01:28:54,687 - INFO - Acoustic model initialized
+2025-08-11 01:28:54,688 - INFO - Language model initialized with 3-gram
+2025-08-11 01:28:54,689 - INFO - Professional ASR system initialized
+2025-08-11 01:28:54,690 - INFO - Training professional ASR system
+2025-08-11 01:28:54,690 - INFO - Starting complete ASR system training
+2025-08-11 01:28:54,690 - INFO - Starting acoustic model training
+2025-08-11 01:28:54,690 - INFO - Loading data from: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\Try 5\output_files\enhanced_audio_data
+2025-08-11 01:28:54,692 - INFO - Processing word: اثنين
+2025-08-11 01:28:54,694 - INFO - Processing word: احمر
+2025-08-11 01:28:54,695 - INFO - Processing word: اخ
+2025-08-11 01:28:54,696 - INFO - Processing word: اخت
+2025-08-11 01:28:54,697 - INFO - Processing word: اخضر
+2025-08-11 01:28:54,698 - INFO - Processing word: اربعة
+2025-08-11 01:28:54,699 - INFO - Processing word: ازرق
+2025-08-11 01:28:54,701 - INFO - Processing word: استاذة
+2025-08-11 01:28:54,701 - INFO - Processing word: اسد
+2025-08-11 01:28:54,702 - INFO - Processing word: اسود
+2025-08-11 01:28:54,704 - INFO - Processing word: اشرب
+2025-08-11 01:28:54,705 - INFO - Processing word: اصفر
+2025-08-11 01:28:54,706 - INFO - Processing word: اكل
+2025-08-11 01:28:54,707 - INFO - Processing word: السلام عليكم
+2025-08-11 01:28:54,708 - INFO - Processing word: باب
+2025-08-11 01:28:54,710 - INFO - Processing word: بابا
+2025-08-11 01:28:54,710 - INFO - Processing word: باص
+2025-08-11 01:28:54,711 - INFO - Processing word: بسة
+2025-08-11 01:28:54,711 - INFO - Processing word: بطة
+2025-08-11 01:28:54,712 - INFO - Processing word: بيت
+2025-08-11 01:28:54,713 - INFO - Processing word: بيض
+2025-08-11 01:28:54,714 - INFO - Processing word: تعبان
+2025-08-11 01:28:54,714 - INFO - Processing word: تفاح
+2025-08-11 01:28:54,715 - INFO - Processing word: تفاحة
+2025-08-11 01:28:54,715 - INFO - Processing word: تمر
+2025-08-11 01:28:54,715 - INFO - Processing word: ثلاثة
+2025-08-11 01:28:54,717 - INFO - Processing word: ثوب
+2025-08-11 01:28:54,718 - INFO - Processing word: جا
+2025-08-11 01:28:54,718 - INFO - Processing word: جبل
+2025-08-11 01:28:54,719 - INFO - Processing word: جد
+2025-08-11 01:28:54,719 - INFO - Processing word: جدة
+2025-08-11 01:28:54,720 - INFO - Processing word: جمل
+2025-08-11 01:28:54,720 - INFO - Processing word: جوع
+2025-08-11 01:28:54,722 - INFO - Processing word: حاسب
+2025-08-11 01:28:54,722 - INFO - Processing word: حافظ
+2025-08-11 01:28:54,723 - INFO - Processing word: حليب
+2025-08-11 01:28:54,723 - INFO - Processing word: خايف
+2025-08-11 01:28:54,723 - INFO - Processing word: خبز
+2025-08-11 01:28:54,724 - INFO - Processing word: خروف
+2025-08-11 01:28:54,724 - INFO - Processing word: خلاص
+2025-08-11 01:28:54,724 - INFO - Processing word: خمسة
+2025-08-11 01:28:54,724 - INFO - Processing word: دجاج
+2025-08-11 01:28:54,724 - INFO - Processing word: ذيب
+2025-08-11 01:28:54,724 - INFO - Processing word: راح
+2025-08-11 01:28:54,729 - INFO - Processing word: راس
+2025-08-11 01:28:54,730 - INFO - Processing word: رز
+2025-08-11 01:28:54,730 - INFO - Processing word: زعلان
+2025-08-11 01:28:54,731 - INFO - Processing word: زيت
+2025-08-11 01:28:54,732 - INFO - Processing word: سبورة
+2025-08-11 01:28:54,733 - INFO - Processing word: ستة
+2025-08-11 01:28:54,734 - INFO - Processing word: سرير
+2025-08-11 01:28:54,736 - INFO - Processing word: سمك
+2025-08-11 01:28:54,743 - INFO - Processing word: شمس
+2025-08-11 01:28:54,745 - INFO - Processing word: صاروخ
+2025-08-11 01:28:54,745 - INFO - Processing word: صقر
+2025-08-11 01:28:54,745 - INFO - Processing word: صمغ
+2025-08-11 01:28:54,745 - INFO - Processing word: ضوء
+2025-08-11 01:28:54,745 - INFO - Processing word: طريق
+2025-08-11 01:28:54,745 - INFO - Processing word: طير
+2025-08-11 01:28:54,745 - INFO - Processing word: ظهر
+2025-08-11 01:28:54,758 - INFO - Processing word: عربية
+2025-08-11 01:28:54,758 - INFO - Processing word: عصفور
+2025-08-11 01:28:54,758 - INFO - Processing word: علم
+2025-08-11 01:28:54,758 - INFO - Processing word: عين
+2025-08-11 01:28:54,758 - INFO - Processing word: فراش
+2025-08-11 01:28:54,761 - INFO - Processing word: فرحان
+2025-08-11 01:28:54,761 - INFO - Processing word: فم
+2025-08-11 01:28:54,761 - INFO - Processing word: فيل
+2025-08-11 01:28:54,766 - INFO - Processing word: قط
+2025-08-11 01:28:54,771 - INFO - Processing word: قلب
+2025-08-11 01:28:54,772 - INFO - Processing word: قلم
+2025-08-11 01:28:54,772 - INFO - Processing word: قميص
+2025-08-11 01:28:54,772 - INFO - Processing word: كاس
+2025-08-11 01:28:54,774 - INFO - Processing word: كبير
+2025-08-11 01:28:54,774 - INFO - Processing word: كتاب
+2025-08-11 01:28:54,774 - INFO - Processing word: كرسي
+2025-08-11 01:28:54,777 - INFO - Processing word: كلب
+2025-08-11 01:28:54,784 - INFO - Processing word: كورة
+2025-08-11 01:28:54,788 - INFO - Processing word: لبن
+2025-08-11 01:28:54,791 - INFO - Processing word: لعبة
+2025-08-11 01:28:54,800 - INFO - Processing word: لون
+2025-08-11 01:28:54,802 - INFO - Processing word: ماما
+2025-08-11 01:28:54,805 - INFO - Processing word: مدرسة
+2025-08-11 01:28:54,806 - INFO - Processing word: مستشفى
+2025-08-11 01:28:54,808 - INFO - Processing word: معصب
+2025-08-11 01:28:54,809 - INFO - Processing word: مفتاح
+2025-08-11 01:28:54,810 - INFO - Processing word: ملعب
+2025-08-11 01:28:54,810 - INFO - Processing word: موز
+2025-08-11 01:28:54,813 - INFO - Processing word: موية
+2025-08-11 01:28:54,813 - INFO - Processing word: مياة
+2025-08-11 01:28:54,813 - INFO - Processing word: نار
+2025-08-11 01:28:54,815 - INFO - Processing word: نام
+2025-08-11 01:28:54,815 - INFO - Processing word: نور
+2025-08-11 01:28:54,817 - INFO - Processing word: نوم
+2025-08-11 01:28:54,818 - INFO - Processing word: هلال
+2025-08-11 01:28:54,817 - INFO - Processing word: نوم
+2025-08-11 01:28:54,818 - INFO - Processing word: هلال        
+2025-08-11 01:28:54,819 - INFO - Processing word: هواء        
+2025-08-11 01:28:54,817 - INFO - Processing word: نوم      
+2025-08-11 01:28:54,818 - INFO - Processing word: هلال     
+2025-08-11 01:28:54,819 - INFO - Processing word: هواء     
+2025-08-11 01:28:54,820 - INFO - Processing word: واحد     
+2025-08-11 01:28:54,819 - INFO - Processing word: هواء     
+2025-08-11 01:28:54,820 - INFO - Processing word: واحد     
+2025-08-11 01:28:54,821 - INFO - Processing word: ورق      
+2025-08-11 01:28:54,821 - INFO - Processing word: ولد      
+2025-08-11 01:28:54,821 - INFO - Processing word: يالله    
+2025-08-11 01:28:54,821 - INFO - Processing word: يد       
+2025-08-11 01:28:54,825 - INFO - Loaded 1310 samples, 101 words, 5 speakers
+2025-08-11 01:28:54,827 - INFO - Filtered dataset: 1309 samples, 100 words
+2025-08-11 01:28:54,827 - INFO - Processing audio files    
+2025-08-11 01:28:54,827 - INFO - Processing 1/1309
+2025-08-11 01:30:03,486 - INFO - Processing 101/1309       
+2025-08-11 01:31:00,456 - INFO - Processing 201/1309       
+2025-08-11 01:31:56,656 - INFO - Processing 301/1309       
+2025-08-11 01:32:52,820 - INFO - Processing 401/1309       
+2025-08-11 01:33:56,540 - INFO - Processing 501/1309       
+2025-08-11 01:34:57,236 - INFO - Processing 601/1309       
+2025-08-11 01:35:57,991 - INFO - Processing 701/1309       
+
+
+
+
+
+
+
+
+
+
+
+
+2025-08-11 01:28:54,821 - INFO - Processing word: يالله    
+2025-08-11 01:28:54,821 - INFO - Processing word: يد       
+2025-08-11 01:28:54,825 - INFO - Loaded 1310 samples, 101 words, 5 speakers
+2025-08-11 01:28:54,827 - INFO - Filtered dataset: 1309 samples, 100 words
+2025-08-11 01:28:54,827 - INFO - Processing audio files    
+2025-08-11 01:28:54,827 - INFO - Processing 1/1309
+2025-08-11 01:30:03,486 - INFO - Processing 101/1309       
+2025-08-11 01:31:00,456 - INFO - Processing 201/1309       
+2025-08-11 01:31:56,656 - INFO - Processing 301/1309       
+2025-08-11 01:32:52,820 - INFO - Processing 401/1309       
+2025-08-11 01:33:56,540 - INFO - Processing 501/1309       
+2025-08-11 01:34:57,236 - INFO - Processing 601/1309       
+2025-08-11 01:28:54,821 - INFO - Processing word: يالله    
+2025-08-11 01:28:54,821 - INFO - Processing word: يالله
+2025-08-11 01:28:54,821 - INFO - Processing word: يد
+2025-08-11 01:28:54,825 - INFO - Loaded 1310 samples, 101 words, 5 speakers
+2025-08-11 01:28:54,827 - INFO - Filtered dataset: 1309 samples, 100 words
+2025-08-11 01:28:54,827 - INFO - Processing audio files
+2025-08-11 01:28:54,827 - INFO - Processing 1/1309
+2025-08-11 01:30:03,486 - INFO - Processing 101/1309
+2025-08-11 01:31:00,456 - INFO - Processing 201/1309
+2025-08-11 01:31:56,656 - INFO - Processing 301/1309
+2025-08-11 01:32:52,820 - INFO - Processing 401/1309
+2025-08-11 01:33:56,540 - INFO - Processing 501/1309
+2025-08-11 01:34:57,236 - INFO - Processing 601/1309
+2025-08-11 01:35:57,991 - INFO - Processing 701/1309
+2025-08-11 01:37:09,447 - INFO - Processing 801/1309
+2025-08-11 01:38:43,553 - INFO - Processing 901/1309
+2025-08-11 01:40:37,280 - INFO - Processing 1001/1309
+2025-08-11 01:42:18,382 - INFO - Processing 1101/1309
+2025-08-11 01:44:14,006 - INFO - Processing 1201/1309
+2025-08-11 01:46:11,551 - INFO - Processing 1301/1309
+2025-08-11 01:46:23,572 - INFO - Successfully processed 1309 files
+2025-08-11 01:46:23,935 - INFO - Removed 0 low-quality samples
+2025-08-11 01:46:23,939 - INFO - Training speaker-specific models
+2025-08-11 01:46:23,945 - INFO - Training models for speaker: أحمد
+2025-08-11 01:46:25,011 - INFO -   random_forest: 0.3846
+2025-08-11 01:49:22,102 - INFO -   gradient_boosting: 0.1615
+2025-08-11 01:49:22,393 - INFO -   svm: 0.1385
+2025-08-11 01:49:26,302 - INFO -   logistic_regression: 0.4077
+2025-08-11 01:49:26,304 - INFO - Training models for speaker: عاصم
+2025-08-11 01:49:27,052 - INFO -   random_forest: 0.4762
+2025-08-11 01:49:35,270 - INFO -   gradient_boosting: 0.3810
+2025-08-11 01:49:35,288 - INFO -   svm: 0.1905
+2025-08-11 01:49:35,367 - INFO -   logistic_regression: 0.5238
+2025-08-11 01:49:35,371 - INFO - Training models for speaker: هيفاء
+2025-08-11 01:49:36,460 - INFO -   random_forest: 0.3364
+2025-08-11 01:51:46,679 - INFO -   gradient_boosting: 0.2056
+2025-08-11 01:51:46,904 - INFO -   svm: 0.0187
+2025-08-11 01:51:51,684 - INFO -   logistic_regression: 0.4393
+2025-08-11 01:51:51,688 - INFO - Training models for speaker: أسيل
+2025-08-11 01:51:52,597 - INFO -   random_forest: 0.4176
+2025-08-11 01:53:50,244 - INFO -   gradient_boosting: 0.2088
+2025-08-11 01:53:50,546 - INFO -   svm: 0.2637
+2025-08-11 01:53:51,073 - INFO -   logistic_regression: 0.5604
+2025-08-11 01:53:51,078 - INFO - Training models for speaker: وسام
+2025-08-11 01:53:51,986 - INFO -   random_forest: 0.5111
+2025-08-11 01:54:20,682 - INFO -   gradient_boosting: 0.2667
+2025-08-11 01:54:20,748 - INFO -   svm: 0.4889
+2025-08-11 01:54:20,801 - INFO -   logistic_regression: 0.5556
+2025-08-11 01:54:20,804 - INFO - Training global models
+2025-08-11 01:54:24,011 - INFO - Global random_forest: 0.3461
+2025-08-11 02:20:21,523 - INFO - Global gradient_boosting: 0.0865
+2025-08-11 02:20:22,871 - INFO - Global extra_trees: 0.3639
+2025-08-11 02:20:22,892 - INFO - Training ensemble model
+2025-08-11 02:20:22,895 - INFO - Ensemble model: extra_trees with accuracy 0.3639       
+2025-08-11 02:20:22,897 - INFO - Acoustic model training completed
+2025-08-11 02:20:23,193 - INFO - Training language model
+2025-08-11 02:20:23,196 - INFO - Language model trained on 101 unique words
+2025-08-11 02:20:23,197 - INFO - Auto-correction system initialized
+2025-08-11 02:20:23,197 - INFO - Complete ASR system training completed
+2025-08-11 02:20:30,117 - INFO - Acoustic model saved to: professional_asr_models\acoustic_model.pkl
+2025-08-11 02:20:30,126 - INFO - Language model saved to: professional_asr_models\language_model.pkl
+2025-08-11 02:20:30,132 - INFO - Complete ASR system saved to: professional_asr_models  
+2025-08-11 02:20:30,132 - INFO - Professional ASR system training and saving completed

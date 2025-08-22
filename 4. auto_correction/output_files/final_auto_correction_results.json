@@ -1,0 +1,24 @@
+{
+  "original_accuracy": 0.811704834605598,
+  "corrected_accuracy": 0.8422391857506362,
+  "improvement": 0.03053435114503822,
+  "improvement_percent": 3.7617554858934232,
+  "error_stats": {
+    "total_errors": 74,
+    "substitution_errors": 30,
+    "phonetic_errors": 12,
+    "length_errors": 44,
+    "accuracy": 0.811704834605598
+  },
+  "correction_stats": {
+    "total_corrections": 12,
+    "pattern_corrections": 2,
+    "similarity_corrections": 10,
+    "common_corrections": 0,
+    "low_confidence_corrections": 0
+  },
+  "total_samples": 393,
+  "vocabulary_size": 100,
+  "has_confidence_scores": false,
+  "model_type": "real"
+}

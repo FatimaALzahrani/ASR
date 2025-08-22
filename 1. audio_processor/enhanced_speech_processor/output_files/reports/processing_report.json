@@ -1,0 +1,56 @@
+{
+  "processing_stats": {
+    "total_files": 1309,
+    "processed_files": 1212,
+    "excluded_files": 97,
+    "failed_files": 0
+  },
+  "data_stats": {
+    "total_samples": 1212,
+    "total_words": 100,
+    "total_speakers": 5,
+    "avg_duration": 0.8810410972007064,
+    "avg_quality_score": 0.863201320132013
+  },
+  "speaker_info": {
+    "أحمد": {
+      "age": 10,
+      "gender": "male",
+      "iq_level": 38,
+      "speech_quality": "poor"
+    },
+    "عاصم": {
+      "age": 11,
+      "gender": "male",
+      "iq_level": 55,
+      "speech_quality": "excellent"
+    },
+    "هيفاء": {
+      "age": 7,
+      "gender": "female",
+      "iq_level": 64,
+      "speech_quality": "good"
+    },
+    "أسيل": {
+      "age": 16,
+      "gender": "female",
+      "iq_level": 40,
+      "speech_quality": "poor"
+    },
+    "وسام": {
+      "age": 6,
+      "gender": "male",
+      "iq_level": "medium",
+      "speech_quality": "medium"
+    }
+  },
+  "excluded_words": [
+    "نوم"
+  ],
+  "config": {
+    "target_sr": 16000,
+    "target_duration": 3.0,
+    "min_duration": 0.5,
+    "max_duration": 10.0
+  }
+}

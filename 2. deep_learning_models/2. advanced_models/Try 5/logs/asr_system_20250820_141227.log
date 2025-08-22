@@ -1,0 +1,2 @@
+2025-08-20 14:12:27,611 - INFO - تم تهيئة نظام التسجيل
+2025-08-20 14:12:27,626 - ERROR - خطأ في خط إنتاج التدريب: [WinError 3] The system cannot find the path specified: 'Data\\clean'

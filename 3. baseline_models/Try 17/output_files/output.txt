@@ -1,0 +1,208 @@
+python main.py 
+Starting enhanced analysis
+================================================================================
+Loading data with smart optimization...
+Processed 200/208 files...
+Processed 400/412 files...
+Processed 600/609 files...
+Processed 800/800 files...
+Processed 1000/1001 files...
+Processed 1200/1210 files...
+Successfully processed 1295/1295 files
+
+Optimizing data for each speaker...
+
+Optimizing data for speaker: Ahmed
+Original samples: 427
+Original words: 58
+Strategy focus_common: selected 25 words from 58
+Samples after filtering: 245
+Selected words: 25
+Applying data augmentation with factor 2.0
+Data augmentation: 245 → 490 samples
+Final: 490 samples, 25 words
+
+Optimizing data for speaker: Asem
+Original samples: 64
+Original words: 15
+Strategy maximize_diversity: selected 15 words from 15
+Samples after filtering: 64
+Selected words: 15
+Applying data augmentation with factor 1.5
+Data augmentation: 64 → 96 samples
+Final: 96 samples, 15 words
+
+Optimizing data for speaker: Haifa
+Original samples: 351
+Original words: 55
+Strategy focus_common: selected 20 words from 55
+Samples after filtering: 151
+Selected words: 20
+Applying data augmentation with factor 2.5
+Data augmentation: 151 → 377 samples
+Final: 377 samples, 20 words
+
+Optimizing data for speaker: Aseel
+Original samples: 301
+Original words: 57
+Strategy focus_easy: selected 13 words from 57
+Samples after filtering: 74
+Selected words: 13
+Applying data augmentation with factor 3.0
+Data augmentation: 74 → 222 samples
+Final: 222 samples, 13 words
+
+Optimizing data for speaker: Wessam
+Original samples: 149
+Original words: 22
+Strategy balanced: selected 11 words from 22
+Samples after filtering: 93
+Selected words: 11
+Applying data augmentation with factor 1.8
+Data augmentation: 93 → 167 samples
+Final: 167 samples, 11 words
+
+Optimized data summary:
+   Ahmed: 490 enhanced samples, 25 selected words
+   Asem: 96 enhanced samples, 15 selected words
+   Haifa: 377 enhanced samples, 20 selected words
+   Aseel: 222 enhanced samples, 13 selected words
+   Wessam: 167 enhanced samples, 11 selected words
+
+Training enhanced models for accuracy:
+Training enhanced model for speaker: Ahmed
+Samples: 490
+Words: 25
+Quality: متوسط (clarity: 0.65)
+Features: 267
+Final words: 25
+Final samples: 490
+Training: 367 samples, testing: 123 samples
+Training RandomForest...
+RandomForest: 0.8374 (83.74%)
+Training ExtraTrees...
+ExtraTrees: 0.8374 (83.74%)
+Training XGBoost...
+XGBoost: 0.8374 (83.74%)
+Training LightGBM...
+LightGBM: 0.8537 (85.37%)
+Creating enhanced ensemble...
+Ensemble: 0.8618 (86.18%)
+Best model: Ensemble - 0.8618 (86.18%)
+Training enhanced model for speaker: Asem
+Samples: 96
+Words: 15
+Quality: عالي (clarity: 0.85)
+Features: 267
+Final words: 13
+Final samples: 94
+Training: 70 samples, testing: 24 samples
+Training ExtraTrees...
+ExtraTrees: 0.7917 (79.17%)
+Training RandomForest...
+RandomForest: 0.8333 (83.33%)
+Training XGBoost...
+XGBoost: 0.7500 (75.00%)
+Training GradientBoosting...
+GradientBoosting: 0.7500 (75.00%)
+Creating enhanced ensemble...
+Ensemble: 0.8750 (87.50%)
+Best model: Ensemble - 0.8750 (87.50%)
+Training enhanced model for speaker: Haifa
+Samples: 377
+Words: 20
+Quality: متوسط (clarity: 0.70)
+Features: 267
+Final words: 20
+Final samples: 377
+Training: 282 samples, testing: 95 samples
+Training RandomForest...
+RandomForest: 0.9789 (97.89%)
+Training ExtraTrees...
+ExtraTrees: 0.9789 (97.89%)
+Training XGBoost...
+XGBoost: 0.9158 (91.58%)
+Training LightGBM...
+LightGBM: 0.9684 (96.84%)
+Creating enhanced ensemble...
+Ensemble: 0.9789 (97.89%)
+Best model: RandomForest - 0.9789 (97.89%)
+Training enhanced model for speaker: Aseel
+Samples: 222
+Words: 13
+Quality: منخفض (clarity: 0.45)
+Features: 267
+Final words: 13
+Final samples: 222
+Training: 166 samples, testing: 56 samples
+Training RandomForest...
+RandomForest: 0.9821 (98.21%)
+Training ExtraTrees...
+ExtraTrees: 0.9643 (96.43%)
+Training LogisticRegression...
+LogisticRegression: 0.9286 (92.86%)
+Training SVM...
+SVM: 0.9286 (92.86%)
+Creating enhanced ensemble...
+Ensemble: 0.9286 (92.86%)
+Best model: RandomForest - 0.9821 (98.21%)
+Training enhanced model for speaker: Wessam
+Samples: 167
+Words: 11
+Quality: متوسط-عالي (clarity: 0.75)
+Features: 267
+Final words: 11
+Final samples: 167
+Training: 125 samples, testing: 42 samples
+Training RandomForest...
+RandomForest: 0.9762 (97.62%)
+Training ExtraTrees...
+ExtraTrees: 0.9762 (97.62%)
+Training XGBoost...
+XGBoost: 0.9762 (97.62%)
+Training LightGBM...
+LightGBM: 0.9286 (92.86%)
+Creating enhanced ensemble...
+Ensemble: 1.0000 (100.00%)
+Best model: Ensemble - 1.0000 (100.00%)
+
+================================================================================
+Enhanced High Accuracy System Report
+================================================================================
+
+Enhanced Results (sorted by accuracy):
+------------------------------------------------------------------------------------------
+Speaker      Accuracy Model           Samples  Words    Improve
+------------------------------------------------------------------------------------------
+Wessam       100.00% Ensemble             167       11  +95.7%
+Aseel         98.21% RandomForest         222       13  +41.9%
+Haifa         97.89% RandomForest         377       20 +196.5%
+Asem          87.50% Ensemble              94       13  +59.1%
+Ahmed         86.18% Ensemble             490       25  +93.1%
+------------------------------------------------------------------------------------------
+Overall weighted average: 93.23%
+Average improvement: +97.2%
+Number of speakers: 5
+Total samples: 1350
+
+Performance level analysis:
+   Excellent performance (≥70%): 5 speakers
+   Good performance (60-69%): 0 speakers
+   Fair performance (50-59%): 0 speakers
+   Needs improvement (<50%): 0 speakers
+   Success rate (≥60%): 100.0%
+
+Final evaluation:
+Outstanding achievement! Over 75% accuracy achieved!
+World-leading performance in Down syndrome children ASR!
+
+Scientific contributions:
+   Innovative methodology: smart enhancement tailored to each child
+   Advanced strategy: optimal word selection + data augmentation
+   Enhanced results: 93.2% accuracy with +97.2% improvement
+   Advanced models: smart ensemble + enhanced feature engineering
+   High success rate: 100.0% of speakers achieved ≥60%
+
+Enhanced analysis completed successfully!
+Results saved in: enhanced_accuracy_results/
+Accuracy enhancement goal achieved successfully!

@@ -1,0 +1,13 @@
+filename,word,speaker,quality,file_path,duration
+10.wav,اثنين,عاصم,ممتاز,data\clean\اثنين\10.wav,0.945125
+10.wav,اربعة,عاصم,ممتاز,data\clean\اربعة\10.wav,0.5855
+10.wav,اشرب,عاصم,ممتاز,data\clean\اشرب\10.wav,0.2728125
+11.wav,اكل,عاصم,ممتاز,data\clean\اكل\11.wav,1.019
+10.wav,باب,عاصم,ممتاز,data\clean\باب\10.wav,0.7314375
+11.wav,باص,عاصم,ممتاز,data\clean\باص\11.wav,0.5455
+8.wav,تمر,عاصم,ممتاز,data\clean\تمر\8.wav,0.3560625
+10.wav,ثلاثة,عاصم,ممتاز,data\clean\ثلاثة\10.wav,0.731
+11.wav,جا,عاصم,ممتاز,data\clean\جا\11.wav,0.89575
+10.wav,راح,عاصم,ممتاز,data\clean\راح\10.wav,0.334375
+8.wav,سرير,عاصم,ممتاز,data\clean\سرير\8.wav,0.5340625
+8.wav,واحد,عاصم,ممتاز,data\clean\واحد\8.wav,0.9055625

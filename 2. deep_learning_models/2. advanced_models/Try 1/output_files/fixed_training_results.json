@@ -1,0 +1,17 @@
+{
+  "model_accuracies": {
+    "Baseline k-NN": 0.1940928270042194,
+    "HMM-DNN": 0.41350210970464135,
+    "RNN-CNN": 0.3628691983122363,
+    "End-to-End": 0.13924050632911392
+  },
+  "best_model": "HMM-DNN",
+  "best_accuracy": 0.41350210970464135,
+  "dataset_info": {
+    "train_samples": 891,
+    "val_samples": 84,
+    "test_samples": 237,
+    "num_words": 100,
+    "num_speakers": 5
+  }
+}

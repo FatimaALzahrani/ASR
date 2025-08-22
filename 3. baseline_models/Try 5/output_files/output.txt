@@ -1,0 +1,445 @@
+python main.py --mode full --input-dir "C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\clean" --output-dir "output_files\enhanced_audio_data"
+Running full pipeline...
+
+Step 1: Audio Enhancement
+Starting audio enhancement process...
+Starting audio quality enhancement
+========================================
+Input directory: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\clean
+Output directory: output_files\enhanced_audio_data
+
+Processing word: اثنين
+
+Processing word: احمر
+
+Processing word: اخ
+
+Processing word: اخت
+
+Processing word: اخضر
+
+Processing word: اربعة
+
+Processing word: ازرق
+
+Processing word: استاذة
+
+Processing word: اسد
+
+Processing word: اسود
+
+Processing word: اشرب
+
+Processing word: اصفر
+
+Processing word: اكل
+
+Processing word: السلام عليكم
+
+Processing word: باب
+  Processed 200 files...
+
+Processing word: بابا
+
+Processing word: باص
+
+Processing word: بسة
+
+Processing word: بطة
+
+Processing word: بيت
+
+Processing word: بيض
+
+Processing word: تعبان
+
+Processing word: تفاح
+
+Processing word: تفاحة
+
+Processing word: تمر
+
+Processing word: ثلاثة
+
+Processing word: ثوب
+
+Processing word: جا
+  Processed 400 files...
+
+Processing word: جبل
+
+Processing word: جد
+
+Processing word: جدة
+
+Processing word: جمل
+
+Processing word: جوع
+
+Processing word: حاسب
+
+Processing word: حافظ
+
+Processing word: حليب
+
+Processing word: خايف
+
+Processing word: خبز
+
+Processing word: خروف
+
+Processing word: خلاص
+
+Processing word: خمسة
+
+Processing word: دجاج
+
+Processing word: ذيب
+
+Processing word: راح
+  Processed 600 files...
+
+Processing word: راس
+
+Processing word: رز
+
+Processing word: زعلان
+
+Processing word: زيت
+
+Processing word: سبورة
+
+Processing word: ستة
+
+Processing word: سرير
+
+Processing word: سمك
+
+Processing word: شمس
+
+Processing word: صاروخ
+
+Processing word: صقر
+
+Processing word: صمغ
+
+Processing word: ضوء
+
+Processing word: طريق
+
+Processing word: طير
+
+Processing word: ظهر
+  Processed 800 files...
+
+Processing word: عربية
+
+Processing word: عصفور
+
+Processing word: علم
+
+Processing word: عين
+
+Processing word: فراش
+
+Processing word: فرحان
+
+Processing word: فم
+
+Processing word: فيل
+
+Processing word: قط
+
+Processing word: قلب
+
+Processing word: قلم
+
+Processing word: قميص
+
+Processing word: كاس
+
+Processing word: كبير
+
+Processing word: كتاب
+
+Processing word: كرسي
+  Processed 1000 files...
+
+Processing word: كلب
+
+Processing word: كورة
+
+Processing word: لبن
+
+Processing word: لعبة
+
+Processing word: لون
+
+Processing word: ماما
+
+Processing word: مدرسة
+
+Processing word: مستشفى
+
+Processing word: معصب
+
+Processing word: مفتاح
+
+Processing word: ملعب
+
+Processing word: موز
+
+Processing word: موية
+
+Processing word: مياة
+
+Processing word: نار
+  Processed 1200 files...
+
+Processing word: نام
+
+Processing word: نور
+
+Processing word: نوم
+
+Processing word: هلال
+
+Processing word: هواء
+
+Processing word: واحد
+
+Processing word: ورق
+
+Processing word: ولد
+
+Processing word: يالله
+
+Processing word: يد
+
+Successfully enhanced 1310 files
+Failed to process 0 files
+Processing report saved to: output_files\enhanced_audio_data\processing_report.csv
+
+Enhancement statistics:
+  Average duration reduction: 0.191 seconds
+  Average RMS improvement: -0.0706
+Audio enhancement completed successfully!
+
+Step 2: Model Training
+Starting model training process...
+Comparing model performance before and after data enhancement
+============================================================
+
+==================== Enhanced Basic Model ====================
+Loading enhanced data from: output_files/enhanced_audio_data
+Calculating word distribution...
+Selected 30 words from 101 total words:
+  1. موز: 28 samples
+  2. اثنين: 27 samples
+  3. عين: 27 samples
+  4. اربعة: 25 samples
+  5. ثلاثة: 25 samples
+  6. اشرب: 24 samples
+  7. باب: 24 samples
+  8. باص: 23 samples
+  9. دجاج: 23 samples
+  10. فيل: 23 samples
+  ... and 20 more words
+Processed 200 files...
+Processed 400 files...
+Processed 600 files...
+Successfully processed 633 files
+Excluded 0 files due to speakers
+Excluded 3 files due to errors
+Final data shape: (633, 93)
+Number of unique words: 30
+Speaker distribution: {np.str_('أحمد'): 230, np.str_('عاصم'): 60, np.str_('هيفاء'): 168, np.str_('أسيل'): 125, np.str_('وسام'): 50}
+Minimum samples per word: 16
+Training enhanced model: enhanced_basic_model
+Using stratified split
+Data split:
+   Training: 506 samples
+   Testing: 127 samples
+Selected 80 features from 93
+  Training rf...
+    rf: 0.4488 (44.88%)
+  Training gb...
+    gb: 0.3071 (30.71%)
+  Training svm...
+    svm: 0.4331 (43.31%)
+Best model: rf with accuracy 0.4488 (44.88%)
+
+==================== Enhanced Without Aseel ====================
+Loading enhanced data from: output_files/enhanced_audio_data
+Calculating word distribution...
+Selected 30 words from 101 total words:
+  1. بيض: 22 samples
+  2. موز: 22 samples
+  3. اثنين: 20 samples
+  4. باب: 20 samples
+  5. عين: 20 samples
+  6. اربعة: 19 samples
+  7. تفاح: 19 samples
+  8. ثلاثة: 19 samples
+  9. نار: 19 samples
+  10. اشرب: 18 samples
+  ... and 20 more words
+Processed 200 files...
+Processed 400 files...
+Successfully processed 523 files
+Excluded 90 files due to speakers
+Excluded 0 files due to errors
+Final data shape: (523, 93)
+Number of unique words: 30
+Speaker distribution: {np.str_('أحمد'): 244, np.str_('عاصم'): 56, np.str_('هيفاء'): 148, np.str_('وسام'): 75}
+Minimum samples per word: 14
+Training enhanced model: enhanced_without_aseel
+Using stratified split
+Data split:
+   Training: 418 samples
+   Testing: 105 samples
+Selected 80 features from 93
+  Training rf...
+    rf: 0.4571 (45.71%)
+  Training gb...
+    gb: 0.3238 (32.38%)
+  Training svm...
+    svm: 0.4286 (42.86%)
+Best model: rf with accuracy 0.4571 (45.71%)
+
+==================== Enhanced Without Ahmed ====================
+Loading enhanced data from: output_files/enhanced_audio_data
+Calculating word distribution...
+Selected 30 words from 101 total words:
+  1. سمك: 21 samples
+  2. اثنين: 20 samples
+  3. اربعة: 20 samples
+  4. اشرب: 20 samples
+  5. عين: 20 samples
+  6. موز: 19 samples
+  7. ثلاثة: 18 samples
+  8. باب: 17 samples
+  9. باص: 17 samples
+  10. جا: 17 samples
+  ... and 20 more words
+Processed 200 files...
+Processed 400 files...
+Successfully processed 441 files
+Excluded 132 files due to speakers
+Excluded 3 files due to errors
+Final data shape: (441, 93)
+Number of unique words: 30
+Speaker distribution: {np.str_('عاصم'): 59, np.str_('هيفاء'): 177, np.str_('أسيل'): 148, np.str_('وسام'): 57}
+Minimum samples per word: 10
+Training enhanced model: enhanced_without_ahmed
+Using stratified split
+Data split:
+   Training: 352 samples
+   Testing: 89 samples
+Selected 80 features from 93
+  Training rf...
+    rf: 0.5169 (51.69%)
+  Training gb...
+    gb: 0.3708 (37.08%)
+  Training svm...
+    svm: 0.5169 (51.69%)
+Best model: rf with accuracy 0.5169 (51.69%)
+
+=============== Enhanced عاصم Specialized Model ===============
+Loading enhanced data from: output_files/enhanced_audio_data
+Calculating word distribution...
+Selected 20 words from 101 total words:
+  1. موز: 28 samples
+  2. اثنين: 27 samples
+  3. عين: 27 samples
+  4. اربعة: 25 samples
+  5. ثلاثة: 25 samples
+  6. اشرب: 24 samples
+  7. باب: 24 samples
+  8. باص: 23 samples
+  9. دجاج: 23 samples
+  10. فيل: 23 samples
+  ... and 10 more words
+Processed 200 files...
+Processed 400 files...
+Successfully processed 459 files
+Excluded 0 files due to speakers
+Excluded 3 files due to errors
+Final data shape: (459, 93)
+Number of unique words: 20
+Speaker distribution: {np.str_('أحمد'): 144, np.str_('عاصم'): 58, np.str_('هيفاء'): 118, np.str_('أسيل'): 103, np.str_('وسام'): 36}
+Minimum samples per word: 19
+Training enhanced model: enhanced_عاصم_specialized
+Using regular split (some words have single sample)
+Data split:
+   Training: 46 samples
+   Testing: 12 samples
+Selected 80 features from 93
+  Training rf...
+    rf: 0.4167 (41.67%)
+  Training gb...
+    gb: 0.5833 (58.33%)
+  Training svm...
+    svm: 0.5000 (50.00%)
+Best model: gb with accuracy 0.5833 (58.33%)
+
+=============== Enhanced أسيل Specialized Model ===============
+Loading enhanced data from: output_files/enhanced_audio_data
+Calculating word distribution...
+Selected 20 words from 101 total words:
+  1. موز: 28 samples
+  2. اثنين: 27 samples
+  3. عين: 27 samples
+  4. اربعة: 25 samples
+  5. ثلاثة: 25 samples
+  6. اشرب: 24 samples
+  7. باب: 24 samples
+  8. باص: 23 samples
+  9. دجاج: 23 samples
+  10. فيل: 23 samples
+  ... and 10 more words
+Processed 200 files...
+Processed 400 files...
+Successfully processed 459 files
+Excluded 0 files due to speakers
+Excluded 3 files due to errors
+Final data shape: (459, 93)
+Number of unique words: 20
+Speaker distribution: {np.str_('أحمد'): 144, np.str_('عاصم'): 58, np.str_('هيفاء'): 118, np.str_('أسيل'): 103, np.str_('وسام'): 36}
+Minimum samples per word: 19
+Training enhanced model: enhanced_أسيل_specialized
+Using stratified split
+Data split:
+   Training: 82 samples
+   Testing: 21 samples
+Selected 80 features from 93
+  Training rf...
+    rf: 0.7619 (76.19%)
+  Training gb...
+    gb: 0.3810 (38.10%)
+  Training svm...
+    svm: 0.8571 (85.71%)
+Best model: svm with accuracy 0.8571 (85.71%)
+Final Results Comparison
+==================================================
+📉 Basic Model:
+   Before enhancement: 45.42%
+   After enhancement: 44.88%
+   Improvement: -0.54% (-1.2%)
+
+📉 Without Aseel:
+   Before enhancement: 46.77%
+   After enhancement: 45.71%
+   Improvement: -1.06% (-2.3%)
+
+📈 Without Ahmed:
+   Before enhancement: 42.53%
+   After enhancement: 51.69%
+   Improvement: +9.16% (+21.5%)
+
+Results saved to: enhanced_models_final_comparison.json
+Model training completed successfully!
+
+Full pipeline completed successfully!
+
+Operation completed successfully!

@@ -1,0 +1,94 @@
+{
+  "dataset_info": {
+    "total_samples": 1309,
+    "total_words": 100,
+    "total_speakers": 5,
+    "average_samples_per_word": 13.09
+  },
+  "baseline_results": {
+    "random": 0.013750954927425516,
+    "majority": 0.0213903743315508,
+    "knn": 0.27576645043002396
+  },
+  "speaker_analysis": {
+    "Asem": {
+      "total_samples": 68,
+      "unique_words": 16,
+      "simple_accuracy": 0.10294117647058823,
+      "most_common_word": "اربعة"
+    },
+    "Aseel": {
+      "total_samples": 303,
+      "unique_words": 58,
+      "simple_accuracy": 0.0231023102310231,
+      "most_common_word": "اثنين"
+    },
+    "Ahmed": {
+      "total_samples": 433,
+      "unique_words": 59,
+      "simple_accuracy": 0.03233256351039261,
+      "most_common_word": "بيض"
+    },
+    "Wessam": {
+      "total_samples": 149,
+      "unique_words": 22,
+      "simple_accuracy": 0.0738255033557047,
+      "most_common_word": "مياة"
+    },
+    "Haifa": {
+      "total_samples": 356,
+      "unique_words": 56,
+      "simple_accuracy": 0.028089887640449437,
+      "most_common_word": "حاسب"
+    }
+  },
+  "word_analysis": {
+    "موز": {
+      "total_samples": 28,
+      "frequency": 0.0213903743315508
+    },
+    "اثنين": {
+      "total_samples": 27,
+      "frequency": 0.020626432391138275
+    },
+    "عين": {
+      "total_samples": 27,
+      "frequency": 0.020626432391138275
+    },
+    "اربعة": {
+      "total_samples": 25,
+      "frequency": 0.019098548510313215
+    },
+    "ثلاثة": {
+      "total_samples": 25,
+      "frequency": 0.019098548510313215
+    },
+    "اشرب": {
+      "total_samples": 24,
+      "frequency": 0.01833460656990069
+    },
+    "باب": {
+      "total_samples": 24,
+      "frequency": 0.01833460656990069
+    },
+    "موية": {
+      "total_samples": 24,
+      "frequency": 0.01833460656990069
+    },
+    "باص": {
+      "total_samples": 23,
+      "frequency": 0.01757066462948816
+    },
+    "دجاج": {
+      "total_samples": 23,
+      "frequency": 0.01757066462948816
+    }
+  },
+  "insights": [
+    "k-NN model is 20.05x better than random",
+    "k-NN model is 12.89x better than majority",
+    "Best speaker: Asem (0.1029)",
+    "Worst speaker: Aseel (0.0231)",
+    "Average samples per speaker: 261.8"
+  ]
+}

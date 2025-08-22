@@ -1,0 +1,32 @@
+{
+  "data_distribution": {
+    "total_samples": 257,
+    "unique_words": 10,
+    "unique_speakers": 5,
+    "word_distribution": {
+      "بابا": 31,
+      "ماء": 31,
+      "بيت": 29,
+      "قمر": 27,
+      "خبز": 27,
+      "قلم": 24,
+      "حليب": 24,
+      "كتاب": 22,
+      "ماما": 21,
+      "شمس": 21
+    },
+    "speaker_distribution": {
+      "أحمد": 61,
+      "أسيل": 51,
+      "عاصم": 50,
+      "هيفاء": 48,
+      "وسام": 47
+    }
+  },
+  "ensemble_accuracy": 0.11538461538461539,
+  "ensemble_f1": 0.099504662004662,
+  "individual_results": {
+    "rf_1": {
+      "accuracy": 0.07692307692307693,
+      "f1_score": 0.05742759265026472,
+      "predictions": 

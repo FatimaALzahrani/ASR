@@ -1,0 +1,75 @@
+{
+  "correction_accuracy": 1.0,
+  "test_results": [
+    {
+      "original_correct": "ماء",
+      "error_input": "مماء",
+      "corrected_output": "ماء",
+      "is_correct": true,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "original_correct": "قلم",
+      "error_input": "قللم",
+      "corrected_output": "قلم",
+      "is_correct": true,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "original_correct": "قلم",
+      "error_input": "كلم",
+      "corrected_output": "قلم",
+      "is_correct": true,
+      "confidence": 0.8
+    },
+    {
+      "original_correct": "قلم",
+      "error_input": "قلمم",
+      "corrected_output": "قلم",
+      "is_correct": true,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "original_correct": "ماما",
+      "error_input": "مماما",
+      "corrected_output": "ماما",
+      "is_correct": true,
+      "confidence": 0.8888888888888888
+    },
+    {
+      "original_correct": "حليب",
+      "error_input": "حلليب",
+      "corrected_output": "حليب",
+      "is_correct": true,
+      "confidence": 0.8888888888888888
+    },
+    {
+      "original_correct": "بيت",
+      "error_input": "بي",
+      "corrected_output": "بيت",
+      "is_correct": true,
+      "confidence": 0.8
+    },
+    {
+      "original_correct": "قمر",
+      "error_input": "قمرر",
+      "corrected_output": "قمر",
+      "is_correct": true,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "original_correct": "قمر",
+      "error_input": "كمر",
+      "corrected_output": "قمر",
+      "is_correct": true,
+      "confidence": 0.8
+    },
+    {
+      "original_correct": "قمر",
+      "error_input": "قممر",
+      "corrected_output": "قمر",
+      "is_correct": true,
+      "confidence": 0.8571428571428571
+    }
+  ]
+}

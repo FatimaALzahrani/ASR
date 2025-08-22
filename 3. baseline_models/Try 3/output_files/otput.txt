@@ -1,0 +1,138 @@
+ python main.py
+Starting improved models development with strong regularization
+======================================================================
+Loading corrected data...
+Data loaded successfully:
+- Training: 558 samples
+- Testing: 429 samples
+- Features: 14
+- Words: 58
+Creating regularized models...
+Training and evaluating models...
+Training Random Forest (Regularized)...
+Results for Random Forest (Regularized):
+  - CV Mean: 0.3925 (±0.0390)
+  - Train Accuracy: 0.5054
+  - Test Accuracy: 0.1818
+  - Overfitting Gap: 0.3236
+  - F1-Score: 0.0862
+  ⚠️ High overfitting
+Training SVM (High Regularization)...
+Results for SVM (High Regularization):
+  - CV Mean: 0.0358 (±0.0051)
+  - Train Accuracy: 0.0735
+  - Test Accuracy: 0.0303
+  - Overfitting Gap: 0.0432
+  - F1-Score: 0.0034
+  ✅ Low overfitting
+Training Logistic Regression (L2)...
+Results for Logistic Regression (L2):
+  - CV Mean: 0.1774 (±0.0395)
+  - Train Accuracy: 0.2563
+  - Test Accuracy: 0.1049
+  - Overfitting Gap: 0.1514
+  - F1-Score: 0.0517
+  ⚠️ Moderate overfitting
+Training Ridge Classifier...
+Results for Ridge Classifier:
+  - CV Mean: 0.3602 (±0.0390)
+  - Train Accuracy: 0.4391
+  - Test Accuracy: 0.1375
+  - Overfitting Gap: 0.3015
+  - F1-Score: 0.0683
+  ⚠️ High overfitting
+Training Gradient Boosting (Regularized)...
+Results for Gradient Boosting (Regularized):
+  - CV Mean: 0.5269 (±0.0419)
+  - Train Accuracy: 0.7366
+  - Test Accuracy: 0.2681
+  - Overfitting Gap: 0.4685
+  - F1-Score: 0.2025
+  ⚠️ High overfitting
+Training KNN (Optimized)...
+Results for KNN (Optimized):
+  - CV Mean: 0.5412 (±0.0217)
+  - Train Accuracy: 1.0000
+  - Test Accuracy: 0.3030
+  - Overfitting Gap: 0.6970
+  - F1-Score: 0.2726
+  ⚠️ High overfitting
+Training Naive Bayes...
+Results for Naive Bayes:
+  - CV Mean: 0.6093 (±0.0207)
+  - Train Accuracy: 0.6559
+  - Test Accuracy: 0.4056
+  - Overfitting Gap: 0.2503
+  - F1-Score: 0.3214
+  ⚠️ High overfitting
+Training Extra Trees (Regularized)...
+Results for Extra Trees (Regularized):
+  - CV Mean: 0.3674 (±0.0067)
+  - Train Accuracy: 0.4355
+  - Test Accuracy: 0.1492
+  - Overfitting Gap: 0.2863
+  - F1-Score: 0.0565
+  ⚠️ High overfitting
+Creating ensemble models...
+Training and evaluating models...
+Training Voting Classifier (Hard)...
+Results for Voting Classifier (Hard):
+  - CV Mean: 0.3244 (±0.0711)
+  - Train Accuracy: 0.4498
+  - Test Accuracy: 0.1655
+  - Overfitting Gap: 0.2843
+  - F1-Score: 0.0990
+  ⚠️ High overfitting
+Training Voting Classifier (Soft)...
+Results for Voting Classifier (Soft):
+  - CV Mean: 0.6075 (±0.0232)
+  - Train Accuracy: 0.6577
+  - Test Accuracy: 0.4033
+  - Overfitting Gap: 0.2544
+  - F1-Score: 0.3201
+  ⚠️ High overfitting
+Tuning hyperparameters for promising models...
+Tuning Random Forest...
+  Best params: {'max_depth': 4, 'min_samples_leaf': 8, 'min_samples_split': 15, 'n_estimators': 30}
+  Best CV score: 0.4462
+Tuning SVM...
+  Best params: {'C': 0.001, 'gamma': 'auto'}
+  Best CV score: 0.0842
+Training and evaluating models...
+Training Random Forest (Tuned)...
+Results for Random Forest (Tuned):
+  - CV Mean: 0.4785 (±0.0158)
+  - Train Accuracy: 0.5627
+  - Test Accuracy: 0.2121
+  - Overfitting Gap: 0.3506
+  - F1-Score: 0.1371
+  ⚠️ High overfitting
+Training SVM (Tuned)...
+Results for SVM (Tuned):
+  - CV Mean: 0.0771 (±0.0329)
+  - Train Accuracy: 0.1326
+  - Test Accuracy: 0.0396
+  - Overfitting Gap: 0.0930
+  - F1-Score: 0.0062
+  ✅ Low overfitting
+Creating comprehensive plots...
+Plots saved to: improved_models_comprehensive_analysis.png
+Saving comprehensive results...
+Results saved to: improved_models_comprehensive_results.json
+
+======================================================================
+Improved models development completed
+
+Best Results:
+- Best model: Naive Bayes
+- Best test accuracy: 0.4056
+- Best CV score: 0.6093
+
+Models with low overfitting:
+  - SVM (High Regularization)
+  - SVM (Tuned)
+
+Comprehensive summary:
+- Average test accuracy: 0.2001
+- Average CV score: 0.3749
+- Average overfitting gap: 0.2920

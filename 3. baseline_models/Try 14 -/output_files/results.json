@@ -1,0 +1,69 @@
+{
+  "Ahmed": {
+    "speaker": "Ahmed",
+    "best_model": "Ensemble_soft",
+    "best_accuracy": 0.4846153846153846,
+    "all_results": {
+      "RandomForest": 0.3923076923076923,
+      "ExtraTrees": 0.46153846153846156,
+      "Ensemble_soft": 0.4846153846153846
+    },
+    "samples": 433,
+    "words": 59,
+    "quality": "medium",
+    "clarity": 0.65
+  },
+  "Asem": {
+    "speaker": "Asem",
+    "best_model": "ExtraTrees",
+    "best_accuracy": 0.5,
+    "all_results": {
+      "ExtraTrees": 0.5,
+      "XGBoost": 0.4
+    },
+    "samples": 65,
+    "words": 13,
+    "quality": "high",
+    "clarity": 0.85
+  },
+  "Haifa": {
+    "speaker": "Haifa",
+    "best_model": "RandomForest",
+    "best_accuracy": 0.24528301886792453,
+    "all_results": {
+      "RandomForest": 0.24528301886792453,
+      "LightGBM": 0.24528301886792453
+    },
+    "samples": 352,
+    "words": 55,
+    "quality": "medium",
+    "clarity": 0.7
+  },
+  "Aseel": {
+    "speaker": "Aseel",
+    "best_model": "Ensemble_soft",
+    "best_accuracy": 0.6923076923076923,
+    "all_results": {
+      "RandomForest": 0.4945054945054945,
+      "LogisticRegression": 0.6813186813186813,
+      "Ensemble_soft": 0.6923076923076923
+    },
+    "samples": 302,
+    "words": 57,
+    "quality": "low",
+    "clarity": 0.45
+  },
+  "Wessam": {
+    "speaker": "Wessam",
+    "best_model": "ExtraTrees",
+    "best_accuracy": 0.5111111111111111,
+    "all_results": {
+      "ExtraTrees": 0.5111111111111111,
+      "XGBoost": 0.3111111111111111
+    },
+    "samples": 148,
+    "words": 21,
+    "quality": "medium-high",
+    "clarity": 0.75
+  }
+}

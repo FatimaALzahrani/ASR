@@ -1,0 +1,76 @@
+Using device: cpu
+Simple Model Evaluator for Real Data
+============================================================
+Using data file: training_dataset.csv
+Loading and analyzing data...
+Loaded 1310 samples
+Found 101 unique words
+Found 5 speakers
+Warning: 1 words have only one sample
+Success: 100 words have 3+ samples
+Filtered data to 1309 samples from common words
+Setup encoder for 100 words
+Setup encoder for 5 speakers
+Starting comprehensive evaluation...
+============================================================
+Extracting audio features...
+Processed 100 files...
+Processed 200 files...
+Processed 300 files...
+Processed 400 files...
+Processed 500 files...
+Processed 600 files...
+Processed 700 files...
+Processed 800 files...
+Processed 900 files...
+Processed 1000 files...
+Processed 1100 files...
+Processed 1200 files...
+Processed 1300 files...
+Evaluating baseline models...
+Random model accuracy: 0.0138
+Majority model accuracy: 0.0214
+k-NN model accuracy: 0.2758
+Analyzing performance by speaker...
+  Asem: 68 samples, 16 words, accuracy: 0.1029
+  Aseel: 303 samples, 58 words, accuracy: 0.0231
+  Ahmed: 433 samples, 59 words, accuracy: 0.0323
+  Wessam: 149 samples, 22 words, accuracy: 0.0738
+  Haifa: 356 samples, 56 words, accuracy: 0.0281
+Analyzing performance by word...
+  موز: 28 samples (2.1%)
+  اثنين: 27 samples (2.1%)
+  عين: 27 samples (2.1%)
+  اربعة: 25 samples (1.9%)
+  ثلاثة: 25 samples (1.9%)
+  اشرب: 24 samples (1.8%)
+  باب: 24 samples (1.8%)
+  موية: 24 samples (1.8%)
+  باص: 23 samples (1.8%)
+  دجاج: 23 samples (1.8%)
+Generating comprehensive report...
+Report saved to: evaluation_report.json
+
+============================================================
+Evaluation completed successfully!
+Random accuracy: 0.0138
+Majority accuracy: 0.0214
+Report saved to: evaluation_report.json
+
+============================================================
+Evaluation completed successfully!
+Random accuracy: 0.0138
+Majority accuracy: 0.0214
+k-NN accuracy: 0.2758
+
+Top speakers by performance:
+1. Asem: 0.1029
+2. Wessam: 0.0738
+3. Ahmed: 0.0323
+4. Haifa: 0.0281
+5. Aseel: 0.0231
+
+Generated files:
+• evaluation_report.json - Comprehensive evaluation report
+
+Evaluation completed successfully!

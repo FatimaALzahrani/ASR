@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-12T02:30:29.009482",
+  "total_models": 4,
+  "successful_models": 2,
+  "success_rate": 50.0,
+  "results": {
+    "acoustic_model": {
+      "success": false,
+      "error": "Acoustic model training error: Object of type ndarray is not JSON serializable"
+    },
+    "language_model": {
+      "success": true,
+      "model_file": "advanced_results/language_models/language_model_20250812_022719.pkl",
+      "report_file": "advanced_results\\reports\\languagemodel_results_20250812_022719.json",
+      "evaluation": {
+        "vocabulary_size": 10,
+        "total_words": 257,
+        "unique_bigrams": 20,
+        "unique_trigrams": 30,
+        "most_common_words": {
+          "بابا": 31,
+          "ماء": 31,
+          "بيت": 29,
+          "خبز": 27,
+          "قمر": 27,
+          "حليب": 24,
+          "قلم": 24,
+          "كتاب": 22,
+          "ماما": 21,
+          "شمس": 21
+        },
+        "most_common_bigrams": {
+          "بابا_بابا": 26,
+          "ماء_ماء": 26,
+          "بيت_بيت": 24,
+          "خبز_خبز": 22,
+          "قمر_قمر": 22,
+          "حليب_حليب": 19,
+          "قلم_قلم": 19,
+          "كتاب_كتاب": 17,
+          "ماما_ماما": 16,
+          "شمس_شمس": 16
+        },
+        "most_common_trigrams": {
+          "بابا_بابا_بابا": 21,
+          "ماء_ماء_ماء": 21,
+          "بيت_بيت_بيت": 19,
+          "خبز_خبز_خبز": 17,
+          "قمر_قمر_قمر": 17,
+          "حليب_حليب_حليب": 14,
+          "قلم_قلم_قلم": 14,
+          "كتاب_كتاب_كتاب": 12,
+          "ماما_ماما_ماما": 11,
+          "شمس_شمس_شمس": 11
+        }
+      }
+    },
+    "corrector_model": {
+      "success": true,
+      "model_file": "advanced_results/correction_models/corrector_20250812_022719.pkl",
+      "report_file": "advanced_results\\reports\\autocorrector_results_20250812_022719.json",
+      "evaluation": {
+        "accuracy": 1.0
+      }
+    },
+    "ensemble_model": {
+      "success": false,
+      "error": "Training failed"
+    }
+  }
+}

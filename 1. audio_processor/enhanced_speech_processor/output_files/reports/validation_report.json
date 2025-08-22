@@ -1,0 +1,25 @@
+{
+  "status": "POOR",
+  "severity_score": 9,
+  "issues": [],
+  "warnings": [
+    "2 words have only 2-3 samples each",
+    "Speaker 'عاصم' covers only 16.0% of vocabulary",
+    "Speaker 'وسام' covers only 22.0% of vocabulary",
+    "33 words are spoken by only one speaker",
+    "7 samples (0.6%) have low quality scores < 0.3",
+    "344 samples (28.4%) have low SNR < 10dB",
+    "5 samples (0.4%) have high silence > 70%",
+    "1 words (1.0%) cannot be split for train/test",
+    "12 words (12.0%) can only be split for train/test"
+  ],
+  "recommendations": [
+    "Words with 2-3 samples may not split well for validation/testing",
+    "Single-speaker words may cause overfitting in general models"
+  ],
+  "summary": {
+    "total_issues": 0,
+    "total_warnings": 9,
+    "total_recommendations": 2
+  }
+}

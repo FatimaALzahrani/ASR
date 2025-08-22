@@ -1,0 +1,11 @@
+Model,Accuracy (%),Category
+Autoencoder_Classifier,89.28571343421936,Good
+Advanced_Ensemble,88.57142857142857,Good
+Hybrid_ResNet_LSTM,88.21428418159485,Good
+LSTM_Attention,84.46428775787354,Good
+PyTorch_CNN,80.17857142857143,Good
+Advanced_CNN,78.21428775787354,Fair
+WaveNet_Advanced,71.78571224212646,Fair
+Transformer,59.82142686843872,Poor
+Conformer_Advanced,0.0,Poor
+CapsuleNet_Advanced,0.0,Poor

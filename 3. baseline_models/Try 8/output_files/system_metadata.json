@@ -1,0 +1,13 @@
+{
+  "is_trained": true,
+  "sample_rate": 22050,
+  "duration": 3.0,
+  "vocabulary_size": 101,
+  "speakers": [
+    "أحمد",
+    "عاصم",
+    "هيفاء",
+    "أسيل",
+    "وسام"
+  ]
+}

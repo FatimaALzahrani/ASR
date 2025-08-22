@@ -1,0 +1,34 @@
+{
+  "total_samples": 1292,
+  "train_samples": 940,
+  "validation_samples": 134,
+  "test_samples": 218,
+  "speaker_distribution": {
+    "train": {
+      "أحمد": 315,
+      "هيفاء": 253,
+      "أسيل": 218,
+      "وسام": 108,
+      "عاصم": 46
+    },
+    "validation": {
+      "هيفاء": 42,
+      "أحمد": 42,
+      "أسيل": 27,
+      "وسام": 17,
+      "عاصم": 6
+    },
+    "test": {
+      "أحمد": 70,
+      "هيفاء": 56,
+      "أسيل": 56,
+      "وسام": 24,
+      "عاصم": 12
+    }
+  },
+  "word_distribution": {
+    "train": 99,
+    "validation": 82,
+    "test": 99
+  }
+}

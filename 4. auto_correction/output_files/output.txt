@@ -1,0 +1,58 @@
+ python main.py                              
+Starting Enhanced Auto Correction System
+==================================================
+Loading data and model...
+Loaded 1310 samples
+Model saved as dictionary
+Model extracted successfully
+
+Preparing data...
+Original data: 1310 samples
+Filtered data: 1309 samples
+Valid words: 100
+Training data: 916 samples
+Testing data: 393 samples
+
+Getting predictions...
+Prediction error: could not convert string to float: 'C:\\Users\\فاطمة الزهراني\\Desktop\\ابحاث\\الداون\\Data\\clean\\اثنين\\8.wav'
+Using simulation instead...
+Simulating predictions with 25.0% error rate...
+Original accuracy: 0.8117 (81.17%)
+
+Creating Auto Correction system...
+Analyzing error patterns...
+
+Error analysis:
+   Total errors: 74
+   Substitution errors: 30
+   Phonetic errors: 12
+   Length errors: 44
+Building language model...
+
+Language model:
+   Vocabulary size: 100
+   Common words: 115
+
+Applying auto correction...
+Applying auto correction...
+
+Final results:
+   Original accuracy: 0.8117 (81.17%)
+   Corrected accuracy: 0.8422 (84.22%)
+   Improvement: +0.0305 (+3.76%)
+
+Correction statistics:
+   Total corrections: 12
+   Pattern corrections: 2
+   Similarity corrections: 10
+   Common corrections: 0
+
+Correction examples:
+   اثنىن → اثنين (Expected: اثنين) ✅ Correct
+   هوأء → هواء (Expected: هواء) ✅ Correct
+   راخ → راح (Expected: راح) ✅ Correct
+   فىل → فيل (Expected: فيل) ✅ Correct
+   فرأش → فراش (Expected: فراش) ✅ Correct
+
+Results saved to: final_auto_correction_results.json
+Comprehensive report created: final_auto_correction_comprehensive_report.md

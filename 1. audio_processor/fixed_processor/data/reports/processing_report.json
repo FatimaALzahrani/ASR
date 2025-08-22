@@ -1,0 +1,61 @@
+{
+  "data_summary": {
+    "total_samples": 1305,
+    "total_words": 101,
+    "total_speakers": 6,
+    "avg_duration": 0.8604383045108208,
+    "avg_quality_score": 0.8865900383141763
+  },
+  "speaker_info": {
+    "Ahmed": {
+      "age": 10,
+      "gender": "male",
+      "iq_level": 38,
+      "speech_quality": "weak"
+    },
+    "Asem": {
+      "age": 11,
+      "gender": "male",
+      "iq_level": 55,
+      "speech_quality": "excellent"
+    },
+    "Haifa": {
+      "age": 7,
+      "gender": "female",
+      "iq_level": 64,
+      "speech_quality": "good"
+    },
+    "Aseel": {
+      "age": 16,
+      "gender": "female",
+      "iq_level": 40,
+      "speech_quality": "weak"
+    },
+    "Wessam": {
+      "age": 6,
+      "gender": "male",
+      "iq_level": "medium",
+      "speech_quality": "medium"
+    }
+  },
+  "excluded_words": [
+    "sleep"
+  ],
+  "split_statistics": {
+    "train": {
+      "samples": 800,
+      "words": 101,
+      "speakers": 6
+    },
+    "validation": {
+      "samples": 238,
+      "words": 95,
+      "speakers": 6
+    },
+    "test": {
+      "samples": 267,
+      "words": 95,
+      "speakers": 5
+    }
+  }
+}

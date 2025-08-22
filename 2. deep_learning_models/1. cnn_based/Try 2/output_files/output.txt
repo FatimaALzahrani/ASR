@@ -1,0 +1,59 @@
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\1. cnn_based> python main_training.py
+Speech Recognition Training Pipeline
+============================================================
+==================================================
+Training General Model
+==================================================
+Training model general...
+Epoch 0: Train Loss: 4.9477, Val Loss: 4.6077, Val Acc: 0.016
+Epoch 10: Train Loss: 3.5337, Val Loss: 3.8270, Val Acc: 0.114
+Epoch 20: Train Loss: 2.1188, Val Loss: 3.4445, Val Acc: 0.321
+Epoch 30: Train Loss: 1.0737, Val Loss: 3.8114, Val Acc: 0.415
+Epoch 40: Train Loss: 0.9555, Val Loss: 3.8010, Val Acc: 0.430
+Model general - Test Accuracy: 0.437
+==================================================
+Training Personalized Models
+==================================================
+Training model personalized_Ahmed...
+Epoch 0: Train Loss: 5.2885
+Epoch 10: Train Loss: 3.2910
+Epoch 20: Train Loss: 2.0758
+Epoch 30: Train Loss: 1.3174
+Epoch 40: Train Loss: 0.9819
+Model personalized_Ahmed - Test Accuracy: 0.493
+Training model personalized_Asem...
+Epoch 0: Train Loss: 7.7601
+Epoch 10: Train Loss: 2.1273
+Epoch 20: Train Loss: 1.2196
+Epoch 30: Train Loss: 0.4855
+Epoch 40: Train Loss: 0.2929
+Model personalized_Asem - Test Accuracy: 0.462
+Training model personalized_Haifa...
+Epoch 0: Train Loss: 4.7868
+Epoch 10: Train Loss: 1.7783
+Epoch 20: Train Loss: 0.6118
+Epoch 30: Train Loss: 0.2534
+Epoch 40: Train Loss: 0.1596
+Model personalized_Haifa - Test Accuracy: 0.386
+Training model personalized_Aseel...
+Epoch 0: Train Loss: 5.2073
+Epoch 10: Train Loss: 3.0867
+Epoch 20: Train Loss: 1.4351
+Epoch 30: Train Loss: 0.6518
+Epoch 40: Train Loss: 0.3700
+Model personalized_Aseel - Test Accuracy: 0.526
+Training model personalized_Wessam...
+Epoch 0: Train Loss: 5.2183
+Epoch 10: Train Loss: 1.6842
+Epoch 20: Train Loss: 0.4873
+Epoch 30: Train Loss: 0.2581
+Epoch 40: Train Loss: 0.1688
+Model personalized_Wessam - Test Accuracy: 0.542
+Training completed for all models!
+
+Training Summary:
+- General model: Trained
+- Personalized models: 5 speakers
+
+Models saved in 'models/' directory
+Training pipeline completed successfully!

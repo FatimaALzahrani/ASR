@@ -1,0 +1,27 @@
+{
+  "model_info": {
+    "total_parameters": 245077146,
+    "trainable_parameters": 178184346,
+    "model_size_mb": 934.8951187133789
+  },
+  "base_model": {
+    "test_accuracy": 0.03389830508474576,
+    "test_loss": 4.73829882144928,
+    "improvement_over_baseline": 0.03389830508474576
+  },
+  "detailed_analysis": {
+    "by_speaker": {},
+    "by_word": {}
+  },
+  "training_info": {
+    "config": {
+      "batch_size": 2,
+      "learning_rate": 3e-05,
+      "weight_decay": 1e-06,
+      "epochs": 15,
+      "patience": 5,
+      "gradient_clipping": 1.0
+    },
+    "final_accuracy": 0.027247956403269755
+  }
+}

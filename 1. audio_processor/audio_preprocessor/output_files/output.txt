@@ -1,0 +1,61 @@
+
+Advanced Audio Data Processor for Children with Down Syndrome
+======================================================================
+Advanced Audio Processor for Children with Down Syndrome
+============================================================
+Starting audio file processing...
+============================================================
+Found 1310 files to process
+Processed 100/1310 files...
+Processed 200/1310 files...
+Processed 300/1310 files...
+Processed 400/1310 files...
+Processed 500/1310 files...
+Processed 600/1310 files...
+Processed 700/1310 files...
+Processed 800/1310 files...
+Processed 900/1310 files...
+Processed 1000/1310 files...
+Processed 1100/1310 files...
+Processed 1200/1310 files...
+Processed 1300/1310 files...
+All files processed successfully!
+
+============================================================
+Processing Summary:
+============================================================
+Total files: 1310
+Successfully processed: 1310
+Failed files: 0
+Noise reduced files: 597
+Volume normalized files: 1310
+Duration adjusted files: 1310
+Success rate: 100.0%
+
+Analyzing quality improvements...
+Average SNR improvement: -inf dB
+Average energy change: 2.24x
+Average clipping reduction: 0.0006
+
+Improvements by speaker:
+  Ahmed: -inf dB
+  Asem: -inf dB
+  Haifa: -inf dB
+  Aseel: -inf dB
+  Wessam: -inf dB
+
+Saving processing report...
+Report saved to: audio_processing_report.json
+
+Creating processed dataset CSV...
+Saved 1310 processed samples to: processed_dataset.csv
+
+============================================================
+Complete processing finished successfully!
+Generated files:
+• processed_audio/ - processed audio data folder
+• processed_dataset.csv - processed data file
+• audio_processing_report.json - processing report
+
+Successfully processed 1310 audio files with enhanced quality!
+Now the processed data can be used for training with higher accuracy!

@@ -1,0 +1,285 @@
+
+ASR System for Down Syndrome
+==================================================
+Enter data path (or press Enter for default): 
+Using data path: C:/Users/فاطمة الزهراني/Desktop/ابحاث/الداون/Data/clean
+Starting ASR system
+============================================================
+Loading data...
+Scanning audio files...
+Processing word: اثنين
+Processed 54 files
+Processing word: احمر
+Processed 20 files
+Processing word: اخ
+Processed 20 files
+Processing word: اخت
+Processed 14 files
+Processing word: اخضر
+Processed 14 files
+Processing word: اربعة
+Processed 50 files
+Processing word: ازرق
+Processed 12 files
+Processing word: استاذة
+Processed 18 files
+Processing word: اسد
+Processed 10 files
+Processing word: اسود
+Processed 12 files
+Processing word: اشرب
+Processed 48 files
+Processing word: اصفر
+Processed 22 files
+Processing word: اكل
+Processed 44 files
+Processing word: السلام عليكم
+Processed 28 files
+Processing word: باب
+Processed 48 files
+Processing word: بابا
+Processed 30 files
+Processing word: باص
+Processed 46 files
+Processing word: بسة
+Processed 34 files
+Processing word: بطة
+Processed 12 files
+Processing word: بيت
+Processed 30 files
+Processing word: بيض
+Processed 44 files
+Processing word: تعبان
+Processed 8 files
+Processing word: تفاح
+Processed 38 files
+Processing word: تفاحة
+Processed 12 files
+Processing word: تمر
+Processed 40 files
+Processing word: ثلاثة
+Processed 50 files
+Processing word: ثوب
+Processed 20 files
+Processing word: جا
+Processed 44 files
+Processing word: جبل
+Processed 30 files
+Processing word: جد
+Processed 10 files
+Processing word: جدة
+Processed 12 files
+Processing word: جمل
+Processed 10 files
+Processing word: جوع
+Processed 16 files
+Processing word: حاسب
+Processed 20 files
+Processing word: حافظ
+Processed 32 files
+Processing word: حليب
+Processed 28 files
+Processing word: خايف
+Processed 26 files
+Processing word: خبز
+Processed 22 files
+Processing word: خروف
+Processed 28 files
+Processing word: خلاص
+Processed 38 files
+Processing word: خمسة
+Processed 12 files
+Processing word: دجاج
+Processed 46 files
+Processing word: ذيب
+Processed 26 files
+Processing word: راح
+Processed 44 files
+Processing word: راس
+Processed 24 files
+Processing word: رز
+Processed 44 files
+Processing word: زعلان
+Processed 12 files
+Processing word: زيت
+Processed 28 files
+Processing word: سبورة
+Processed 26 files
+Processing word: ستة
+Processed 16 files
+Processing word: سرير
+Processed 36 files
+Processing word: سمك
+Processed 42 files
+Processing word: شمس
+Processed 32 files
+Processing word: صاروخ
+Processed 14 files
+Processing word: صقر
+Processed 14 files
+Processing word: صمغ
+Processed 16 files
+Processing word: ضوء
+Processed 36 files
+Processing word: طريق
+Processed 12 files
+Processing word: طير
+Processed 20 files
+Processing word: ظهر
+Processed 14 files
+Processing word: عربية
+Processed 10 files
+Processing word: عصفور
+Processed 10 files
+Processing word: علم
+Processed 30 files
+Processing word: عين
+Processed 54 files
+Processing word: فراش
+Processed 34 files
+Processing word: فرحان
+Processed 12 files
+Processing word: فم
+Processed 12 files
+Processing word: فيل
+Processed 46 files
+Processing word: قط
+Processed 30 files
+Processing word: قلب
+Processed 12 files
+Processing word: قلم
+Processed 20 files
+Processing word: قميص
+Processed 26 files
+Processing word: كاس
+Processed 32 files
+Processing word: كبير
+Processed 32 files
+Processing word: كتاب
+Processed 26 files
+Processing word: كرسي
+Processed 36 files
+Processing word: كلب
+Processed 20 files
+Processing word: كورة
+Processed 30 files
+Processing word: لبن
+Processed 24 files
+Processing word: لعبة
+Processed 8 files
+Processing word: لون
+Processed 24 files
+Processing word: ماما
+Processed 32 files
+Processing word: مدرسة
+Processed 28 files
+Processing word: مستشفى
+Processed 10 files
+Processing word: معصب
+Processed 10 files
+Processing word: مفتاح
+Processed 16 files
+Processing word: ملعب
+Processed 18 files
+Processing word: موز
+Processed 56 files
+Processing word: موية
+Processed 48 files
+Processing word: مياة
+Processed 22 files
+Processing word: نار
+Processed 38 files
+Processing word: نام
+Processed 34 files
+Processing word: نور
+Processed 30 files
+Processing word: نوم
+Processed 2 files
+Processing word: هلال
+Processed 22 files
+Processing word: هواء
+Processed 36 files
+Processing word: واحد
+Processed 12 files
+Processing word: ورق
+Processed 16 files
+Processing word: ولد
+Processed 14 files
+Processing word: يالله
+Processed 12 files
+Processing word: يد
+Processed 28 files
+Total files: 2620
+Total words: 101
+Total speakers: 5
+Filtered data: 2618 samples
+Words: 100
+Extracting features...
+Processing 0/2618...
+Processing 50/2618...
+Processing 100/2618...
+Processing 150/2618...
+Processing 200/2618...
+Processing 250/2618...
+Processing 300/2618...
+Processing 350/2618...
+Processing 400/2618...
+Processing 450/2618...
+Processing 500/2618...
+Processing 550/2618...
+Processing 600/2618...
+Processing 650/2618...
+Processing 700/2618...
+Processing 750/2618...
+Processing 800/2618...
+Processing 850/2618...
+Processing 900/2618...
+Processing 950/2618...
+Processing 1000/2618...
+Processing 1050/2618...
+Processing 1100/2618...
+Processing 1150/2618...
+Processing 1200/2618...
+Processing 1250/2618...
+Processing 1300/2618...
+Processing 1350/2618...
+Processing 1400/2618...
+Processing 1450/2618...
+Processing 1500/2618...
+Processing 1550/2618...
+Processing 1600/2618...
+Processing 1650/2618...
+Processing 1700/2618...
+Processing 1750/2618...
+Processing 1800/2618...
+Processing 1850/2618...
+Processing 1900/2618...
+Processing 1950/2618...
+Processing 2000/2618...
+Processing 2050/2618...
+Processing 2100/2618...
+Processing 2150/2618...
+Processing 2200/2618...
+Processing 2250/2618...
+Processing 2300/2618...
+Processing 2350/2618...
+Processing 2400/2618...
+Processing 2450/2618...
+Processing 2500/2618...
+Processing 2550/2618...
+Processing 2600/2618...
+Features extracted:
+Success: 2618
+Failed: 0
+Total features: 165
+Preparing training data...
+Data prepared:
+Samples: 2618
+Features: 165
+Words: 100
+Training models...
+Training ExtraTrees...
+ExtraTrees: Test=0.9733, CV=1.0000±0.0000
+Training RandomForest...
+RandomForest: Test=0.9695, CV=1.0000±0.0000
+Training GradientBoosting...

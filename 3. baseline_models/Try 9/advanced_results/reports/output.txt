@@ -1,0 +1,252 @@
+
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\Try 9> python create_sample_features.py
+Sample Feature Generator
+==================================================
+Creating synthetic features for testing the speech recognition system
+==================================================
+Creating sample features for testing...
+Created 257 sample records
+Features: 158 columns
+Speakers: 5 unique
+Words: 10 unique
+
+Speaker distribution:
+speaker
+أحمد     61
+أسيل     51
+عاصم     50
+هيفاء    48
+وسام     47
+Name: count, dtype: int64
+
+Word distribution:
+word
+بابا    31
+ماء     31
+بيت     29
+قمر     27
+خبز     27
+قلم     24
+حليب    24
+كتاب    22
+ماما    21
+شمس     21
+Name: count, dtype: int64
+
+Sample features saved to: features\features_for_modeling.csv
+Data info saved to: features\sample_data_info.json
+
+You can now run: python main.py train
+
+✅ Sample data created successfully!
+
+Next steps:
+1. Run: python main.py train
+2. Run: python main.py test
+
+Note: This is synthetic data. For real usage, collect actual audio files
+and use extract_features.py to create features from real audio.
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\Try 9> python main.py status
+Speech Recognition System for Children with Down Syndrome
+============================================================
+Started at: 2025-08-12 02:26:49
+============================================================
+Speech Recognition System Status
+==================================================
+Features Path: features
+Results Path: advanced_results
+Models Path: advanced_results
+
+Directory Status:
+  ✓ features
+  ✓ advanced_results
+  ✓ advanced_results/acoustic_models
+  ✓ advanced_results/language_models
+  ✓ advanced_results/correction_models
+  ✓ Features file: features\features_for_modeling.csv
+
+Model Status:
+  ✗ Acoustic Model: 0 file(s)
+  ✗ Language Model: 0 file(s)
+  ✗ Corrector: 0 file(s)
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\3. baseline_models\Try 9> python main.py train
+Speech Recognition System for Children with Down Syndrome
+============================================================
+Started at: 2025-08-12 02:27:00
+============================================================
+Starting model training...
+Directory structure validated
+Model Trainer initialized
+Features path: features
+Results path: advanced_results
+Speech Recognition System - Model Training
+============================================================
+Designed for children with Down syndrome
+============================================================
+
+============================================================
+TRAINING ACOUSTIC MODEL
+============================================================
+Advanced Acoustic Model initialized
+Starting acoustic model training...
+Loading features...
+Loaded 257 samples
+Words: 10
+Speakers: 5
+Advanced feature engineering...
+Filtered data: 257 samples, 10 classes
+Created 0 composite features
+Selected 80 features from 154
+Building ensemble acoustic model...
+Training samples: 205
+Testing samples: 52
+Training: 205 | Testing: 52
+Classes: 10
+Training rf_1...
+  Accuracy: 0.0769, F1: 0.0574
+Training rf_2...
+  Accuracy: 0.0769, F1: 0.0674
+Training mlp...
+  Accuracy: 0.1346, F1: 0.1263
+Training xgb...
+  Accuracy: 0.1346, F1: 0.1188
+Training lgb...
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+  Accuracy: 0.0962, F1: 0.0771
+Creating ensemble model...
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+Ensemble accuracy: 0.1154
+Ensemble F1: 0.0995
+Calculating confidence thresholds...
+  Optimal threshold: 0.720
+Acoustic model training completed
+Acoustic model saved: advanced_results/acoustic_models/acoustic_model_20250812_022719.pkl
+Acoustic model training error: Object of type ndarray is not JSON serializable
+
+============================================================
+TRAINING LANGUAGE MODEL
+============================================================
+Language Model initialized
+Starting language model training...
+Loading vocabulary data...
+Loaded 257 samples
+Loaded 257 words from 5 speakers
+Vocabulary size: 10
+Total words: 257
+Speaker distributions:
+  أحمد: 10 unique words, 61 total
+  عاصم: 10 unique words, 50 total
+  هيفاء: 10 unique words, 48 total
+  أسيل: 10 unique words, 51 total
+  وسام: 10 unique words, 47 total
+Building language model...
+Calculated 10 unigram probabilities
+Built bigram model with 20 pairs
+Built trigram model with 30 triplets
+Language model training completed
+Language model saved: advanced_results/language_models/language_model_20250812_022719.pkl
+Results saved: advanced_results\reports\languagemodel_results_20250812_022719.json
+Language model training completed successfully
+
+============================================================
+TRAINING CORRECTOR MODEL
+============================================================
+AutoCorrector initialized
+Starting corrector training...
+Loaded 257 samples
+Analyzing phonetic patterns...
+Phonetic patterns analyzed
+Generating common errors...
+Generated errors for 7 words
+Building confusion matrix...
+Built confusion matrix for 21 characters
+Building speaker-specific correctors...
+Built correctors for 5 speakers
+Evaluating correction performance...
+Correction accuracy: 1.0000 (11/11)
+Corrector training completed
+Corrector model saved: advanced_results/correction_models/corrector_20250812_022719.pkl
+Results saved: advanced_results\reports\autocorrector_results_20250812_022719.json
+Corrector model training completed successfully
+
+============================================================
+TRAINING ENSEMBLE MODEL
+============================================================
+Ensemble Model initialized
+Starting ensemble model training...
+Loaded 257 samples
+Preparing data...
+Filtered data: 257 samples, 10 classes
+Training samples: 205
+Testing samples: 52
+Training traditional models...
+Training Random Forest...
+  Test accuracy: 0.1154
+  F1-Score: 0.0957
+  Cross-validation: 0.0878 ± 0.0293
+Training SVM...
+  Test accuracy: 0.1346
+  F1-Score: 0.0974
+  Cross-validation: 0.0878 ± 0.0425
+Training Gradient Boosting...
+  Test accuracy: 0.0962
+  F1-Score: 0.0846
+  Cross-validation: 0.0829 ± 0.0293
+Training K-Nearest Neighbors...
+  Test accuracy: 0.1538
+  F1-Score: 0.1464
+  Cross-validation: 0.1122 ± 0.0249
+Training Naive Bayes...
+  Test accuracy: 0.0962
+  F1-Score: 0.0817
+  Cross-validation: 0.0537 ± 0.0358
+Training advanced models...
+Training XGBoost...
+  Test accuracy: 0.0769
+  F1-Score: 0.0710
+Training LightGBM...
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\فاطمة الزهراني\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+  Test accuracy: 0.0577
+  F1-Score: 0.0667
+Training CatBoost...
+  Test accuracy: 0.1538
+  F1-Score: 0.1166
+Training speaker-specific models...
+Training model for speaker: أحمد
+Training error: name 'LabelEncoder' is not defined
+Ensemble model training failed
+
+Total training time: 0:03:28.025384
+
+============================================================
+TRAINING SUMMARY
+============================================================
+Total models trained: 4
+Successful: 2
+Failed: 2
+Success rate: 50.0%
+
+Model-wise results:
+  acoustic_model: FAILED
+    Error: Acoustic model training error: Object of type ndarray is not JSON serializable
+  language_model: SUCCESS
+  corrector_model: SUCCESS
+    Accuracy: 1.0000
+  ensemble_model: FAILED
+    Error: Training failed
+
+Training summary saved: advanced_results/reports/training_summary_20250812_023029.json
+
+Training completed with some success!
+Check results directory: advanced_results
+
+Model training completed successfully!

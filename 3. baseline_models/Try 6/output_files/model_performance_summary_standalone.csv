@@ -1,0 +1,7 @@
+Model,Type,Cross-Validation,Test Accuracy,Overfitting
+Random Forest,Traditional ML,0.439 ± 0.064,0.103,+0.336
+SVM (RBF),Traditional ML,0.078 ± 0.014,0.051,+0.026
+Logistic Regression,Traditional ML,0.399 ± 0.030,0.103,+0.296
+Gradient Boosting,Traditional ML,0.328 ± 0.036,0.109,+0.219
+Decision Tree,Traditional ML,0.190 ± 0.053,0.077,+0.113
+K-Nearest Neighbors,Traditional ML,0.183 ± 0.019,0.019,+0.164

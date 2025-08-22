@@ -1,0 +1,163 @@
+{
+  "system_info": {
+    "name": "Comprehensive ASR System for Children with Down Syndrome",
+    "version": "2.0",
+    "timestamp": "2025-08-22T03:27:40.809165",
+    "data_path": "C:\\Users\\فاطمة الزهراني\\Desktop\\ابحاث\\الداون\\Data\\clean",
+    "output_path": "comprehensive_asr_results"
+  },
+  "results": {
+    "baseline_results": {
+      "SVM_RBF": {
+        "accuracy": 0.8732142857142857,
+        "precision": 0.8892623299319727,
+        "recall": 0.8732142857142857,
+        "f1_score": 0.8692233758305188,
+        "training_time": 3.000243902206421,
+        "model_type": "traditional"
+      },
+      "SVM_Linear": {
+        "accuracy": 0.8946428571428572,
+        "precision": 0.9059438775510203,
+        "recall": 0.8946428571428572,
+        "f1_score": 0.892328762507334,
+        "training_time": 1.7831835746765137,
+        "model_type": "traditional"
+      },
+      "Random_Forest": {
+        "accuracy": 0.85,
+        "precision": 0.8668983843537416,
+        "recall": 0.85,
+        "f1_score": 0.837574964717822,
+        "training_time": 1.3835487365722656,
+        "model_type": "traditional"
+      },
+      "KNN": {
+        "accuracy": 0.7553571428571428,
+        "precision": 0.7828619743351887,
+        "recall": 0.7553571428571428,
+        "f1_score": 0.7326472841467588,
+        "training_time": 0.0666964054107666,
+        "model_type": "traditional"
+      },
+      "Naive_Bayes": {
+        "accuracy": 0.6607142857142857,
+        "precision": 0.729259624304267,
+        "recall": 0.6607142857142857,
+        "f1_score": 0.6645235967347313,
+        "training_time": 0.06510019302368164,
+        "model_type": "traditional"
+      },
+      "Logistic_Regression": {
+        "accuracy": 0.8678571428571429,
+        "precision": 0.880423044217687,
+        "recall": 0.8678571428571429,
+        "f1_score": 0.8642574290788577,
+        "training_time": 1.132594347000122,
+        "model_type": "traditional"
+      }
+    },
+    "neural_results": {
+      "Enhanced_CNN": {
+        "accuracy": 0.7864285707473755,
+        "std": 0.005486534096015283,
+        "fold_scores": [
+          0.7821428775787354,
+          0.7946428656578064,
+          0.7910714149475098,
+          0.7839285731315613,
+          0.7803571224212646
+        ]
+      },
+      "Enhanced_LSTM": {
+        "accuracy": 0.8514285683631897,
+        "std": 0.012494898387564853,
+        "fold_scores": [
+          0.8517857193946838,
+          0.8482142686843872,
+          0.875,
+          0.8410714268684387,
+          0.8410714268684387
+        ]
+      },
+      "Deep_DNN": {
+        "accuracy": 0.9,
+        "std": 0.010534199474155872,
+        "fold_scores": [
+          0.8999999761581421,
+          0.8892857432365417,
+          0.8982142806053162,
+          0.9196428656578064,
+          0.8928571343421936
+        ]
+      },
+      "Hybrid_CNN_DNN": {
+        "accuracy": 0.8842857241630554,
+        "std": 0.0049744158504423895,
+        "fold_scores": [
+          0.8803571462631226,
+          0.8785714507102966,
+          0.8857142925262451,
+          0.8928571343421936,
+          0.8839285969734192
+        ]
+      },
+      "Transformer_Inspired": {
+        "accuracy": 0.7592857122421265,
+        "std": 0.0158275100432147,
+        "fold_scores": [
+          0.7732142806053162,
+          0.7749999761581421,
+          0.7660714387893677,
+          0.7482143044471741,
+          0.7339285612106323
+        ]
+      },
+      "Conformer_Inspired": {
+        "accuracy": 0.7992856979370118,
+        "std": 0.007953945404082872,
+        "fold_scores": [
+          0.7910714149475098,
+          0.7982142567634583,
+          0.8142856955528259,
+          0.7982142567634583,
+          0.7946428656578064
+        ]
+      }
+    },
+    "correction_results": {
+      "original_accuracy": 0.8714285714285714,
+      "simulated_accuracy": 0.7696428571428572,
+      "corrected_accuracy": 0.8696428571428572,
+      "improvement": 0.09999999999999998,
+      "total_corrections": 559
+    },
+    "statistical_analysis": {
+      "correction_effectiveness": {
+        "statistic": Infinity,
+        "p_value": 0.0,
+        "significant": "True",
+        "effect_size_cohens_d": 0.0,
+        "effect_size_interpretation": "negligible",
+        "mean_difference": 0.09999999999999998,
+        "confidence_interval": [
+          NaN,
+          NaN
+        ],
+        "sample_size": 5
+      },
+      "method_comparison": {
+        "best_baseline_accuracy": 0.8946428571428572,
+        "best_neural_accuracy": 0.9,
+        "improvement": 0.005357142857142838,
+        "relative_improvement": 0.5988023952095787
+      }
+    },
+    "visualization_paths": {
+      "model_comparison": "comprehensive_asr_results\\visualizations\\model_comparison.png",
+      "correction_effectiveness": "comprehensive_asr_results\\visualizations\\correction_effectiveness.png",
+      "training_curves": "comprehensive_asr_results\\visualizations\\training_curves.png",
+      "summary_table": "comprehensive_asr_results\\visualizations\\performance_summary.png"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "executive_summary": {
+    "model_accuracy": 0.03389830508474576,
+    "improvement_percentage": 3.389830508474576,
+    "model_size_mb": 934.8951187133789,
+    "trainable_parameters": 178184346,
+    "best_speaker": null,
+    "worst_speaker": null,
+    "best_word": null,
+    "worst_word": null
+  },
+  "technical_details": {
+    "total_parameters": 245077146,
+    "training_config": {
+      "batch_size": 2,
+      "learning_rate": 3e-05,
+      "weight_decay": 1e-06,
+      "epochs": 15,
+      "patience": 5,
+      "gradient_clipping": 1.0
+    },
+    "data_distribution": {
+      "speakers": {
+        "أحمد": 

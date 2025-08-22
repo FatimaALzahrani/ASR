@@ -1,0 +1,334 @@
+
+PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\2. advanced_models\Try 3> python main.py
+Enhanced Speech Recognition Models Trainer
+================================================================================
+Using device: cpu
+Loading processed data...
+Loaded 1146 samples from 72 words
+Average samples per word: 15.9
+Word encoder setup for 72 words
+Speaker encoder setup for 5 speakers
+Starting comprehensive comparison of enhanced models...
+================================================================================
+
+==================================================
+Training Enhanced HMM-DNN Model
+==================================================
+Creating data loaders for features: mfcc
+Training data: 859 samples
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Creating data loaders for features: mfcc
+Training data: 859 samples
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Creating data loaders for features: mfcc
+Training data: 859 samples
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Creating data loaders for features: mfcc
+Training data: 859 samples
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Creating data loaders for features: mfcc
+Training data: 859 samples
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Testing data: 287 samples
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 1/30: Train Acc=0.0268, Test Acc=0.0488, Loss=4.2502
+Epoch 2/30: Train Acc=0.0559, Test Acc=0.0662, Loss=4.0675
+Epoch 3/30: Train Acc=0.0664, Test Acc=0.1289, Loss=3.8726
+Epoch 4/30: Train Acc=0.1164, Test Acc=0.1568, Loss=3.6848
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 5/30: Train Acc=0.1339, Test Acc=0.1882, Loss=3.5409
+Epoch 6/30: Train Acc=0.2014, Test Acc=0.1777, Loss=3.4054
+Epoch 7/30: Train Acc=0.2177, Test Acc=0.2091, Loss=3.2971
+Epoch 8/30: Train Acc=0.2247, Test Acc=0.2509, Loss=3.2123
+Epoch 9/30: Train Acc=0.2829, Test Acc=0.2578, Loss=3.0808
+Epoch 10/30: Train Acc=0.3108, Test Acc=0.2718, Loss=3.0007
+Epoch 11/30: Train Acc=0.3504, Test Acc=0.2578, Loss=2.9013
+Epoch 12/30: Train Acc=0.3865, Test Acc=0.2787, Loss=2.7944
+Epoch 13/30: Train Acc=0.4051, Test Acc=0.3066, Loss=2.7433
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 14/30: Train Acc=0.4261, Test Acc=0.3101, Loss=2.6661
+Epoch 15/30: Train Acc=0.4249, Test Acc=0.3206, Loss=2.6280
+Epoch 16/30: Train Acc=0.4552, Test Acc=0.2892, Loss=2.5723
+Epoch 17/30: Train Acc=0.4633, Test Acc=0.3136, Loss=2.5077
+Epoch 18/30: Train Acc=0.4924, Test Acc=0.3415, Loss=2.4484
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 19/30: Train Acc=0.5274, Test Acc=0.3519, Loss=2.3784
+Epoch 20/30: Train Acc=0.5460, Test Acc=0.3449, Loss=2.3552
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 21/30: Train Acc=0.5506, Test Acc=0.3310, Loss=2.3112
+Epoch 22/30: Train Acc=0.5669, Test Acc=0.3380, Loss=2.2801
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 25/30: Train Acc=0.5949, Test Acc=0.3589, Loss=2.2109
+Epoch 23/30: Train Acc=0.5704, Test Acc=0.3554, Loss=2.2586
+Epoch 24/30: Train Acc=0.5681, Test Acc=0.3659, Loss=2.2476
+Epoch 25/30: Train Acc=0.5949, Test Acc=0.3589, Loss=2.2109
+Epoch 25/30: Train Acc=0.5949, Test Acc=0.3589, Loss=2.2109
+Epoch 26/30: Train Acc=0.5902, Test Acc=0.3554, Loss=2.2123
+Epoch 27/30: Train Acc=0.5925, Test Acc=0.3659, Loss=2.1983
+Epoch 28/30: Train Acc=0.6030, Test Acc=0.3484, Loss=2.1778
+Epoch 29/30: Train Acc=0.6007, Test Acc=0.3659, Loss=2.1581
+Epoch 30/30: Train Acc=0.5937, Test Acc=0.3519, Loss=2.1824
+Best accuracy for hmm_dnn: 0.3659
+
+==================================================
+Training Enhanced RNN-CNN Model
+==================================================
+Creating data loaders for features: combined
+Training data: 859 samples
+Testing data: 287 samples
+Training model rnn_cnn...
+Epoch 1/35: Train Acc=0.0198, Test Acc=0.0314, Loss=4.4183
+Epoch 2/35: Train Acc=0.0256, Test Acc=0.0279, Loss=4.2902
+Epoch 3/35: Train Acc=0.0256, Test Acc=0.0314, Loss=4.2243
+Epoch 4/35: Train Acc=0.0536, Test Acc=0.0383, Loss=4.0722
+Epoch 5/35: Train Acc=0.0629, Test Acc=0.0453, Loss=3.9914
+Epoch 6/35: Train Acc=0.0955, Test Acc=0.0383, Loss=3.8321
+Epoch 7/35: Train Acc=0.1118, Test Acc=0.0697, Loss=3.7028
+Epoch 8/35: Train Acc=0.1362, Test Acc=0.1150, Loss=3.5809
+Epoch 9/35: Train Acc=0.1397, Test Acc=0.1045, Loss=3.4763
+Epoch 10/35: Train Acc=0.1653, Test Acc=0.1254, Loss=3.3761
+Epoch 11/35: Train Acc=0.1793, Test Acc=0.1150, Loss=3.2875
+Epoch 12/35: Train Acc=0.1967, Test Acc=0.1498, Loss=3.2074
+Epoch 13/35: Train Acc=0.2317, Test Acc=0.1638, Loss=3.0904
+Epoch 14/35: Train Acc=0.2515, Test Acc=0.1986, Loss=2.9755
+Epoch 15/35: Train Acc=0.2969, Test Acc=0.2369, Loss=2.9046
+Epoch 16/35: Train Acc=0.3120, Test Acc=0.2369, Loss=2.8181
+Epoch 17/35: Train Acc=0.3504, Test Acc=0.2404, Loss=2.7083
+Epoch 18/35: Train Acc=0.3818, Test Acc=0.2265, Loss=2.6415
+Epoch 19/35: Train Acc=0.3888, Test Acc=0.1672, Loss=2.6053
+Epoch 20/35: Train Acc=0.4377, Test Acc=0.2718, Loss=2.4857
+Epoch 21/35: Train Acc=0.4761, Test Acc=0.2334, Loss=2.4168
+Epoch 22/35: Train Acc=0.4773, Test Acc=0.2997, Loss=2.3576
+Epoch 23/35: Train Acc=0.4878, Test Acc=0.3240, Loss=2.3041
+Epoch 24/35: Train Acc=0.5157, Test Acc=0.3240, Loss=2.2422
+Epoch 25/35: Train Acc=0.5274, Test Acc=0.2997, Loss=2.2131
+Epoch 26/35: Train Acc=0.5576, Test Acc=0.3206, Loss=2.1822
+Epoch 27/35: Train Acc=0.5704, Test Acc=0.3240, Loss=2.1263
+Epoch 28/35: Train Acc=0.5925, Test Acc=0.3554, Loss=2.0825
+Epoch 29/35: Train Acc=0.5972, Test Acc=0.3484, Loss=2.0935
+Epoch 30/35: Train Acc=0.6228, Test Acc=0.3345, Loss=2.0311
+Epoch 31/35: Train Acc=0.6391, Test Acc=0.3415, Loss=1.9929
+Epoch 32/35: Train Acc=0.6321, Test Acc=0.3449, Loss=1.9951
+Epoch 33/35: Train Acc=0.6251, Test Acc=0.3589, Loss=1.9838
+Epoch 34/35: Train Acc=0.6182, Test Acc=0.3554, Loss=1.9808
+Epoch 35/35: Train Acc=0.6193, Test Acc=0.3519, Loss=1.9828
+Best accuracy for rnn_cnn: 0.3589
+
+==================================================
+Training Enhanced End-to-End Model
+==================================================
+Creating data loaders for features: mel_spectrogram
+Training data: 859 samples
+Testing data: 287 samples
+Training model end_to_end...
+Epoch 1/40: Train Acc=0.0140, Test Acc=0.0070, Loss=4.4680
+Epoch 2/40: Train Acc=0.0128, Test Acc=0.0174, Loss=4.4462
+Epoch 3/40: Train Acc=0.0163, Test Acc=0.0070, Loss=4.4478
+Epoch 4/40: Train Acc=0.0210, Test Acc=0.0105, Loss=4.4422
+Epoch 5/40: Train Acc=0.0116, Test Acc=0.0174, Loss=4.4324
+Epoch 6/40: Train Acc=0.0105, Test Acc=0.0105, Loss=4.4044
+Epoch 7/40: Train Acc=0.0093, Test Acc=0.0174, Loss=4.4118
+Epoch 8/40: Train Acc=0.0186, Test Acc=0.0174, Loss=4.3912
+Epoch 9/40: Train Acc=0.0186, Test Acc=0.0174, Loss=4.4131
+Epoch 10/40: Train Acc=0.0140, Test Acc=0.0174, Loss=4.3767
+Early stopping at epoch 10
+Best accuracy for end_to_end: 0.0174
+
+================================================================================
+Final Enhanced Models Comparison Results:
+================================================================================
+1. HMM-DNN Enhanced: 0.3659 (36.59%)
+2. RNN-CNN Enhanced: 0.3589 (35.89%)
+3. End-to-End Enhanced: 0.0174 (1.74%)
+
+Best model: HMM-DNN Enhanced
+Best accuracy: 0.3659
+Improvement over k-NN: +0.0901
+
+Best model performance by speaker:
+  Asem: 0.5333 (15 samples)
+  Haifa: 0.3500 (60 samples)
+  Ahmed: 0.3496 (123 samples)
+  Wessam: 0.4286 (35 samples)
+  Aseel: 0.3333 (54 samples)
+
+Enhanced comparison completed successfully!
+Generated files:
+• best_hmm_dnn_enhanced.pth - Enhanced HMM-DNN model
+• best_rnn_cnn_enhanced.pth - Enhanced RNN-CNN model
+• best_end_to_end_enhanced.pth - Enhanced End-to-End model
+• enhanced_models_comparison.json - Comprehensive models comparison
+• *_training_curves.png - Training curves for each model

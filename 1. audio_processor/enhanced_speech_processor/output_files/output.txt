@@ -1,0 +1,211 @@
+Down Syndrome Speech Recognition Data Processor
+=======================================================
+Data root: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data
+Test size: 0.2
+Validation size: 0.1
+=======================================================
+Data structure validation passed:
+  Data root: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data
+  Word folders: 101
+  Audio files: 1310
+Starting comprehensive Down Syndrome speech data analysis...
+============================================================
+Starting comprehensive audio file scan...
+Processing word: اثنين
+Processing word: احمر
+Processing word: اخ
+Processing word: اخت
+Processing word: اخضر
+Processing word: اربعة
+Processing word: ازرق
+Processing word: استاذة
+Processing word: اسد
+Processing word: اسود
+Processing word: اشرب
+Processing word: اصفر
+Processing word: اكل
+Processing word: السلام عليكم
+Processing word: باب
+Processing word: بابا
+Processing word: باص
+Processing word: بسة
+Processing word: بطة
+Processing word: بيت
+Processing word: بيض
+Processing word: تعبان
+Processing word: تفاح
+Processing word: تفاحة
+Processing word: تمر
+Processing word: ثلاثة
+Processing word: ثوب
+Processing word: جا
+Processing word: جبل
+Processing word: جد
+Processing word: جدة
+Processing word: جمل
+Processing word: جوع
+Processing word: حاسب
+Processing word: حافظ
+Processing word: حليب
+Processing word: خايف
+Processing word: خبز
+Processing word: خروف
+Processing word: خلاص
+Processing word: خمسة
+Processing word: دجاج
+Processing word: ذيب
+Processing word: راح
+Processing word: راس
+Processing word: رز
+Processing word: زعلان
+Processing word: زيت
+Processing word: سبورة
+Processing word: ستة
+Processing word: سرير
+Processing word: سمك
+Processing word: شمس
+Processing word: صاروخ
+Processing word: صقر
+Processing word: صمغ
+Processing word: ضوء
+Processing word: طريق
+Processing word: طير
+Processing word: ظهر
+Processing word: عربية
+Processing word: عصفور
+Processing word: علم
+Processing word: عين
+Processing word: فراش
+Processing word: فرحان
+Processing word: فم
+Processing word: فيل
+Processing word: قط
+Processing word: قلب
+Processing word: قلم
+Processing word: قميص
+Processing word: كاس
+Processing word: كبير
+Processing word: كتاب
+Processing word: كرسي
+Processing word: كلب
+Processing word: كورة
+Processing word: لبن
+Processing word: لعبة
+Processing word: لون
+Processing word: ماما
+Processing word: مدرسة
+Processing word: مستشفى
+Processing word: معصب
+Processing word: مفتاح
+Processing word: ملعب
+Processing word: موز
+Processing word: موية
+Processing word: مياة
+Processing word: نار
+Processing word: نام
+Processing word: نور
+Processing word: نوم
+Skipping excluded word: نوم
+Processing word: هلال
+Processing word: هواء
+Processing word: واحد
+Processing word: ورق
+Processing word: ولد
+Processing word: يالله
+Processing word: يد
+Scan completed:
+  Total files: 1309
+  Processed: 1212
+  Excluded: 97
+  Failed: 0
+Successfully loaded 1212 audio files
+Failed files report saved (97 files)
+Running dataset validation...
+
+============================================================
+DATASET VALIDATION REPORT - Status: POOR
+============================================================
+
+🟡 WARNINGS (9):
+  1. 2 words have only 2-3 samples each
+  2. Speaker 'عاصم' covers only 16.0% of vocabulary
+  3. Speaker 'وسام' covers only 22.0% of vocabulary
+  4. 33 words are spoken by only one speaker
+  5. 7 samples (0.6%) have low quality scores < 0.3
+  6. 344 samples (28.4%) have low SNR < 10dB
+  7. 5 samples (0.4%) have high silence > 70%
+  8. 1 words (1.0%) cannot be split for train/test
+  9. 12 words (12.0%) can only be split for train/test
+
+💡 RECOMMENDATIONS (2):
+  1. Words with 2-3 samples may not split well for validation/testing
+  2. Single-speaker words may cause overfitting in general models
+
+============================================================
+
+Splitting Strategy Advice:
+  • Use simple split for 5 small words (2-4 samples)
+  • Use train/test split for 63 medium words (5-15 samples)
+  • Use full train/val/test split for 32 large words (15+ samples)
+Analyzing data balance...
+Total words: 100
+Total samples: 1212
+Average samples per word: 12.1
+Rare words (< 3 samples): 1
+Common words (> 20 samples): 10
+Creating balanced data splits...
+Word distribution: 0 single, 5 small, 63 medium, 32 large
+Data split summary:
+  train: 891 samples, 100 words, 5 speakers
+  validation: 84 samples, 60 words, 5 speakers
+  test: 237 samples, 99 words, 5 speakers
+Total: 1212 samples, 100 unique words, 5 speakers
+Split ratios - Train: 73.5%, Val: 6.9%, Test: 19.6%
+Creating speaker-specific splits...
+Processing speaker أحمد: 412 samples
+Speaker أحمد: 288 train, 124 test
+Processing speaker عاصم: 59 samples
+Speaker عاصم: 42 train, 17 test
+Processing speaker هيفاء: 310 samples
+Speaker هيفاء: 217 train, 93 test
+Processing speaker أسيل: 288 samples
+Speaker أسيل: 202 train, 86 test
+Processing speaker وسام: 143 samples
+Speaker وسام: 100 train, 43 test
+Speaker-specific splits saved for 5 speakers in: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\processed\speakers
+Creating data visualization plots...
+Analysis plots saved to: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\reports\data_analysis.png
+Balance analysis plots saved to: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\reports\balance_analysis.png
+Quality analysis plots saved to: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\reports\quality_analysis.png
+Saving processed data...
+  train: 891 samples -> train.csv
+  validation: 84 samples -> validation.csv
+  test: 237 samples -> test.csv
+✅ Data splits saved successfully
+✅ Mappings saved successfully
+✅ Reports saved successfully
+🎉 All results saved successfully to: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\processed
+
+============================================================
+Analysis Completed Successfully!
+============================================================
+📊 Data Statistics:
+  Total samples: 1212
+  Total words: 100
+  Total speakers: 5
+  Average duration: 0.88s
+  Average quality: 0.86
+
+🔄 Processing Statistics:
+  Files processed: 1212
+  Files excluded: 97
+  Files failed: 0
+============================================================
+Output directories:
+  Processed data: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\processed
+  Reports and plots: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\reports
+
+Ready for next step: Audio enhancement and model training!
+
+Data processing completed successfully!
+Ready for next step: Audio enhancement and model training

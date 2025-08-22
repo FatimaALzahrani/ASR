@@ -1,0 +1,86 @@
+{
+  "speaker_mapping": {
+    "Ahmed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Asem": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "Haifa": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "Aseel": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "Wessam": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  "speaker_info": {
+    "Ahmed": {
+      "age": 12,
+      "intelligence_level": "medium",
+      "speech_level": "weak"
+    },
+    "Asem": {
+      "age": 14,
+      "intelligence_level": "high",
+      "speech_level": "excellent"
+    },
+    "Haifa": {
+      "age": 13,
+      "intelligence_level": "medium",
+      "speech_level": "medium"
+    },
+    "Aseel": {
+      "age": 11,
+      "intelligence_level": "low",
+      "speech_level": "weak"
+    },
+    "Wessam": {
+      "age": 15,
+      "intelligence_level": "medium",
+      "speech_level": "medium"
+    }
+  },
+  "statistics": {
+    "total_files": 1310,
+    "total_words": 101,
+    "total_speakers": 5,
+    "total_duration": 1274.5352373866212,
+    "avg_duration": 0.9729276621271918,
+    "avg_file_size": 56626.67175572519
+  }
+}

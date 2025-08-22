@@ -1,0 +1,224 @@
+
+Extracted 858 features from 14.wav
+Processed 1300/1309 files... (failed: 0)
+Extracted 858 features from 15.wav
+Extracted 858 features from 16.wav
+Extracted 858 features from 17.wav
+Extracted 788 features from 18.wav
+Extracted 858 features from 2.wav
+Extracted 858 features from 3.wav
+Extracted 858 features from 4.wav
+Extracted 858 features from 5.wav
+Extracted 858 features from 6.wav
+
+Converting to DataFrames...
+✓ Ahmed: 433 samples, 59 words
+✓ Asem: 68 samples, 16 words
+✓ Haifa: 353 samples, 56 words
+✓ Aseel: 303 samples, 58 words
+✓ Wessam: 149 samples, 22 words
+✓ Unknown: 3 samples, 1 words
+
+Loading Summary:
+   Total files: 1309
+   Successfully processed: 1309
+   Failed: 0
+   Success rate: 100.0%
+
+Data Summary:
+   Ahmed: 433 samples, 59 words, quality: medium (0.65) Ready
+   Asem: 68 samples, 16 words, quality: high (0.85) Ready
+   Haifa: 353 samples, 56 words, quality: medium (0.70) Ready
+   Aseel: 303 samples, 58 words, quality: low (0.45) Ready
+   Wessam: 149 samples, 22 words, quality: medium-high (0.75) Ready
+   Unknown: 3 samples, 1 words, quality: medium (0.65) Low
+
+Overall Statistics:
+   Total samples: 1309
+   Total words: 100
+   Speakers: 6
+
+Training Models:
+Training model for speaker: Ahmed
+Samples: 433
+Words: 59
+Quality: medium
+Initial features: 858
+Kept 59 words out of 59 words
+Final samples: 433
+Processing data for speaker: Ahmed
+Handling missing values...
+Selecting 100 features from 858 original features
+Applied PCA: 100 → 80
+Result: 858 → 80 features
+Split with stratify
+Training: 303 samples, Testing: 130 samples
+Training RandomForest...
+RandomForest: 0.3923 (39.23%)
+Training ExtraTrees...
+ExtraTrees: 0.4615 (46.15%)
+Creating Ensemble...
+Ensemble (soft): 0.4846 (48.46%)
+Best model: Ensemble_soft - 0.4846 (48.46%)
+Training model for speaker: Asem
+Samples: 68
+Words: 16
+Quality: high
+Initial features: 858
+Kept 13 words out of 16 words
+Final samples: 65
+Processing data for speaker: Asem
+Handling missing values...
+Selecting 21 features from 858 original features
+Result: 858 → 21 features
+Split with stratify
+Training: 45 samples, Testing: 20 samples
+Training ExtraTrees...
+ExtraTrees: 0.5000 (50.00%)
+Training XGBoost...
+XGBoost: 0.4000 (40.00%)
+Creating Ensemble...
+Ensemble (soft): 0.5000 (50.00%)
+Best model: ExtraTrees - 0.5000 (50.00%)
+Training model for speaker: Haifa
+Samples: 353
+Words: 56
+Quality: medium
+Initial features: 858
+Kept 55 words out of 56 words
+Final samples: 352
+Processing data for speaker: Haifa
+Handling missing values...
+Selecting 100 features from 858 original features
+Applied PCA: 100 → 80
+Result: 858 → 80 features
+Split with stratify
+Training: 246 samples, Testing: 106 samples
+Training RandomForest...
+RandomForest: 0.2453 (24.53%)
+Training LightGBM...
+LightGBM: 0.2453 (24.53%)
+Best model: RandomForest - 0.2453 (24.53%)
+Training model for speaker: Aseel
+Samples: 303
+Words: 58
+Quality: low
+Initial features: 858
+Kept 57 words out of 58 words
+Final samples: 302
+Processing data for speaker: Aseel
+Handling missing values...
+Selecting 100 features from 858 original features
+Applied PCA: 100 → 80
+Result: 858 → 80 features
+Split with stratify
+Training: 211 samples, Testing: 91 samples
+Training RandomForest...
+RandomForest: 0.4945 (49.45%)
+Training LogisticRegression...
+LogisticRegression: 0.6813 (68.13%)
+Creating Ensemble...
+Ensemble (soft): 0.6923 (69.23%)
+Best model: Ensemble_soft - 0.6923 (69.23%)
+Training model for speaker: Wessam
+Samples: 149
+Words: 22
+Quality: medium-high
+Initial features: 858
+Kept 21 words out of 22 words
+Final samples: 148
+Processing data for speaker: Wessam
+Handling missing values...
+Selecting 49 features from 858 original features
+Result: 858 → 49 features
+Split with stratify
+Training: 103 samples, Testing: 45 samples
+Training ExtraTrees...
+ExtraTrees: 0.5111 (51.11%)
+Training XGBoost...
+XGBoost: 0.3111 (31.11%)
+Creating Ensemble...
+Ensemble (soft): 0.3556 (35.56%)
+Best model: ExtraTrees - 0.5111 (51.11%)
+Training model for speaker: Unknown
+Samples: 3
+Words: 1
+Quality: medium
+Insufficient samples for training (3 < 20)
+Failed to train model for Unknown
+
+Training Results:
+   Successful: 5/6 speakers
+   Success rate: 83.3%
+Saving results...
+Results saved to: results
+
+============================================================
+FINAL RESULTS REPORT
+============================================================
+
+Speaker Results (sorted by accuracy):
+--------------------------------------------------------------------------------
+Speaker      Accuracy Model                Samples  Words
+--------------------------------------------------------------------------------
+Aseel         69.23% Ensemble_soft             302       57 🟡
+Wessam        51.11% ExtraTrees                148       21 🔴
+Asem          50.00% ExtraTrees                 65       13 🔴
+Ahmed         48.46% Ensemble_soft             433       59 🔴
+Haifa         24.53% RandomForest              352       55 🔴
+--------------------------------------------------------------------------------
+Overall Weighted Average: 47.18%
+Total Samples: 1300
+Trained Speakers: 5
+
+Performance by Speaker Quality:
+   medium         :  36.49% ± 12.0% (2 speakers)
+   high           :  50.00% ±  0.0% (1 speakers)
+   low            :  69.23% ±  0.0% (1 speakers)
+   medium-high    :  51.11% ±  0.0% (1 speakers)
+
+Model Usage Analysis:
+   Ensemble_soft       :  58.85% average (2 uses)
+   ExtraTrees          :  50.56% average (2 uses)
+   RandomForest        :  24.53% average (1 uses)
+
+Best Performance:
+   Speaker: Aseel
+   Accuracy: 69.23%
+   Model: Ensemble_soft
+   Samples: 302
+
+Lowest Performance:
+   Speaker: Haifa
+   Accuracy: 24.53%
+   Model: RandomForest
+   Samples: 352
+
+Performance Gap: 44.70%
+
+Recommendations:
+   Excellent (≥80%): 0 speakers (0.0%)
+   Good (65-79%): 1 speakers (20.0%)
+   Fair (50-64%): 2 speakers (40.0%)
+   Needs Improvement (<50%): 2 speakers (40.0%)
+
+Speakers needing improvement:
+   - Wessam: Increase data samples and improve recording quality
+   - Asem: Increase data samples and improve recording quality
+   - Ahmed: Increase data samples and improve recording quality
+
+============================================================
+Analysis completed successfully!
+============================================================
+
+======================================================================
+SUCCESS: Analysis completed!
+Results saved to: results/
+Models saved to: results/models.pkl
+Report saved to: results/results.json
+======================================================================
+
+Quick Summary:
+  Trained speakers: 5
+  Average accuracy: 48.67%
+  System status: Ready for deployment

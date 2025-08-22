@@ -1,0 +1,46 @@
+{
+  "previous_results": {
+    "Basic Model": 45.42,
+    "Without Aseel": 46.77,
+    "Without Ahmed": 42.53,
+    "Asem Specialized Model": 55.56,
+    "Aseel Specialized Model": 50.56,
+    "Wasam Specialized Model": 48.89,
+    "Haifa Specialized Model": 47.62,
+    "Ahmed Specialized Model": 40.77
+  },
+  "enhanced_results": {
+    "Enhanced Basic Model": 44.881889763779526,
+    "Enhanced Without Aseel": 45.714285714285715,
+    "Enhanced Without Ahmed": 51.68539325842697,
+    "Enhanced عاصم Specialized Model": 58.333333333333336,
+    "Enhanced أسيل Specialized Model": 85.71428571428571
+  },
+  "comparison_results": {
+    "Basic Model": {
+      "old_accuracy": 45.42,
+      "new_accuracy": 44.881889763779526,
+      "improvement": -0.5381102362204757,
+      "improvement_percentage": -1.1847429243075203
+    },
+    "Without Aseel": {
+      "old_accuracy": 46.77,
+      "new_accuracy": 45.714285714285715,
+      "improvement": -1.0557142857142878,
+      "improvement_percentage": -2.2572467088182337
+    },
+    "Without Ahmed": {
+      "old_accuracy": 42.53,
+      "new_accuracy": 51.68539325842697,
+      "improvement": 9.155393258426969,
+      "improvement_percentage": 21.526906321248457
+    }
+  },
+  "summary": {
+    "best_previous": 55.56,
+    "best_enhanced": 85.71428571428571,
+    "average_improvement": 2.5205229121640684,
+    "models_improved": 1,
+    "total_models": 3
+  }
+}

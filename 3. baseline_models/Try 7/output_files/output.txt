@@ -1,0 +1,1015 @@
+Processing 462/1309: 01.wav
+Processing 463/1309: 1.wav
+Processing 464/1309: 2.wav
+Processing 465/1309: 29.wav
+Processing 466/1309: 3.wav
+Processing 467/1309: 30.wav
+Processing 468/1309: 31.wav
+Processing 469/1309: 32.wav
+Processing 470/1309: 33.wav
+Processing 471/1309: 34.wav
+Processing 472/1309: 35.wav
+Processing 473/1309: 36.wav
+Processing 474/1309: 4.wav
+Processing 475/1309: 5.wav
+Processing 476/1309: 6.wav
+Processing 477/1309: 1.wav
+Processing 478/1309: 14.wav
+Processing 479/1309: 15.wav
+Processing 480/1309: 16.wav
+Processing 481/1309: 17.wav
+Processing 482/1309: 18.wav
+Processing 483/1309: 19.wav
+Processing 484/1309: 2.wav
+Processing 485/1309: 21.wav
+Processing 486/1309: 22.wav
+Processing 487/1309: 23.wav
+Processing 488/1309: 24.wav
+Processing 489/1309: 25.wav
+Processing 490/1309: 3.wav
+Processing 491/1309: 0.wav
+Processing 492/1309: 01.wav
+Processing 493/1309: 1.wav
+Processing 494/1309: 2.wav
+Processing 495/1309: 21.wav
+Processing 496/1309: 22.wav
+Processing 497/1309: 23.wav
+Processing 498/1309: 24.wav
+Processing 499/1309: 25.wav
+Processing 500/1309: 3.wav
+Processing 501/1309: 4.wav
+Processing 502/1309: 5.wav
+Processing 503/1309: 6.wav
+Processing 504/1309: 1.wav
+Processing 505/1309: 2.wav
+Processing 506/1309: 21.wav
+Processing 507/1309: 22.wav
+Processing 508/1309: 23.wav
+Processing 509/1309: 24.wav
+Processing 510/1309: 25.wav
+Processing 511/1309: 3.wav
+Processing 512/1309: 4.wav
+Processing 513/1309: 5.wav
+Processing 514/1309: 6.wav
+Processing 515/1309: 1.wav
+Processing 516/1309: 14.wav
+Processing 517/1309: 15.wav
+Processing 518/1309: 16.wav
+Processing 519/1309: 17.wav
+Processing 520/1309: 2.wav
+Processing 521/1309: 29.wav
+Processing 522/1309: 30.wav
+Processing 523/1309: 31.wav
+Processing 524/1309: 32.wav
+Processing 525/1309: 33.wav
+Processing 526/1309: 34.wav
+Processing 527/1309: 35.wav
+Processing 528/1309: 36.wav
+Processing 529/1309: 0.wav
+Processing 530/1309: 01.wav
+Processing 531/1309: 02.wav
+Processing 532/1309: 1.wav
+Processing 533/1309: 14.wav
+Processing 534/1309: 15.wav
+Processing 535/1309: 16.wav
+Processing 536/1309: 17.wav
+Processing 537/1309: 18.wav
+Processing 538/1309: 19.wav
+Processing 539/1309: 2.wav
+Processing 540/1309: 21.wav
+Processing 541/1309: 22.wav
+Processing 542/1309: 29.wav
+Processing 543/1309: 3.wav
+Processing 544/1309: 4.wav
+Processing 545/1309: 5.wav
+Processing 546/1309: 6.wav
+Processing 547/1309: 7.wav
+Processing 548/1309: 21.wav
+Processing 549/1309: 22.wav
+Processing 550/1309: 23.wav
+Processing 551/1309: 24.wav
+Processing 552/1309: 25.wav
+Processing 553/1309: 7.wav
+Processing 554/1309: 0.wav
+Processing 555/1309: 01.wav
+Processing 556/1309: 02.wav
+Processing 557/1309: 04.wav
+Processing 558/1309: 1.wav
+Processing 559/1309: 14.wav
+Processing 560/1309: 15.wav
+Processing 561/1309: 16.wav
+Processing 562/1309: 17.wav
+Processing 563/1309: 18.wav
+Processing 564/1309: 19.wav
+Processing 565/1309: 2.wav
+Processing 566/1309: 20.wav
+Processing 567/1309: 21.wav
+Processing 568/1309: 22.wav
+Processing 569/1309: 23.wav
+Processing 570/1309: 24.wav
+Processing 571/1309: 25.wav
+Processing 572/1309: 26.wav
+Processing 573/1309: 3.wav
+Processing 574/1309: 4.wav
+Processing 575/1309: 5.wav
+Processing 576/1309: 6.wav
+Processing 577/1309: 0.wav
+Processing 578/1309: 01.wav
+Processing 579/1309: 1.wav
+Processing 580/1309: 14.wav
+Processing 581/1309: 15.wav
+Processing 582/1309: 16.wav
+Processing 583/1309: 17.wav
+Processing 584/1309: 18.wav
+Processing 585/1309: 19.wav
+Processing 586/1309: 2.wav
+Processing 587/1309: 3.wav
+Processing 588/1309: 4.wav
+Processing 589/1309: 6.wav
+Processing 590/1309: 1.wav
+Processing 591/1309: 10.wav
+Processing 592/1309: 11.wav
+Processing 593/1309: 12.wav
+Processing 594/1309: 13.wav
+Processing 595/1309: 14.wav
+Processing 596/1309: 15.wav
+Processing 597/1309: 16.wav
+Processing 598/1309: 18.wav
+Processing 599/1309: 2.wav
+Processing 600/1309: 21.wav
+Processing 601/1309: 22.wav
+Processing 602/1309: 23.wav
+Processing 603/1309: 24.wav
+Processing 604/1309: 25.wav
+Processing 605/1309: 26.wav
+Processing 606/1309: 3.wav
+Processing 607/1309: 4.wav
+Processing 608/1309: 5.wav
+Processing 609/1309: 7.wav
+Processing 610/1309: 8.wav
+Processing 611/1309: 9.wav
+Processing 612/1309: 0.wav
+Processing 613/1309: 1.wav
+Processing 614/1309: 14.wav
+Processing 615/1309: 15.wav
+Processing 616/1309: 16.wav
+Processing 617/1309: 17.wav
+Processing 618/1309: 18.wav
+Processing 619/1309: 2.wav
+Processing 620/1309: 3.wav
+Processing 621/1309: 4.wav
+Processing 622/1309: 5.wav
+Processing 623/1309: 6.wav
+Processing 624/1309: 0.wav
+Processing 625/1309: 01.wav
+Processing 626/1309: 02.wav
+Processing 627/1309: 03.wav
+Processing 628/1309: 1.wav
+Processing 629/1309: 14.wav
+Processing 630/1309: 15.wav
+Processing 631/1309: 16.wav
+Processing 632/1309: 17.wav
+Processing 633/1309: 18.wav
+Processing 634/1309: 19.wav
+Processing 635/1309: 2.wav
+Processing 636/1309: 20.wav
+Processing 637/1309: 21.wav
+Processing 638/1309: 22.wav
+Processing 639/1309: 23.wav
+Processing 640/1309: 24.wav
+Processing 641/1309: 25.wav
+Processing 642/1309: 26.wav
+Processing 643/1309: 4.wav
+Processing 644/1309: 5.wav
+Processing 645/1309: 6.wav
+Processing 646/1309: 21.wav
+Processing 647/1309: 22.wav
+Processing 648/1309: 23.wav
+Processing 649/1309: 24.wav
+Processing 650/1309: 25.wav
+Processing 651/1309: 26.wav
+Processing 652/1309: 0.wav
+Processing 653/1309: 1.wav
+Processing 654/1309: 14.wav
+Processing 655/1309: 15.wav
+Processing 656/1309: 16.wav
+Processing 657/1309: 17.wav
+Processing 658/1309: 18.wav
+Processing 659/1309: 19.wav
+Processing 660/1309: 2.wav
+Processing 661/1309: 20.wav
+Processing 662/1309: 3.wav
+Processing 663/1309: 4.wav
+Processing 664/1309: 5.wav
+Processing 665/1309: 6.wav
+Processing 666/1309: 14.wav
+Processing 667/1309: 15.wav
+Processing 668/1309: 16.wav
+Processing 669/1309: 17.wav
+Processing 670/1309: 18.wav
+Processing 671/1309: 19.wav
+Processing 672/1309: 20.wav
+Processing 673/1309: 21.wav
+Processing 674/1309: 22.wav
+Processing 675/1309: 23.wav
+Processing 676/1309: 24.wav
+Processing 677/1309: 25.wav
+Processing 678/1309: 26.wav
+Processing 679/1309: 0.wav
+Processing 680/1309: 1.wav
+Processing 681/1309: 2.wav
+Processing 682/1309: 3.wav
+Processing 683/1309: 4.wav
+Processing 684/1309: 5.wav
+Processing 685/1309: 6.wav
+Processing 686/1309: 7.wav
+Processing 687/1309: 1.wav
+Processing 688/1309: 14.wav
+Processing 689/1309: 15.wav
+Processing 690/1309: 16.wav
+Processing 691/1309: 17.wav
+Processing 692/1309: 18.wav
+Processing 693/1309: 19.wav
+Processing 694/1309: 2.wav
+Processing 695/1309: 20.wav
+Processing 696/1309: 21.wav
+Processing 697/1309: 22.wav
+Processing 698/1309: 23.wav
+Processing 699/1309: 24.wav
+Processing 700/1309: 25.wav
+Processing 701/1309: 3.wav
+Processing 702/1309: 4.wav
+Processing 703/1309: 7.wav
+Processing 704/1309: 8.wav
+Processing 705/1309: 14.wav
+Processing 706/1309: 15.wav
+Processing 707/1309: 16.wav
+Processing 708/1309: 17.wav
+Processing 709/1309: 18.wav
+Processing 710/1309: 19.wav
+Processing 711/1309: 20.wav
+Processing 712/1309: 21.wav
+Processing 713/1309: 22.wav
+Processing 714/1309: 23.wav
+Processing 715/1309: 24.wav
+Processing 716/1309: 25.wav
+Processing 717/1309: 26.wav
+Processing 718/1309: 29.wav
+Processing 719/1309: 30.wav
+Processing 720/1309: 31.wav
+Processing 721/1309: 32.wav
+Processing 722/1309: 33.wav
+Processing 723/1309: 34.wav
+Processing 724/1309: 35.wav
+Processing 725/1309: 36.wav
+Processing 726/1309: 0.wav
+Processing 727/1309: 01.wav
+Processing 728/1309: 1.wav
+Processing 729/1309: 14.wav
+Processing 730/1309: 15.wav
+Processing 731/1309: 16.wav
+Processing 732/1309: 17.wav
+Processing 733/1309: 18.wav
+Processing 734/1309: 19.wav
+Processing 735/1309: 2.wav
+Processing 736/1309: 20.wav
+Processing 737/1309: 21.wav
+Processing 738/1309: 3.wav
+Processing 739/1309: 4.wav
+Processing 740/1309: 5.wav
+Processing 741/1309: 6.wav
+Processing 742/1309: 29.wav
+Processing 743/1309: 30.wav
+Processing 744/1309: 31.wav
+Processing 745/1309: 32.wav
+Processing 746/1309: 33.wav
+Processing 747/1309: 34.wav
+Processing 748/1309: 35.wav
+Processing 749/1309: 14.wav
+Processing 750/1309: 15.wav
+Processing 751/1309: 16.wav
+Processing 752/1309: 17.wav
+Processing 753/1309: 18.wav
+Processing 754/1309: 19.wav
+Processing 755/1309: 20.wav
+Processing 756/1309: 29.wav
+Processing 757/1309: 30.wav
+Processing 758/1309: 31.wav
+Processing 759/1309: 32.wav
+Processing 760/1309: 33.wav
+Processing 761/1309: 34.wav
+Processing 762/1309: 35.wav
+Processing 763/1309: 36.wav
+Processing 764/1309: 0.wav
+Processing 765/1309: 01.wav
+Processing 766/1309: 02.wav
+Processing 767/1309: 03.wav
+Processing 768/1309: 04.wav
+Processing 769/1309: 1.wav
+Processing 770/1309: 14.wav
+Processing 771/1309: 15.wav
+Processing 772/1309: 16.wav
+Processing 773/1309: 17.wav
+Processing 774/1309: 18.wav
+Processing 775/1309: 19.wav
+Processing 776/1309: 2.wav
+Processing 777/1309: 20.wav
+Processing 778/1309: 3.wav
+Processing 779/1309: 4.wav
+Processing 780/1309: 5.wav
+Processing 781/1309: 6.wav
+Processing 782/1309: 29.wav
+Processing 783/1309: 30.wav
+Processing 784/1309: 31.wav
+Processing 785/1309: 32.wav
+Processing 786/1309: 33.wav
+Processing 787/1309: 34.wav
+Processing 788/1309: 014.wav
+Processing 789/1309: 015.wav
+Processing 790/1309: 016.wav
+Processing 791/1309: 14.wav
+Processing 792/1309: 15.wav
+Processing 793/1309: 16.wav
+Processing 794/1309: 17.wav
+Processing 795/1309: 18.wav
+Processing 796/1309: 19.wav
+Processing 797/1309: 20.wav
+Processing 798/1309: 14.wav
+Processing 799/1309: 15.wav
+Processing 800/1309: 16.wav
+Processing 801/1309: 17.wav
+Processing 802/1309: 18.wav
+Processing 803/1309: 19.wav
+Processing 804/1309: 20.wav
+Processing 805/1309: 14.wav
+Processing 806/1309: 15.wav
+Processing 807/1309: 16.wav
+Processing 808/1309: 17.wav
+Processing 809/1309: 18.wav
+Processing 810/1309: 21.wav
+Processing 811/1309: 22.wav
+Processing 812/1309: 23.wav
+Processing 813/1309: 24.wav
+Processing 814/1309: 25.wav
+Processing 815/1309: 01.wav
+Processing 816/1309: 02.wav
+Processing 817/1309: 03.wav
+Processing 818/1309: 1.wav
+Processing 819/1309: 14.wav
+Processing 820/1309: 15.wav
+Processing 821/1309: 16.wav
+Processing 822/1309: 17.wav
+Processing 823/1309: 18.wav
+Processing 824/1309: 19.wav
+Processing 825/1309: 2.wav
+Processing 826/1309: 3.wav
+Processing 827/1309: 4.wav
+Processing 828/1309: 5.wav
+Processing 829/1309: 6.wav
+Processing 830/1309: 0.wav
+Processing 831/1309: 1.wav
+Processing 832/1309: 14.wav
+Processing 833/1309: 15.wav
+Processing 834/1309: 16.wav
+Processing 835/1309: 17.wav
+Processing 836/1309: 18.wav
+Processing 837/1309: 19.wav
+Processing 838/1309: 2.wav
+Processing 839/1309: 21.wav
+Processing 840/1309: 22.wav
+Processing 841/1309: 23.wav
+Processing 842/1309: 24.wav
+Processing 843/1309: 25.wav
+Processing 844/1309: 26.wav
+Processing 845/1309: 27.wav
+Processing 846/1309: 29.wav
+Processing 847/1309: 3.wav
+Processing 848/1309: 30.wav
+Processing 849/1309: 31.wav
+Processing 850/1309: 32.wav
+Processing 851/1309: 33.wav
+Processing 852/1309: 34.wav
+Processing 853/1309: 35.wav
+Processing 854/1309: 4.wav
+Processing 855/1309: 5.wav
+Processing 856/1309: 6.wav
+Processing 857/1309: 0.wav
+Processing 858/1309: 01.wav
+Processing 859/1309: 02.wav
+Processing 860/1309: 03.wav
+Processing 861/1309: 04.wav
+Processing 862/1309: 1.wav
+Processing 863/1309: 2.wav
+Processing 864/1309: 29.wav
+Processing 865/1309: 3.wav
+Processing 866/1309: 30.wav
+Processing 867/1309: 31.wav
+Processing 868/1309: 32.wav
+Processing 869/1309: 33.wav
+Processing 870/1309: 34.wav
+Processing 871/1309: 4.wav
+Processing 872/1309: 5.wav
+Processing 873/1309: 6.wav
+Processing 874/1309: 21.wav
+Processing 875/1309: 22.wav
+Processing 876/1309: 23.wav
+Processing 877/1309: 24.wav
+Processing 878/1309: 25.wav
+Processing 879/1309: 26.wav
+Processing 880/1309: 14.wav
+Processing 881/1309: 15.wav
+Processing 882/1309: 16.wav
+Processing 883/1309: 17.wav
+Processing 884/1309: 18.wav
+Processing 885/1309: 19.wav
+Processing 886/1309: 0.wav
+Processing 887/1309: 01.wav
+Processing 888/1309: 02.wav
+Processing 889/1309: 03.wav
+Processing 890/1309: 04.wav
+Processing 891/1309: 1.wav
+Processing 892/1309: 2.wav
+Processing 893/1309: 21.wav
+Processing 894/1309: 22.wav
+Processing 895/1309: 23.wav
+Processing 896/1309: 24.wav
+Processing 897/1309: 25.wav
+Processing 898/1309: 26.wav
+Processing 899/1309: 29.wav
+Processing 900/1309: 3.wav
+Processing 901/1309: 30.wav
+Processing 902/1309: 31.wav
+Processing 903/1309: 32.wav
+Processing 904/1309: 33.wav
+Processing 905/1309: 34.wav
+Processing 906/1309: 4.wav
+Processing 907/1309: 5.wav
+Processing 908/1309: 6.wav
+Processing 909/1309: 0.wav
+Processing 910/1309: 01.wav
+Processing 911/1309: 02.wav
+Processing 912/1309: 04.wav
+Processing 913/1309: 1.wav
+Processing 914/1309: 2.wav
+Processing 915/1309: 29.wav
+Processing 916/1309: 30.wav
+Processing 917/1309: 31.wav
+Processing 918/1309: 32.wav
+Processing 919/1309: 33.wav
+Processing 920/1309: 34.wav
+Processing 921/1309: 4.wav
+Processing 922/1309: 5.wav
+Processing 923/1309: 6.wav
+Processing 924/1309: 14.wav
+Processing 925/1309: 15.wav
+Processing 926/1309: 16.wav
+Processing 927/1309: 17.wav
+Processing 928/1309: 18.wav
+Processing 929/1309: 19.wav
+Processing 930/1309: 030.wav
+Processing 931/1309: 031.wav
+Processing 932/1309: 29.wav
+Processing 933/1309: 30.wav
+Processing 934/1309: 31.wav
+Processing 935/1309: 32.wav
+Processing 936/1309: 33.wav
+Processing 937/1309: 34.wav
+Processing 938/1309: 35.wav
+Processing 939/1309: 36.wav
+Processing 940/1309: 0.wav
+Processing 941/1309: 01.wav
+Processing 942/1309: 1.wav
+Processing 943/1309: 2.wav
+Processing 944/1309: 29.wav
+Processing 945/1309: 3.wav
+Processing 946/1309: 30.wav
+Processing 947/1309: 31.wav
+Processing 948/1309: 32.wav
+Processing 949/1309: 33.wav
+Processing 950/1309: 4.wav
+Processing 951/1309: 5.wav
+Processing 952/1309: 6.wav
+Processing 953/1309: 0.wav
+Processing 954/1309: 01.wav
+Processing 955/1309: 02.wav
+Processing 956/1309: 03.wav
+Processing 957/1309: 04.wav
+Processing 958/1309: 1.wav
+Processing 959/1309: 2.wav
+Processing 960/1309: 29.wav
+Processing 961/1309: 3.wav
+Processing 962/1309: 30.wav
+Processing 963/1309: 31.wav
+Processing 964/1309: 32.wav
+Processing 965/1309: 33.wav
+Processing 966/1309: 4.wav
+Processing 967/1309: 5.wav
+Processing 968/1309: 6.wav
+Processing 969/1309: 0.wav
+Processing 970/1309: 01.wav
+Processing 971/1309: 02.wav
+Processing 972/1309: 03.wav
+Processing 973/1309: 1.wav
+Processing 974/1309: 2.wav
+Processing 975/1309: 29.wav
+Processing 976/1309: 3.wav
+Processing 977/1309: 30.wav
+Processing 978/1309: 31.wav
+Processing 979/1309: 32.wav
+Processing 980/1309: 33.wav
+Processing 981/1309: 34.wav
+Processing 982/1309: 4.wav
+Processing 983/1309: 5.wav
+Processing 984/1309: 6.wav
+Processing 985/1309: 14.wav
+Processing 986/1309: 15.wav
+Processing 987/1309: 16.wav
+Processing 988/1309: 17.wav
+Processing 989/1309: 18.wav
+Processing 990/1309: 19.wav
+Processing 991/1309: 20.wav
+Processing 992/1309: 21.wav
+Processing 993/1309: 22.wav
+Processing 994/1309: 23.wav
+Processing 995/1309: 24.wav
+Processing 996/1309: 25.wav
+Processing 997/1309: 26.wav
+Processing 998/1309: 1.wav
+Processing 999/1309: 14.wav
+Processing 1000/1309: 15.wav
+Processing 1001/1309: 16.wav
+Processing 1002/1309: 17.wav
+Processing 1003/1309: 18.wav
+Processing 1004/1309: 19.wav
+Processing 1005/1309: 2.wav
+Processing 1006/1309: 20.wav
+Processing 1007/1309: 21.wav
+Processing 1008/1309: 22.wav
+Processing 1009/1309: 23.wav
+Processing 1010/1309: 24.wav
+Processing 1011/1309: 26.wav
+Processing 1012/1309: 27.wav
+Processing 1013/1309: 3.wav
+Processing 1014/1309: 4.wav
+Processing 1015/1309: 5.wav
+Processing 1016/1309: 14.wav
+Processing 1017/1309: 15.wav
+Processing 1018/1309: 16.wav
+Processing 1019/1309: 17.wav
+Processing 1020/1309: 18.wav
+Processing 1021/1309: 21.wav
+Processing 1022/1309: 22.wav
+Processing 1023/1309: 23.wav
+Processing 1024/1309: 24.wav
+Processing 1025/1309: 25.wav
+Processing 1026/1309: 1.wav
+Processing 1027/1309: 14.wav
+Processing 1028/1309: 15.wav
+Processing 1029/1309: 16.wav
+Processing 1030/1309: 17.wav
+Processing 1031/1309: 18.wav
+Processing 1032/1309: 19.wav
+Processing 1033/1309: 2.wav
+Processing 1034/1309: 20.wav
+Processing 1035/1309: 21.wav
+Processing 1036/1309: 22.wav
+Processing 1037/1309: 23.wav
+Processing 1038/1309: 24.wav
+Processing 1039/1309: 3.wav
+Processing 1040/1309: 4.wav
+Processing 1041/1309: 0.wav
+Processing 1042/1309: 1.wav
+Processing 1043/1309: 14.wav
+Processing 1044/1309: 15.wav
+Processing 1045/1309: 16.wav
+Processing 1046/1309: 17.wav
+Processing 1047/1309: 18.wav
+Processing 1048/1309: 19.wav
+Processing 1049/1309: 2.wav
+Processing 1050/1309: 3.wav
+Processing 1051/1309: 4.wav
+Processing 1052/1309: 5.wav
+Processing 1053/1309: 1.wav
+Processing 1054/1309: 2.wav
+Processing 1055/1309: 3.wav
+Processing 1056/1309: 4.wav
+Processing 1057/1309: 0.wav
+Processing 1058/1309: 01.wav
+Processing 1059/1309: 1.wav
+Processing 1060/1309: 2.wav
+Processing 1061/1309: 21.wav
+Processing 1062/1309: 22.wav
+Processing 1063/1309: 23.wav
+Processing 1064/1309: 24.wav
+Processing 1065/1309: 3.wav
+Processing 1066/1309: 4.wav
+Processing 1067/1309: 5.wav
+Processing 1068/1309: 6.wav
+Processing 1069/1309: 0.wav
+Processing 1070/1309: 01.wav
+Processing 1071/1309: 02.wav
+Processing 1072/1309: 1.wav
+Processing 1073/1309: 2.wav
+Processing 1074/1309: 21.wav
+Processing 1075/1309: 22.wav
+Processing 1076/1309: 23.wav
+Processing 1077/1309: 24.wav
+Processing 1078/1309: 25.wav
+Processing 1079/1309: 26.wav
+Processing 1080/1309: 27.wav
+Processing 1081/1309: 3.wav
+Processing 1082/1309: 4.wav
+Processing 1083/1309: 5.wav
+Processing 1084/1309: 6.wav
+Processing 1085/1309: 0.wav
+Processing 1086/1309: 01.wav
+Processing 1087/1309: 1.wav
+Processing 1088/1309: 14.wav
+Processing 1089/1309: 15.wav
+Processing 1090/1309: 16.wav
+Processing 1091/1309: 17.wav
+Processing 1092/1309: 18.wav
+Processing 1093/1309: 19.wav
+Processing 1094/1309: 2.wav
+Processing 1095/1309: 3.wav
+Processing 1096/1309: 4.wav
+Processing 1097/1309: 5.wav
+Processing 1098/1309: 6.wav
+Processing 1099/1309: 21.wav
+Processing 1100/1309: 22.wav
+Processing 1101/1309: 23.wav
+Processing 1102/1309: 24.wav
+Processing 1103/1309: 25.wav
+Processing 1104/1309: 21.wav
+Processing 1105/1309: 22.wav
+Processing 1106/1309: 23.wav
+Processing 1107/1309: 24.wav
+Processing 1108/1309: 25.wav
+Processing 1109/1309: 014.wav
+Processing 1110/1309: 14.wav
+Processing 1111/1309: 15.wav
+Processing 1112/1309: 16.wav
+Processing 1113/1309: 17.wav
+Processing 1114/1309: 18.wav
+Processing 1115/1309: 19.wav
+Processing 1116/1309: 20.wav
+Processing 1117/1309: 014.wav
+Processing 1118/1309: 015.wav
+Processing 1119/1309: 14.wav
+Processing 1120/1309: 15.wav
+Processing 1121/1309: 16.wav
+Processing 1122/1309: 17.wav
+Processing 1123/1309: 18.wav
+Processing 1124/1309: 19.wav
+Processing 1125/1309: 20.wav
+Processing 1126/1309: 0.wav
+Processing 1127/1309: 01.wav
+Processing 1128/1309: 02.wav
+Processing 1129/1309: 1.wav
+Processing 1130/1309: 14.wav
+Processing 1131/1309: 15.wav
+Processing 1132/1309: 16.wav
+Processing 1133/1309: 17.wav
+Processing 1134/1309: 18.wav
+Processing 1135/1309: 19.wav
+Processing 1136/1309: 2.wav
+Processing 1137/1309: 20.wav
+Processing 1138/1309: 21.wav
+Processing 1139/1309: 22.wav
+Processing 1140/1309: 23.wav
+Processing 1141/1309: 24.wav
+Processing 1142/1309: 25.wav
+Processing 1143/1309: 26.wav
+Processing 1144/1309: 29.wav
+Processing 1145/1309: 3.wav
+Processing 1146/1309: 30.wav
+Processing 1147/1309: 31.wav
+Processing 1148/1309: 32.wav
+Processing 1149/1309: 33.wav
+Processing 1150/1309: 34.wav
+Processing 1151/1309: 4.wav
+Processing 1152/1309: 5.wav
+Processing 1153/1309: 6.wav
+Processing 1154/1309: 0.wav
+Processing 1155/1309: 1.wav
+Processing 1156/1309: 14.wav
+Processing 1157/1309: 15-.wav
+Processing 1158/1309: 15.wav
+Processing 1159/1309: 16-.wav
+Processing 1160/1309: 16.wav
+Processing 1161/1309: 17-.wav
+Processing 1162/1309: 17.wav
+Processing 1163/1309: 18.wav
+Processing 1164/1309: 19.wav
+Processing 1165/1309: 2.wav
+Processing 1166/1309: 20.wav
+Processing 1167/1309: 21.wav
+Processing 1168/1309: 22.wav
+Processing 1169/1309: 23.wav
+Processing 1170/1309: 24.wav
+Processing 1171/1309: 25.wav
+Processing 1172/1309: 26.wav
+Processing 1173/1309: 27.wav
+Processing 1174/1309: 3.wav
+Processing 1175/1309: 4.wav
+Processing 1176/1309: 5.wav
+Processing 1177/1309: 6.wav
+Processing 1178/1309: 030.wav
+Processing 1179/1309: 031.wav
+Processing 1180/1309: 032.wav
+Processing 1181/1309: 29.wav
+Processing 1182/1309: 30.wav
+Processing 1183/1309: 31.wav
+Processing 1184/1309: 32.wav
+Processing 1185/1309: 33.wav
+Processing 1186/1309: 34.wav
+Processing 1187/1309: 35.wav
+Processing 1188/1309: 36.wav
+Processing 1189/1309: 0.wav
+Processing 1190/1309: 01.wav
+Processing 1191/1309: 014.wav
+Processing 1192/1309: 02.wav
+Processing 1193/1309: 03.wav
+Processing 1194/1309: 04.wav
+Processing 1195/1309: 1.wav
+Processing 1196/1309: 14.wav
+Processing 1197/1309: 15.wav
+Processing 1198/1309: 16.wav
+Processing 1199/1309: 17.wav
+Processing 1200/1309: 18.wav
+Processing 1201/1309: 19.wav
+Processing 1202/1309: 2.wav
+Processing 1203/1309: 20.wav
+Processing 1204/1309: 3.wav
+Processing 1205/1309: 4.wav
+Processing 1206/1309: 5.wav
+Processing 1207/1309: 6.wav
+Processing 1208/1309: 1.wav
+Processing 1209/1309: 14.wav
+Processing 1210/1309: 15.wav
+Processing 1211/1309: 16.wav
+Processing 1212/1309: 17.wav
+Processing 1213/1309: 18.wav
+Processing 1214/1309: 19.wav
+Processing 1215/1309: 2.wav
+Processing 1216/1309: 20.wav
+Processing 1217/1309: 21.wav
+Processing 1218/1309: 22.wav
+Processing 1219/1309: 23.wav
+Processing 1220/1309: 24.wav
+Processing 1221/1309: 25.wav
+Processing 1222/1309: 3.wav
+Processing 1223/1309: 4.wav
+Processing 1224/1309: 5.wav
+Processing 1225/1309: 0.wav
+Processing 1226/1309: 1.wav
+Processing 1227/1309: 2.wav
+Processing 1228/1309: 21.wav
+Processing 1229/1309: 22.wav
+Processing 1230/1309: 23.wav
+Processing 1231/1309: 24.wav
+Processing 1232/1309: 25.wav
+Processing 1233/1309: 29.wav
+Processing 1234/1309: 3.wav
+Processing 1235/1309: 30.wav
+Processing 1236/1309: 31.wav
+Processing 1237/1309: 32.wav
+Processing 1238/1309: 33.wav
+Processing 1239/1309: 4.wav
+Processing 1240/1309: 030.wav
+Processing 1241/1309: 031.wav
+Processing 1242/1309: 032.wav
+Processing 1243/1309: 29.wav
+Processing 1244/1309: 30.wav
+Processing 1245/1309: 31.wav
+Processing 1246/1309: 32.wav
+Processing 1247/1309: 33.wav
+Processing 1248/1309: 34.wav
+Processing 1249/1309: 35.wav
+Processing 1250/1309: 36.wav
+Processing 1251/1309: 0.wav
+Processing 1252/1309: 01.wav
+Processing 1253/1309: 02.wav
+Processing 1254/1309: 03.wav
+Processing 1255/1309: 04.wav
+Processing 1256/1309: 1.wav
+Processing 1257/1309: 14.wav
+Processing 1258/1309: 15.wav
+Processing 1259/1309: 16.wav
+Processing 1260/1309: 17.wav
+Processing 1261/1309: 18.wav
+Processing 1262/1309: 19.wav
+Processing 1263/1309: 2.wav
+Processing 1264/1309: 20.wav
+Processing 1265/1309: 3.wav
+Processing 1266/1309: 4.wav
+Processing 1267/1309: 5.wav
+Processing 1268/1309: 6.wav
+Processing 1269/1309: 1.wav
+Processing 1270/1309: 2.wav
+Processing 1271/1309: 3.wav
+Processing 1272/1309: 4.wav
+Processing 1273/1309: 7.wav
+Processing 1274/1309: 8.wav
+Processing 1275/1309: 014.wav
+Processing 1276/1309: 14.wav
+Processing 1277/1309: 15.wav
+Processing 1278/1309: 16.wav
+Processing 1279/1309: 17.wav
+Processing 1280/1309: 18.wav
+Processing 1281/1309: 19.wav
+Processing 1282/1309: 20.wav
+Processing 1283/1309: 1.wav
+Processing 1284/1309: 29.wav
+Processing 1285/1309: 3.wav
+Processing 1286/1309: 30.wav
+Processing 1287/1309: 31.wav
+Processing 1288/1309: 4.wav
+Processing 1289/1309: 5.wav
+Processing 1290/1309: 21.wav
+Processing 1291/1309: 22.wav
+Processing 1292/1309: 23.wav
+Processing 1293/1309: 24.wav
+Processing 1294/1309: 25.wav
+Processing 1295/1309: 26.wav
+Processing 1296/1309: 0.wav
+Processing 1297/1309: 01.wav
+Processing 1298/1309: 02.wav
+Processing 1299/1309: 1.wav
+Processing 1300/1309: 14.wav
+Processing 1301/1309: 15.wav
+Processing 1302/1309: 16.wav
+Processing 1303/1309: 17.wav
+Processing 1304/1309: 18.wav
+Processing 1305/1309: 2.wav
+Processing 1306/1309: 3.wav
+Processing 1307/1309: 4.wav
+Processing 1308/1309: 5.wav
+Processing 1309/1309: 6.wav
+Successfully processed: 1309 files
+Failed to process: 0 files
+Applying quality filtering...
+Removed 0 low-quality samples
+Final dataset: 1309 samples
+Final words: 100
+Training speaker-specific models...
+Creating data splits...
+Train samples: 871
+Test samples: 438
+Train words: 100
+Test words: 100
+Common words: 100
+Train speaker distribution:
+  أحمد: 289 samples
+  هيفاء: 242 samples
+  أسيل: 196 samples
+  وسام: 96 samples
+  عاصم: 48 samples
+Test speaker distribution:
+  أحمد: 144 samples
+  هيفاء: 114 samples
+  أسيل: 107 samples
+  وسام: 53 samples
+  عاصم: 20 samples
+Training model for speaker: أحمد
+Prepared 164 features for ML
+Prepared 164 features for ML
+  Training Random_Forest for أحمد...
+    Random_Forest accuracy: 0.4444 (44.44%)
+  Training Extra_Trees for أحمد...
+    Extra_Trees accuracy: 0.4306 (43.06%)
+  Training Gradient_Boosting for أحمد...
+    Gradient_Boosting accuracy: 0.1944 (19.44%)
+  Training SVM_RBF for أحمد...
+    SVM_RBF accuracy: 0.1181 (11.81%)
+  Training Logistic_Regression for أحمد...
+    Logistic_Regression accuracy: 0.4236 (42.36%)
+Training model for speaker: عاصم
+Prepared 164 features for ML
+Prepared 164 features for ML
+  Training Random_Forest for عاصم...
+    Random_Forest accuracy: 0.6500 (65.00%)
+  Training Extra_Trees for عاصم...
+    Extra_Trees accuracy: 0.6500 (65.00%)
+  Training Gradient_Boosting for عاصم...
+    Gradient_Boosting accuracy: 0.2500 (25.00%)
+  Training SVM_RBF for عاصم...
+    SVM_RBF accuracy: 0.6000 (60.00%)
+  Training Logistic_Regression for عاصم...
+    Logistic_Regression accuracy: 0.7000 (70.00%)
+Training model for speaker: أسيل
+Prepared 164 features for ML
+Prepared 164 features for ML
+  Training Random_Forest for أسيل...
+    Random_Forest accuracy: 0.4953 (49.53%)
+  Training Extra_Trees for أسيل...
+    Extra_Trees accuracy: 0.5421 (54.21%)
+  Training Gradient_Boosting for أسيل...
+    Gradient_Boosting accuracy: 0.2336 (23.36%)
+  Training SVM_RBF for أسيل...
+    SVM_RBF accuracy: 0.2897 (28.97%)
+  Training Logistic_Regression for أسيل...
+    Logistic_Regression accuracy: 0.5888 (58.88%)
+Training model for speaker: هيفاء
+Prepared 171 features for ML
+Prepared 164 features for ML
+  Training Random_Forest for هيفاء...
+    Random_Forest accuracy: 0.3860 (38.60%)
+  Training Extra_Trees for هيفاء...
+    Extra_Trees accuracy: 0.3947 (39.47%)
+  Training Gradient_Boosting for هيفاء...
+    Gradient_Boosting accuracy: 0.1754 (17.54%)
+  Training SVM_RBF for هيفاء...
+    SVM_RBF accuracy: 0.2982 (29.82%)
+  Training Logistic_Regression for هيفاء...
+    Logistic_Regression accuracy: 0.3860 (38.60%)
+Training model for speaker: وسام
+Prepared 164 features for ML
+Prepared 164 features for ML
+  Training Random_Forest for وسام...
+    Random_Forest accuracy: 0.4528 (45.28%)
+  Training Extra_Trees for وسام...
+    Extra_Trees accuracy: 0.4340 (43.40%)
+  Training Gradient_Boosting for وسام...
+    Gradient_Boosting accuracy: 0.2830 (28.30%)
+  Training SVM_RBF for وسام...
+    SVM_RBF accuracy: 0.3585 (35.85%)
+  Training Logistic_Regression for وسام...
+    Logistic_Regression accuracy: 0.5472 (54.72%)
+Training global models...
+Creating data splits...
+Train samples: 871
+Test samples: 438
+Train words: 100
+Test words: 100
+Common words: 100
+Train speaker distribution:
+  أحمد: 289 samples
+  هيفاء: 242 samples
+  أسيل: 196 samples
+  وسام: 96 samples
+  عاصم: 48 samples
+Test speaker distribution:
+  أحمد: 144 samples
+  هيفاء: 114 samples
+  أسيل: 107 samples
+  وسام: 53 samples
+  عاصم: 20 samples
+Prepared 171 features for ML
+Prepared 164 features for ML
+Training Global_Random_Forest...
+Global_Random_Forest accuracy: 0.3973 (39.73%)
+Training Global_Extra_Trees...
+Global_Extra_Trees accuracy: 0.4498 (44.98%)
+Training Global_Gradient_Boosting...
+Global_Gradient_Boosting accuracy: 0.1598 (15.98%)
+Training Global_SVM...
+Global_SVM accuracy: 0.2854 (28.54%)
+Training Global_Logistic_Regression...
+Global_Logistic_Regression accuracy: 0.3653 (36.53%)
+Evaluating all models...
+Speaker-specific model results:
+أحمد:
+  Random_Forest: 0.4444 (44.44%)
+  Extra_Trees: 0.4306 (43.06%)
+  Gradient_Boosting: 0.1944 (19.44%)
+  SVM_RBF: 0.1181 (11.81%)
+  Logistic_Regression: 0.4236 (42.36%)
+عاصم:
+  Random_Forest: 0.6500 (65.00%)
+  Extra_Trees: 0.6500 (65.00%)
+  Gradient_Boosting: 0.2500 (25.00%)
+  SVM_RBF: 0.6000 (60.00%)
+  Logistic_Regression: 0.7000 (70.00%)
+أسيل:
+  Random_Forest: 0.4953 (49.53%)
+  Extra_Trees: 0.5421 (54.21%)
+  Gradient_Boosting: 0.2336 (23.36%)
+  SVM_RBF: 0.2897 (28.97%)
+  Logistic_Regression: 0.5888 (58.88%)
+هيفاء:
+  Random_Forest: 0.3860 (38.60%)
+  Extra_Trees: 0.3947 (39.47%)
+  Gradient_Boosting: 0.1754 (17.54%)
+  SVM_RBF: 0.2982 (29.82%)
+  Logistic_Regression: 0.3860 (38.60%)
+وسام:
+  Random_Forest: 0.4528 (45.28%)
+  Extra_Trees: 0.4340 (43.40%)
+  Gradient_Boosting: 0.2830 (28.30%)
+  SVM_RBF: 0.3585 (35.85%)
+  Logistic_Regression: 0.5472 (54.72%)
+Global model results:
+  Global_Random_Forest: 0.3973 (39.73%)
+  Global_Extra_Trees: 0.4498 (44.98%)
+  Global_Gradient_Boosting: 0.1598 (15.98%)
+  Global_SVM: 0.2854 (28.54%)
+  Global_Logistic_Regression: 0.3653 (36.53%)
+Results saved to: output_files
+Detailed results: output_files\final_speaker_specific_results.json
+Summary table: output_files\final_speaker_specific_summary.csv
+======================================================================    
+SPEAKER-SPECIFIC ASR PIPELINE COMPLETED!
+======================================================================    
+Results saved to: output_files
+====================================================================== 

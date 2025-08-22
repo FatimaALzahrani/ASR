@@ -1,0 +1,25 @@
+{
+  "description": "Sample features for testing the speech recognition system",
+  "total_samples": 257,
+  "speakers": [
+    "أحمد",
+    "عاصم",
+    "هيفاء",
+    "أسيل",
+    "وسام"
+  ],
+  "words": [
+    "ماما",
+    "بابا",
+    "ماء",
+    "خبز",
+    "حليب",
+    "كتاب",
+    "قلم",
+    "شمس",
+    "قمر",
+    "بيت"
+  ],
+  "features_count": 154,
+  "note": "This is synthetic data for testing purposes only"
+}

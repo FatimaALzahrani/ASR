@@ -1,0 +1,1352 @@
+{
+  "system_info": {
+    "timestamp": "2025-08-11T01:09:09.501201",
+    "version": "Standalone ASR System v1.0",
+    "data_statistics": {
+      "total_samples": 1309,
+      "train_samples": 399,
+      "test_samples": 156,
+      "unique_words": 100,
+      "unique_speakers": 5,
+      "feature_count": 92,
+      "word_distribution": {
+        "موز": 28,
+        "اثنين": 27,
+        "عين": 27,
+        "اربعة": 25,
+        "ثلاثة": 25,
+        "موية": 24,
+        "اشرب": 24,
+        "باب": 24,
+        "دجاج": 23,
+        "باص": 23,
+        "فيل": 23,
+        "بيض": 22,
+        "جا": 22,
+        "رز": 22,
+        "راح": 22,
+        "اكل": 22,
+        "سمك": 21,
+        "تمر": 20,
+        "تفاح": 19,
+        "خلاص": 19,
+        "نار": 19,
+        "ضوء": 18,
+        "هواء": 18,
+        "كرسي": 18,
+        "سرير": 18,
+        "نام": 17,
+        "فراش": 17,
+        "بسة": 17,
+        "حافظ": 16,
+        "شمس": 16,
+        "كبير": 16,
+        "كاس": 16,
+        "ماما": 16,
+        "بابا": 15,
+        "بيت": 15,
+        "جبل": 15,
+        "قط": 15,
+        "نور": 15,
+        "كورة": 15,
+        "علم": 15,
+        "زيت": 14,
+        "خروف": 14,
+        "السلام عليكم": 14,
+        "حليب": 14,
+        "يد": 14,
+        "مدرسة": 14,
+        "قميص": 13,
+        "كتاب": 13,
+        "خايف": 13,
+        "ذيب": 13,
+        "سبورة": 13,
+        "لبن": 12,
+        "راس": 12,
+        "لون": 12,
+        "هلال": 11,
+        "اصفر": 11,
+        "مياة": 11,
+        "خبز": 11,
+        "احمر": 10,
+        "قلم": 10,
+        "طير": 10,
+        "كلب": 10,
+        "اخ": 10,
+        "ثوب": 10,
+        "حاسب": 10,
+        "استاذة": 9,
+        "ملعب": 9,
+        "جوع": 8,
+        "مفتاح": 8,
+        "ورق": 8,
+        "صمغ": 8,
+        "ستة": 8,
+        "ظهر": 7,
+        "ولد": 7,
+        "صقر": 7,
+        "صاروخ": 7,
+        "اخت": 7,
+        "اخضر": 7,
+        "ازرق": 6,
+        "فم": 6,
+        "تفاحة": 6,
+        "اسود": 6,
+        "بطة": 6,
+        "جدة": 6,
+        "يالله": 6,
+        "واحد": 6,
+        "قلب": 6,
+        "فرحان": 6,
+        "طريق": 6,
+        "زعلان": 6,
+        "خمسة": 6,
+        "اسد": 5,
+        "عصفور": 5,
+        "جد": 5,
+        "جمل": 5,
+        "عربية": 5,
+        "معصب": 5,
+        "مستشفى": 5,
+        "تعبان": 4,
+        "لعبة": 4
+      },
+      "speaker_distribution": {
+        "أحمد": 433,
+        "هيفاء": 356,
+        "أسيل": 303,
+        "وسام": 149,
+        "عاصم": 68
+      },
+      "train_speaker_distribution": {
+        "أحمد": 195,
+        "هيفاء": 103,
+        "أسيل": 101
+      },
+      "test_speaker_distribution": {
+        "وسام": 88,
+        "عاصم": 68
+      },
+      "quality_stats": {
+        "mean_quality": 0.6319674279288339,
+        "min_quality": 0.5592109143733979,
+        "max_quality": 0.7945673126139968,
+        "std_quality": 0.044802086805563295
+      }
+    }
+  },
+  "traditional_ml_results": {
+    "Random Forest": {
+      "cv_mean": 0.4387025316455696,
+      "cv_std": 0.06399979845946474,
+      "test_accuracy": 0.10256410256410256,
+      "overfitting": 0.33613842908146707,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5714285714285714,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.16666666666666666,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.15384615384615385,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.16666666666666666,
+          "recall": 0.2,
+          "f1-score": 0.18181818181818182,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1-score": 0.6,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.3333333333333333,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.2,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.10526315789473684,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.15384615384615385,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.041666666666666664,
+          "recall": 0.125,
+          "f1-score": 0.0625,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.2727272727272727,
+          "recall": 0.5,
+          "f1-score": 0.35294117647058826,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.10256410256410256,
+        "macro avg": {
+          "precision": 0.07287745879851143,
+          "recall": 0.08876984126984126,
+          "f1-score": 0.07587934124698831,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.08358892569418885,
+          "recall": 0.10256410256410256,
+          "f1-score": 0.08659715096366681,
+          "support": 156.0
+        }
+      }
+    },
+    "SVM (RBF)": {
+      "cv_mean": 0.07765822784810125,
+      "cv_std": 0.014417118601323256,
+      "test_accuracy": 0.05128205128205128,
+      "overfitting": 0.026376176566049972,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.05555555555555555,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.10256410256410256,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.027777777777777776,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.047619047619047616,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.07142857142857142,
+          "recall": 0.5,
+          "f1-score": 0.125,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.05128205128205128,
+        "macro avg": {
+          "precision": 0.005158730158730159,
+          "recall": 0.04444444444444444,
+          "f1-score": 0.009172771672771673,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.005952380952380953,
+          "recall": 0.05128205128205128,
+          "f1-score": 0.010583967314736546,
+          "support": 156.0
+        }
+      }
+    },
+    "Logistic Regression": {
+      "cv_mean": 0.39854430379746836,
+      "cv_std": 0.029549812107857443,
+      "test_accuracy": 0.10256410256410256,
+      "overfitting": 0.29598020123336577,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1-score": 0.4444444444444444,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.07692307692307693,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.10526315789473684,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1-score": 0.6,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.13333333333333333,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.18181818181818182,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1-score": 0.25,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.14285714285714285,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.14285714285714285,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.25,
+          "recall": 0.5,
+          "f1-score": 0.3333333333333333,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.25,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.2,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.07142857142857142,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.1,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.10256410256410256,
+        "macro avg": {
+          "precision": 0.0924847374847375,
+          "recall": 0.10039682539682539,
+          "f1-score": 0.09192387534492799,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.09822720015027708,
+          "recall": 0.10256410256410256,
+          "f1-score": 0.09611022505759348,
+          "support": 156.0
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "cv_mean": 0.32819620253164555,
+      "cv_std": 0.03558563651303001,
+      "test_accuracy": 0.10897435897435898,
+      "overfitting": 0.21922184355728658,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.0625,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.08695652173913043,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.3,
+          "recall": 0.6,
+          "f1-score": 0.4,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.09090909090909091,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.11764705882352941,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1-score": 0.2,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.2222222222222222,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.25,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.14285714285714285,
+          "recall": 0.2,
+          "f1-score": 0.16666666666666666,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.16666666666666666,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.21052631578947367,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.09090909090909091,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.11764705882352941,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.2,
+          "recall": 0.6,
+          "f1-score": 0.3,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.10897435897435898,
+        "macro avg": {
+          "precision": 0.0658688071188071,
+          "recall": 0.09936507936507936,
+          "f1-score": 0.07498145406141098,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.07349305786805786,
+          "recall": 0.10897435897435898,
+          "f1-score": 0.0831889609097174,
+          "support": 156.0
+        }
+      }
+    },
+    "Decision Tree": {
+      "cv_mean": 0.19031645569620254,
+      "cv_std": 0.05347206126870655,
+      "test_accuracy": 0.07692307692307693,
+      "overfitting": 0.11339337877312561,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.2,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.18181818181818182,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.125,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.17391304347826086,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.3333333333333333,
+          "recall": 0.6,
+          "f1-score": 0.42857142857142855,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.058823529411764705,
+          "recall": 0.5,
+          "f1-score": 0.10526315789473684,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.16666666666666666,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.21052631578947367,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1-score": 0.5,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.07692307692307693,
+        "macro avg": {
+          "precision": 0.04612745098039216,
+          "recall": 0.07793650793650793,
+          "f1-score": 0.05333640425173606,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.051448592257415784,
+          "recall": 0.07692307692307693,
+          "f1-score": 0.05856005169506313,
+          "support": 156.0
+        }
+      }
+    },
+    "K-Nearest Neighbors": {
+      "cv_mean": 0.18294303797468356,
+      "cv_std": 0.018550998921022927,
+      "test_accuracy": 0.019230769230769232,
+      "overfitting": 0.1637122687439143,
+      "classification_report": {
+        "اثنين": {
+          "precision": 0.1,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.125,
+          "support": 6.0
+        },
+        "اربعة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اشرب": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "اكل": {
+          "precision": 0.058823529411764705,
+          "recall": 0.2,
+          "f1-score": 0.09090909090909091,
+          "support": 5.0
+        },
+        "السلام عليكم": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "باب": {
+          "precision": 0.041666666666666664,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.06666666666666667,
+          "support": 6.0
+        },
+        "باص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "بيض": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "تمر": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ثلاثة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "جا": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "حافظ": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خروف": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "خلاص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "خمسة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "راح": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "ستة": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "سرير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "سمك": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "عين": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 7.0
+        },
+        "فراش": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "فيل": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قط": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "قميص": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كاس": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "كبير": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "موز": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "نور": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "واحد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "ولد": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.019230769230769232,
+        "macro avg": {
+          "precision": 0.006683006535947712,
+          "recall": 0.017777777777777778,
+          "f1-score": 0.009419191919191919,
+          "support": 156.0
+        },
+        "weighted avg": {
+          "precision": 0.0073340874811463055,
+          "recall": 0.019230769230769232,
+          "f1-score": 0.010285547785547786,
+          "support": 156.0
+        }
+      }
+    }
+  },
+  "recommendations": [
+    "This system provides honest, realistic results for Arabic speech recognition.",
+    "Speaker-independent evaluation ensures proper generalization assessment.",
+    "Quality filtering removes poor recordings for better model training.",
+    "Results are suitable for academic publication with proper methodology."
+  ]
+}

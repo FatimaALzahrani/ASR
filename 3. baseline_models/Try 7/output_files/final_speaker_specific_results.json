@@ -1,0 +1,44 @@
+{
+  "Speaker_أحمد": {
+    "Random_Forest": 0.4444444444444444,
+    "Extra_Trees": 0.4305555555555556,
+    "Gradient_Boosting": 0.19444444444444445,
+    "SVM_RBF": 0.11805555555555555,
+    "Logistic_Regression": 0.4236111111111111
+  },
+  "Speaker_عاصم": {
+    "Random_Forest": 0.65,
+    "Extra_Trees": 0.65,
+    "Gradient_Boosting": 0.25,
+    "SVM_RBF": 0.6,
+    "Logistic_Regression": 0.7
+  },
+  "Speaker_أسيل": {
+    "Random_Forest": 0.4953271028037383,
+    "Extra_Trees": 0.5420560747663551,
+    "Gradient_Boosting": 0.2336448598130841,
+    "SVM_RBF": 0.2897196261682243,
+    "Logistic_Regression": 0.5887850467289719
+  },
+  "Speaker_هيفاء": {
+    "Random_Forest": 0.38596491228070173,
+    "Extra_Trees": 0.39473684210526316,
+    "Gradient_Boosting": 0.17543859649122806,
+    "SVM_RBF": 0.2982456140350877,
+    "Logistic_Regression": 0.38596491228070173
+  },
+  "Speaker_وسام": {
+    "Random_Forest": 0.4528301886792453,
+    "Extra_Trees": 0.4339622641509434,
+    "Gradient_Boosting": 0.2830188679245283,
+    "SVM_RBF": 0.3584905660377358,
+    "Logistic_Regression": 0.5471698113207547
+  },
+  "Global_Models": {
+    "Global_Random_Forest": 0.3972602739726027,
+    "Global_Extra_Trees": 0.4497716894977169,
+    "Global_Gradient_Boosting": 0.1598173515981735,
+    "Global_SVM": 0.2853881278538813,
+    "Global_Logistic_Regression": 0.365296803652968
+  }
+}

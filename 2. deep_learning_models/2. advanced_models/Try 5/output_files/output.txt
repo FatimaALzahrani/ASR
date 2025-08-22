@@ -1,0 +1,366 @@
+      
+(tf_env) PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\2. advanced_models\Try 5> python main.py
+No arguments provided, starting interactive mode...
+For help: python main.py --help
+
+Train system (t) or interactive mode (i)? [t/i]: t      
+Using CPU for training
+Starting deep learning model training...
+Starting ASR system evaluation with advanced deep learning...
+================================================================================
+Loading audio data and extracting features...
+Processing word: اثنين
+  Loaded 27 samples for 'اثنين'
+Processing word: احمر
+  Loaded 10 samples for 'احمر'
+Processing word: اخ
+  Loaded 10 samples for 'اخ'
+Processing word: اخت
+  Loaded 7 samples for 'اخت'
+Processing word: اخضر
+  Loaded 7 samples for 'اخضر'
+Processing word: اربعة
+  Loaded 25 samples for 'اربعة'
+Processing word: ازرق
+  Loaded 6 samples for 'ازرق'
+Processing word: استاذة
+  Loaded 9 samples for 'استاذة'
+Processing word: اسد
+  Loaded 5 samples for 'اسد'
+Processing word: اسود
+  Loaded 6 samples for 'اسود'
+Processing word: اشرب
+  Loaded 24 samples for 'اشرب'
+Processing word: اصفر
+  Loaded 11 samples for 'اصفر'
+Processing word: اكل
+  Loaded 22 samples for 'اكل'
+Processing word: السلام عليكم
+  Loaded 14 samples for 'السلام عليكم'
+Processing word: باب
+  Loaded 24 samples for 'باب'
+Processing word: بابا
+  Loaded 15 samples for 'بابا'
+Processing word: باص
+  Loaded 23 samples for 'باص'
+Processing word: بسة
+  Loaded 17 samples for 'بسة'
+Processing word: بطة
+  Loaded 6 samples for 'بطة'
+Processing word: بيت
+  Loaded 15 samples for 'بيت'
+Processing word: بيض
+  Loaded 22 samples for 'بيض'
+Processing word: تعبان
+  Loaded 4 samples for 'تعبان'
+Processing word: تفاح
+  Loaded 19 samples for 'تفاح'
+Processing word: تفاحة
+  Loaded 6 samples for 'تفاحة'
+Processing word: تمر
+  Loaded 20 samples for 'تمر'
+Processing word: ثلاثة
+  Loaded 25 samples for 'ثلاثة'
+Processing word: ثوب
+  Loaded 10 samples for 'ثوب'
+Processing word: جا
+  Loaded 22 samples for 'جا'
+Processing word: جبل
+  Loaded 15 samples for 'جبل'
+Processing word: جد
+  Loaded 5 samples for 'جد'
+Processing word: جدة
+  Loaded 6 samples for 'جدة'
+Processing word: جمل
+  Loaded 5 samples for 'جمل'
+Processing word: جوع
+  Loaded 8 samples for 'جوع'
+Processing word: حاسب
+  Loaded 10 samples for 'حاسب'
+Processing word: حافظ
+  Loaded 16 samples for 'حافظ'
+Processing word: حليب
+  Loaded 14 samples for 'حليب'
+Processing word: خايف
+  Loaded 13 samples for 'خايف'
+Processing word: خبز
+  Loaded 11 samples for 'خبز'
+Processing word: خروف
+  Loaded 14 samples for 'خروف'
+Processing word: خلاص
+  Loaded 19 samples for 'خلاص'
+Processing word: خمسة
+  Loaded 6 samples for 'خمسة'
+Processing word: دجاج
+  Loaded 23 samples for 'دجاج'
+Processing word: ذيب
+  Loaded 13 samples for 'ذيب'
+Processing word: راح
+  Loaded 22 samples for 'راح'
+Processing word: راس
+  Loaded 12 samples for 'راس'
+Processing word: رز
+  Loaded 22 samples for 'رز'
+Processing word: زعلان
+  Loaded 6 samples for 'زعلان'
+Processing word: زيت
+  Loaded 14 samples for 'زيت'
+Processing word: سبورة
+  Loaded 13 samples for 'سبورة'
+Processing word: ستة
+  Loaded 8 samples for 'ستة'
+Processing word: سرير
+  Loaded 18 samples for 'سرير'
+Processing word: سمك
+  Loaded 21 samples for 'سمك'
+Processing word: شمس
+  Loaded 16 samples for 'شمس'
+Processing word: صاروخ
+  Loaded 7 samples for 'صاروخ'
+Processing word: صقر
+  Loaded 7 samples for 'صقر'
+Processing word: صمغ
+  Loaded 8 samples for 'صمغ'
+Processing word: ضوء
+  Loaded 18 samples for 'ضوء'
+Processing word: طريق
+  Loaded 6 samples for 'طريق'
+Processing word: طير
+  Loaded 10 samples for 'طير'
+Processing word: ظهر
+  Loaded 7 samples for 'ظهر'
+Processing word: عربية
+  Loaded 5 samples for 'عربية'
+Processing word: عصفور
+  Loaded 5 samples for 'عصفور'
+Processing word: علم
+  Loaded 15 samples for 'علم'
+Processing word: عين
+  Loaded 27 samples for 'عين'
+Processing word: فراش
+  Loaded 17 samples for 'فراش'
+Processing word: فرحان
+  Loaded 6 samples for 'فرحان'
+Processing word: فم
+  Loaded 6 samples for 'فم'
+Processing word: فيل
+  Loaded 23 samples for 'فيل'
+Processing word: قط
+  Loaded 15 samples for 'قط'
+Processing word: قلب
+  Loaded 6 samples for 'قلب'
+Processing word: قلم
+  Loaded 10 samples for 'قلم'
+Processing word: قميص
+  Loaded 13 samples for 'قميص'
+Processing word: كاس
+  Loaded 16 samples for 'كاس'
+Processing word: كبير
+  Loaded 16 samples for 'كبير'
+Processing word: كتاب
+  Loaded 13 samples for 'كتاب'
+Processing word: كرسي
+  Loaded 18 samples for 'كرسي'
+Processing word: كلب
+  Loaded 10 samples for 'كلب'
+Processing word: كورة
+  Loaded 15 samples for 'كورة'
+Processing word: لبن
+  Loaded 12 samples for 'لبن'
+Processing word: لعبة
+  Loaded 4 samples for 'لعبة'
+Processing word: لون
+  Loaded 12 samples for 'لون'
+Processing word: ماما
+  Loaded 16 samples for 'ماما'
+Processing word: مدرسة
+  Loaded 14 samples for 'مدرسة'
+Processing word: مستشفى
+  Loaded 5 samples for 'مستشفى'
+Processing word: معصب
+  Loaded 5 samples for 'معصب'
+Processing word: مفتاح
+  Loaded 8 samples for 'مفتاح'
+Processing word: ملعب
+  Loaded 9 samples for 'ملعب'
+Processing word: موز
+  Loaded 28 samples for 'موز'
+Processing word: موية
+  Loaded 24 samples for 'موية'
+Processing word: مياة
+  Loaded 11 samples for 'مياة'
+Processing word: نار
+  Loaded 19 samples for 'نار'
+Processing word: نام
+  Loaded 17 samples for 'نام'
+Processing word: نور
+  Loaded 15 samples for 'نور'
+Excluding word: نوم
+Processing word: هلال
+  Loaded 11 samples for 'هلال'
+Processing word: هواء
+  Loaded 18 samples for 'هواء'
+Processing word: واحد
+  Loaded 6 samples for 'واحد'
+Processing word: ورق
+  Loaded 8 samples for 'ورق'
+Processing word: ولد
+  Loaded 7 samples for 'ولد'
+Processing word: يالله
+  Loaded 6 samples for 'يالله'
+Processing word: يد
+  Loaded 14 samples for 'يد'
+
+Dataset Summary:
+Total samples: 1309
+Total words: 100
+Total speakers: 5
+
+Top 10 words:
+  موز: 28 samples
+  اثنين: 27 samples
+  عين: 27 samples
+  اربعة: 25 samples
+  ثلاثة: 25 samples
+  اشرب: 24 samples
+  باب: 24 samples
+  موية: 24 samples
+  باص: 23 samples
+  دجاج: 23 samples
+
+Speaker distribution:
+  Ahmed: 433 samples, 59 words
+  Asem: 68 samples, 16 words
+  Haifa: 356 samples, 56 words
+  Aseel: 303 samples, 58 words
+  Wessam: 149 samples, 22 words
+Testing different scaling methods...
+  StandardScaler: 0.3168
+  RobustScaler: 0.2137
+  MinMaxScaler: 0.0687
+  Normalizer: 0.0267
+  PowerTransformer: 0.3092
+  QuantileTransformer: 0.1260
+
+Dataset Information:
+  Samples: 1,309
+  Features: 507
+  Words: 100
+  Speakers: 5
+  Best scaler: StandardScaler
+  Best scaler score: 0.3168
+
+Applying intelligent data balancing...
+Applying data balancing...
+Original distribution: 100 classes
+  Min: 4, Max: 28, Mean: 13.1
+SMOTE applied: 1309 -> 2800 samples
+After balancing: 2,800 samples
+
+Training advanced deep learning models...
+Training deep learning models...
+======================================================================
+
+1. Training Advanced CNN...
+Advanced CNN: 0.7821
+
+2. Training LSTM with Attention...
+WARNING:tensorflow:From C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\2. advanced_models\Try 7\tf_env\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+LSTM with Attention: 0.8446
+
+3. Training Transformer...
+Transformer: 0.5982
+
+4. Training Hybrid ResNet-LSTM...
+Hybrid ResNet-LSTM: 0.8821
+
+5. Training Autoencoder + Classifier...
+Autoencoder + Classifier: 0.8929
+
+6. Training PyTorch CNN...
+Training PyTorch CNN...
+Epoch 0, Loss: 4.5076
+Epoch 10, Loss: 1.8262
+Epoch 20, Loss: 0.7954
+Epoch 30, Loss: 0.4595
+Epoch 40, Loss: 0.2835
+PyTorch CNN Accuracy: 0.8018
+PyTorch CNN: 0.8018
+
+7. Creating Advanced Ensemble...
+Advanced Ensemble: 0.8857
+Training advanced models...
+
+1. Training Conformer...
+Error in Conformer: The total size of the tensor must be unchanged. Received: input_shape=(507,), target_shape=(31, 16)
+
+2. Training WaveNet...
+WaveNet: 0.7179
+
+3. Training Capsule Network...
+Error in Capsule Network: The total size of the tensor must be unchanged. Received: input_shape=(7872, 1600), target_shape=(100, 16)
+Saved Advanced_CNN to output_files\Advanced_CNN_model.keras
+Saved LSTM_Attention to output_files\LSTM_Attention_model.keras
+Saved Transformer to output_files\Transformer_model.keras
+Saved Hybrid_ResNet_LSTM to output_files\Hybrid_ResNet_LSTM_model.keras
+Saved Autoencoder_Classifier to output_files\Autoencoder_Classifier_model.keras
+Saved WaveNet_Advanced to output_files\WaveNet_Advanced_model.keras
+
+================================================================================
+ASR System Evaluation Results with Advanced Deep Learning
+================================================================================
+
+Dataset Information:
+   Samples: 1,309 -> 2,800
+   Features: 507
+   Words: 100
+   Speakers: 5
+   Scaler: StandardScaler
+
+Accuracy Statistics:
+   Maximum: 89.29%
+   Mean: 64.05%
+   Median: 79.20%
+   Minimum: 0.00%
+   Standard Deviation: 33.14%
+
+Best Result:
+   Model: Autoencoder_Classifier
+   Accuracy: 89.29%
+   Improvement: +39.29%
+
+Model Rankings (by accuracy):
+   1st Autoencoder_Classifier        :  89.29% (Very Good)
+   2nd Advanced_Ensemble             :  88.57% (Very Good)
+   3rd Hybrid_ResNet_LSTM            :  88.21% (Very Good)
+   4th LSTM_Attention                :  84.46% (Very Good)
+   5th PyTorch_CNN                   :  80.18% (Very Good)
+
+System Information:
+   TensorFlow: 2.20.0
+   GPU Available: No
+
+Training Summary:
+   Models Trained: 10
+   Successful Models: 8
+   Average Accuracy: 64.05%
+
+Saved Files:
+   Results: deep_learning_asr_results.json
+   Models: deep_learning_models.pkl
+   Individual Models: *_model.keras
+================================================================================
+Evaluation completed successfully! Best accuracy: 89.29%
+================================================================================
+
+Training completed successfully!
+Best model: Autoencoder_Classifier
+Best accuracy: 89.29%
+Results saved in: output_files
+Training time: 110.58 minutes
+
+Training Statistics:
+   Models trained: 10
+   Successful models: 8
+   Success rate: 80.0%

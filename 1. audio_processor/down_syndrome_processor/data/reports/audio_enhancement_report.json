@@ -1,0 +1,24 @@
+{
+  "processing_summary": {
+    "total_files_processed": 1310,
+    "microphone_recordings": 315,
+    "computer_recordings": 995,
+    "success_rate": "100.0%"
+  },
+  "enhancement_techniques_applied": {
+    "noise_reduction": 1310,
+    "volume_enhancement": 1310,
+    "articulation_improvement": 1310
+  },
+  "quality_improvements": {
+    "average_snr_improvement_db": -27.81,
+    "average_volume_improvement": 0.52,
+    "average_clipping_reduction": 0.0006
+  },
+  "down_syndrome_specific_enhancements": {
+    "low_frequency_emphasis": true,
+    "gentle_normalization": true,
+    "articulation_enhancement": true,
+    "breathing_noise_reduction": true
+  }
+}

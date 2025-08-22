@@ -1,0 +1,14 @@
+{
+  "strategies": {
+    "single_sample_words": 0,
+    "small_words_2_4": 5,
+    "medium_words_5_15": 63,
+    "large_words_15+": 32
+  },
+  "advice": [
+    "Use simple split for 5 small words (2-4 samples)",
+    "Use train/test split for 63 medium words (5-15 samples)",
+    "Use full train/val/test split for 32 large words (15+ samples)"
+  ],
+  "recommended_approach": "adaptive_splitting_by_word_size"
+}

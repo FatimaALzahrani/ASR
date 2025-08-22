@@ -1,0 +1,165 @@
+
+Starting ASR System...
+Starting ASR System Evaluation
+==================================================
+Loading data with feature extraction...
+Processing word: اثنين
+Processing word: احمر
+Processing word: اخ
+Processing word: اخت
+Processing word: اخضر
+Processing word: اربعة
+Processing word: ازرق
+Processing word: استاذة
+Processing word: اسد
+Processing word: اسود
+Processing word: اشرب
+Processing word: اصفر
+Processing word: اكل
+Processing word: باب
+Processing word: بابا
+Processing word: باص
+Processing word: بسة
+Processing word: بطة
+Processing word: بيت
+Processing word: بيض
+Processing word: تعبان
+Processing word: تفاح
+Processing word: تفاحة
+Processing word: تمر
+Processing word: ثلاثة
+Processing word: ثوب
+Processing word: جا
+Processing word: جبل
+Processing word: جد
+Processing word: جدة
+Processing word: جمل
+Processing word: جوع
+Processing word: حاسب
+Processing word: حافظ
+Processing word: حليب
+Processing word: خايف
+Processing word: خبز
+Processing word: خروف
+Processing word: خلاص
+Processing word: خمسة
+Processing word: دجاج
+Processing word: ذيب
+Processing word: راح
+Processing word: راس
+Processing word: رز
+Processing word: زعلان
+Processing word: زيت
+Processing word: سبورة
+Processing word: ستة
+Processing word: سرير
+Processing word: سمك
+Processing word: شمس
+Processing word: صاروخ
+Processing word: صقر
+Processing word: صمغ
+Processing word: ضوء
+Processing word: طريق
+Processing word: طير
+Processing word: ظهر
+Processing word: عربية
+Processing word: عصفور
+Processing word: علم
+Processing word: عين
+Processing word: فراش
+Processing word: فرحان
+Processing word: فم
+Processing word: فيل
+Processing word: قط
+Processing word: قلب
+Processing word: قلم
+Processing word: قميص
+Processing word: كاس
+Processing word: كبير
+Processing word: كتاب
+Processing word: كرسي
+Processing word: كلب
+Processing word: كورة
+Processing word: لبن
+Processing word: لعبة
+Processing word: لون
+Processing word: ماما
+Processing word: مدرسة
+Processing word: مستشفى
+Processing word: معصب
+Processing word: مفتاح
+Processing word: ملعب
+Processing word: موز
+Processing word: موية
+Processing word: مياة
+Processing word: نار
+Processing word: نام
+Processing word: نور
+Processing word: هلال
+Processing word: هواء
+Processing word: واحد
+Processing word: ورق
+Processing word: ولد
+Processing word: يالله
+Processing word: يد
+Dataset loaded: 1295 samples with 1325 features
+Applying smart balancing...
+Balanced: 1295 → 2044 samples
+
+Dataset Information:
+Samples: 2044
+Features: 1325
+Words: 99
+Speakers: 6
+Training general models...
+Training RandomForest...
+RandomForest: 68.46%
+Training ExtraTrees...
+ExtraTrees: 72.37%
+Training XGBoost...
+
+
+
+
+
+Processing word: موز
+Processing word: موية
+Processing word: مياة
+Processing word: نار
+Processing word: موز
+Processing word: موية
+Processing word: مياة
+Processing word: موز
+Processing word: موز
+Processing word: موية
+Processing word: مياة
+Processing word: نار
+Processing word: نام
+Processing word: نور
+Processing word: هلال
+Processing word: هواء
+Processing word: واحد
+Processing word: ورق
+Processing word: ولد
+Processing word: يالله
+Processing word: يد
+Dataset loaded: 1295 samples with 1325 features
+Applying smart balancing...
+Balanced: 1295 → 2044 samples
+
+Dataset Information:
+Samples: 2044
+Features: 1325
+Words: 99
+Speakers: 6
+Training general models...
+Training RandomForest...
+RandomForest: 68.46%
+Training ExtraTrees...
+ExtraTrees: 72.37%
+Training XGBoost...
+XGBoost: 56.97%
+Training SVM...
+SVM error: Input X contains NaN.
+SVC does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+Training LightGBM...

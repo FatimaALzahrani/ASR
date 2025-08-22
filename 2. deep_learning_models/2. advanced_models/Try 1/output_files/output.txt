@@ -1,0 +1,107 @@
+Using device: cpu
+Complete Fixed Training System for Down Syndrome Children Speech Recognition
+======================================================================
+Loading processed data...
+Train: 891 samples
+Validation: 84 samples
+Test: 237 samples
+Encoder setup for 100 words
+Starting comprehensive fixed training...
+======================================================================
+Running baseline model comparison...
+Preparing k-NN data...
+Processing train: 100/891
+Processing train: 200/891
+Processing train: 300/891
+Processing train: 400/891
+Processing train: 500/891
+Processing train: 600/891
+Processing train: 700/891
+Processing train: 800/891
+Processing test: 50/237
+Processing test: 100/237
+Processing test: 150/237
+Processing test: 200/237
+Training k-NN...
+k-NN accuracy: 0.1941
+
+k-NN performance by speaker:
+
+==================================================
+Training HMM-DNN
+==================================================
+Creating data loaders for features: mfcc
+Training model hmm_dnn...
+Epoch 1/30: Train Acc=0.0157, Val Acc=0.0476, Loss=4.5685
+Epoch 6/30: Train Acc=0.0932, Val Acc=0.1190, Loss=3.5806
+Epoch 11/30: Train Acc=0.2480, Val Acc=0.2381, Loss=2.9319
+Epoch 16/30: Train Acc=0.4074, Val Acc=0.3095, Loss=2.4862
+Epoch 21/30: Train Acc=0.5275, Val Acc=0.3452, Loss=2.0779
+Epoch 26/30: Train Acc=0.6319, Val Acc=0.3929, Loss=1.7531
+Best accuracy for hmm_dnn: 0.4405
+
+Performance of HMM-DNN by speaker:
+  وسام: 0.4000 (30 samples)
+  عاصم: 0.5000 (10 samples)
+  هيفاء: 0.3617 (47 samples)
+  أسيل: 0.4423 (52 samples)
+  أحمد: 0.4184 (98 samples)
+
+==================================================
+Training RNN-CNN
+==================================================
+Creating data loaders for features: combined
+Training model rnn_cnn...
+Epoch 1/35: Train Acc=0.0135, Val Acc=0.0119, Loss=4.7306
+Epoch 6/35: Train Acc=0.0797, Val Acc=0.0833, Loss=4.0228
+Epoch 11/35: Train Acc=0.1661, Val Acc=0.1071, Loss=3.3401
+Epoch 16/35: Train Acc=0.2649, Val Acc=0.1667, Loss=2.8325
+Epoch 21/35: Train Acc=0.4209, Val Acc=0.2857, Loss=2.1105
+Epoch 26/35: Train Acc=0.5982, Val Acc=0.3452, Loss=1.6376
+Epoch 31/35: Train Acc=0.6925, Val Acc=0.3571, Loss=1.3094
+Best accuracy for rnn_cnn: 0.3929
+
+Performance of RNN-CNN by speaker:
+  وسام: 0.4333 (30 samples)
+  عاصم: 0.5000 (10 samples)
+  هيفاء: 0.2979 (47 samples)
+  أسيل: 0.4038 (52 samples)
+  أحمد: 0.3367 (98 samples)
+
+==================================================
+Training End-to-End
+==================================================
+Creating data loaders for features: mel_spectrogram
+Training model end_to_end...
+Epoch 1/25: Train Acc=0.0213, Val Acc=0.0119, Loss=4.6426
+Epoch 6/25: Train Acc=0.0483, Val Acc=0.0595, Loss=4.0880
+Epoch 11/25: Train Acc=0.0752, Val Acc=0.0952, Loss=3.7828
+Epoch 16/25: Train Acc=0.0864, Val Acc=0.1429, Loss=3.6378
+Epoch 21/25: Train Acc=0.1077, Val Acc=0.1190, Loss=3.4835
+Best accuracy for end_to_end: 0.1548
+
+Performance of End-to-End by speaker:
+  وسام: 0.2667 (30 samples)
+  عاصم: 0.2000 (10 samples)
+  هيفاء: 0.1702 (47 samples)
+  أسيل: 0.0962 (52 samples)
+  أحمد: 0.1020 (98 samples)
+
+======================================================================
+Final Results:
+======================================================================
+1. HMM-DNN: 0.4135 (41.35%)
+2. RNN-CNN: 0.3629 (36.29%)
+3. Baseline k-NN: 0.1941 (19.41%)
+4. End-to-End: 0.1392 (13.92%)
+
+Best model: HMM-DNN
+Best accuracy: 0.4135
+
+Generated files:
+• fixed_hmm_dnn_best.pth - HMM-DNN model
+• fixed_rnn_cnn_best.pth - RNN-CNN model
+• fixed_end_to_end_best.pth - End-to-End model
+• fixed_training_results.json - Comprehensive results
+
+Training completed successfully!

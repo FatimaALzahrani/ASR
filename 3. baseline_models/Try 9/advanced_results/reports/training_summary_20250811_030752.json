@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-08-11T03:07:52.481531",
+  "total_models": 4,
+  "successful_models": 0,
+  "success_rate": 0.0,
+  "results": {
+    "acoustic_model": {
+      "success": false,
+      "error": "Training failed"
+    },
+    "language_model": {
+      "success": false,
+      "error": "Training failed"
+    },
+    "corrector_model": {
+      "success": false,
+      "error": "Training failed"
+    },
+    "ensemble_model": {
+      "success": false,
+      "error": "Training failed"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+
+============================================================
+Using device: cpu
+Loading data...
+Loaded 1310 samples
+101 unique words
+5 speakers
+Setting up encoders...
+Original data: 1310 samples, 101 words
+Filtered data: 1309 samples, 100 words
+Word encoder setup for 100 words
+Speaker encoder setup for 5 speakers
+Starting rapid model training...
+============================================================
+Training basic model...
+Creating data loaders...
+Training data: 1047 samples
+Testing data: 262 samples
+Epoch 1/8, Batch 0, Loss: 4.6084
+Epoch 1/8, Batch 10, Loss: 4.6006
+Epoch 1/8, Batch 20, Loss: 4.4999
+Epoch 1/8, Batch 30, Loss: 4.4858
+Epoch 1: Loss=4.5509, Accuracy=0.0115
+Epoch 2/8, Batch 0, Loss: 4.4883
+Epoch 2/8, Batch 10, Loss: 4.4058
+Epoch 2/8, Batch 20, Loss: 4.3327
+Epoch 2/8, Batch 30, Loss: 4.1099
+Epoch 2: Loss=4.2770, Accuracy=0.0496
+Epoch 3/8, Batch 0, Loss: 4.0307
+Epoch 3/8, Batch 10, Loss: 4.1670
+Epoch 3/8, Batch 20, Loss: 4.3751
+Epoch 3/8, Batch 30, Loss: 3.9736
+Epoch 3: Loss=4.0064, Accuracy=0.1069
+Epoch 4/8, Batch 0, Loss: 3.8846
+Epoch 4/8, Batch 10, Loss: 3.8058
+Epoch 4/8, Batch 20, Loss: 3.6156
+Epoch 4/8, Batch 30, Loss: 3.7412
+Epoch 4: Loss=3.7503, Accuracy=0.0954
+Epoch 5/8, Batch 0, Loss: 3.2723
+Epoch 5/8, Batch 10, Loss: 3.7588
+Epoch 5/8, Batch 20, Loss: 3.4213
+Epoch 5/8, Batch 30, Loss: 3.6411
+Epoch 5: Loss=3.6231, Accuracy=0.1527
+Epoch 6/8, Batch 0, Loss: 3.3372
+Epoch 6/8, Batch 10, Loss: 3.4653
+Epoch 6/8, Batch 20, Loss: 3.5515
+Epoch 6/8, Batch 30, Loss: 3.4452
+Epoch 6: Loss=3.4326, Accuracy=0.1450
+Epoch 7/8, Batch 0, Loss: 3.6279
+Epoch 7/8, Batch 10, Loss: 3.3082
+Epoch 7/8, Batch 20, Loss: 3.2366
+Epoch 7/8, Batch 30, Loss: 3.4226
+Epoch 7: Loss=3.3377, Accuracy=0.1794
+Epoch 8/8, Batch 0, Loss: 3.2035
+Epoch 8/8, Batch 10, Loss: 3.4192
+Epoch 8/8, Batch 20, Loss: 3.2237
+Epoch 8/8, Batch 30, Loss: 3.2600
+Epoch 8: Loss=3.2721, Accuracy=0.1718
+Best basic model accuracy: 0.1794
+Detailed evaluation for basic model...
+Creating data loaders...
+Training data: 1047 samples
+Testing data: 262 samples
+Overall accuracy: 0.1718
+Detailed evaluation saved to: detailed_results_basic.json
+
+============================================================
+Training personalized model...
+Creating data loaders...
+Training data: 1047 samples
+Testing data: 262 samples
+Epoch 1/12, Batch 0, Loss: 4.5644
+Epoch 1/12, Batch 10, Loss: 4.7503
+Epoch 1/12, Batch 20, Loss: 4.4678
+Epoch 1/12, Batch 30, Loss: 4.4879
+Epoch 1: Loss=4.5767, Accuracy=0.0649
+Epoch 2/12, Batch 0, Loss: 4.4622
+Epoch 2/12, Batch 10, Loss: 4.4351
+Epoch 2/12, Batch 20, Loss: 4.2989
+Epoch 2/12, Batch 30, Loss: 4.2545
+Epoch 2: Loss=4.3472, Accuracy=0.0687
+Epoch 3/12, Batch 0, Loss: 4.1617
+Epoch 3/12, Batch 10, Loss: 4.1090
+Epoch 3/12, Batch 20, Loss: 3.8886
+Epoch 3/12, Batch 30, Loss: 4.2210
+Epoch 3: Loss=4.0908, Accuracy=0.0954
+Epoch 4/12, Batch 0, Loss: 4.0843
+Epoch 4/12, Batch 10, Loss: 3.9186
+Epoch 4/12, Batch 20, Loss: 3.8251
+Epoch 4/12, Batch 30, Loss: 3.6985
+Epoch 4: Loss=3.8854, Accuracy=0.1107
+Epoch 5/12, Batch 0, Loss: 3.8723
+Epoch 5/12, Batch 10, Loss: 3.8151
+Epoch 5/12, Batch 20, Loss: 3.6224
+Epoch 5/12, Batch 30, Loss: 3.7984
+Epoch 5: Loss=3.7224, Accuracy=0.1145
+Epoch 6/12, Batch 0, Loss: 3.5892
+Epoch 6/12, Batch 10, Loss: 3.8868
+Epoch 6/12, Batch 20, Loss: 3.5926
+Epoch 6/12, Batch 30, Loss: 3.3385
+Epoch 6: Loss=3.6238, Accuracy=0.1489
+Epoch 7/12, Batch 0, Loss: 3.2616
+Epoch 7/12, Batch 10, Loss: 3.4175
+Epoch 7/12, Batch 20, Loss: 3.3267
+Epoch 7/12, Batch 30, Loss: 3.7412
+Epoch 7: Loss=3.4967, Accuracy=0.1794
+Epoch 8/12, Batch 0, Loss: 3.6506
+Epoch 8/12, Batch 10, Loss: 3.2119
+Epoch 8/12, Batch 20, Loss: 3.1743
+Epoch 8/12, Batch 30, Loss: 3.6061
+Epoch 8: Loss=3.3469, Accuracy=0.1718
+Epoch 9/12, Batch 0, Loss: 3.3445
+Epoch 9/12, Batch 10, Loss: 3.2978
+Epoch 9/12, Batch 20, Loss: 3.3392
+Epoch 9/12, Batch 30, Loss: 3.4663
+Epoch 9: Loss=3.3173, Accuracy=0.1908
+Epoch 10/12, Batch 0, Loss: 3.5496
+Epoch 10/12, Batch 10, Loss: 3.4523
+Epoch 10/12, Batch 20, Loss: 3.0971
+Epoch 10/12, Batch 30, Loss: 3.3099
+Epoch 10: Loss=3.2800, Accuracy=0.1679
+Epoch 11/12, Batch 0, Loss: 3.2838
+Epoch 11/12, Batch 10, Loss: 3.1387
+Epoch 11/12, Batch 20, Loss: 3.4555
+Epoch 11/12, Batch 30, Loss: 2.9881
+Epoch 11: Loss=3.1993, Accuracy=0.1985
+Epoch 12/12, Batch 0, Loss: 3.1428
+Epoch 12/12, Batch 10, Loss: 3.0748
+Epoch 12/12, Batch 20, Loss: 3.2536
+Epoch 12/12, Batch 30, Loss: 3.0248
+Epoch 12: Loss=3.1273, Accuracy=0.2061
+Best personalized model accuracy: 0.2061
+Detailed evaluation for personalized model...
+Creating data loaders...
+Training data: 1047 samples
+Testing data: 262 samples
+Overall accuracy: 0.2061
+Detailed evaluation saved to: detailed_results_personalized.json
+
+============================================================
+Rapid training completed successfully!
+Basic model: 0.1794
+Personalized model: 0.2061
+Improvement: +0.0267 (14.9%)
+
+Training completed successfully!
+Generated files:
+• best_basic_model.pth - Best basic model
+• best_personalized_model.pth - Best personalized model
+• detailed_results_basic.json - Basic model results
+• detailed_results_personalized.json - Personalized model results
+• rapid_training_summary.json - Training summary

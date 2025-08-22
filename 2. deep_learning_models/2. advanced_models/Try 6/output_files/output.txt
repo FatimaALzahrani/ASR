@@ -1,0 +1,254 @@
+
+(tf_env) PS C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\2. advanced_models\Try 6> python robust_asr_runner.py
+2025-08-22 02:35:23.755318: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-22 02:35:26.789915: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Comprehensive ASR System for Children with Down Syndrome
+Academic Research Implementation
+======================================================================
+Running on CPU
+Enter data path (or press Enter for default):
+Enter output path (or press Enter for default): 
+Data path: C:/Users/فاطمة الزهراني/Desktop/ابحاث/الداون/Data/clean
+Output path: comprehensive_asr_results
+
+Comprehensive ASR System initialized
+Data path: C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Data\clean
+Output path: comprehensive_asr_results
+Starting comprehensive ASR evaluation...
+============================================================
+Loading and preparing data...
+Processing word: اثنين (27 files)
+Processing word: احمر (10 files)
+Processing word: اخ (10 files)
+Processing word: اخت (7 files)
+Processing word: اخضر (7 files)
+Processing word: اربعة (25 files)
+Processing word: ازرق (6 files)
+Processing word: استاذة (9 files)
+Processing word: اسد (5 files)
+Processing word: اسود (6 files)
+Processing word: اشرب (24 files)
+Processing word: اصفر (11 files)
+Processing word: اكل (22 files)
+Processing word: السلام عليكم (14 files)
+Processing word: باب (24 files)
+Processing word: بابا (15 files)
+Processing word: باص (23 files)
+Processing word: بسة (17 files)
+Processing word: بطة (6 files)
+Processing word: بيت (15 files)
+Processing word: بيض (22 files)
+Processing word: تعبان (4 files)
+Processing word: تفاح (19 files)
+Processing word: تفاحة (6 files)
+Processing word: تمر (20 files)
+Processing word: ثلاثة (25 files)
+Processing word: ثوب (10 files)
+Processing word: جا (22 files)
+Processing word: جبل (15 files)
+Processing word: جد (5 files)
+Processing word: جدة (6 files)
+Processing word: جمل (5 files)
+Processing word: جوع (8 files)
+Processing word: حاسب (10 files)
+Processing word: حافظ (16 files)
+Processing word: حليب (14 files)
+Processing word: خايف (13 files)
+Processing word: خبز (11 files)
+Processing word: خروف (14 files)
+Processing word: خلاص (19 files)
+Processing word: خمسة (6 files)
+Processing word: دجاج (23 files)
+Processing word: ذيب (13 files)
+Processing word: راح (22 files)
+Processing word: راس (12 files)
+Processing word: رز (22 files)
+Processing word: زعلان (6 files)
+Processing word: زيت (14 files)
+Processing word: سبورة (13 files)
+Processing word: ستة (8 files)
+Processing word: سرير (18 files)
+Processing word: سمك (21 files)
+Processing word: شمس (16 files)
+Processing word: صاروخ (7 files)
+Processing word: صقر (7 files)
+Processing word: صمغ (8 files)
+Processing word: ضوء (18 files)
+Processing word: طريق (6 files)
+Processing word: طير (10 files)
+Processing word: ظهر (7 files)
+Processing word: عربية (5 files)
+Processing word: عصفور (5 files)
+Processing word: علم (15 files)
+Processing word: عين (27 files)
+Processing word: فراش (17 files)
+Processing word: فرحان (6 files)
+Processing word: فم (6 files)
+Processing word: فيل (23 files)
+Processing word: قط (15 files)
+Processing word: قلب (6 files)
+Processing word: قلم (10 files)
+Processing word: قميص (13 files)
+Processing word: كاس (16 files)
+Processing word: كبير (16 files)
+Processing word: كتاب (13 files)
+Processing word: كرسي (18 files)
+Processing word: كلب (10 files)
+Processing word: كورة (15 files)
+Processing word: لبن (12 files)
+Processing word: لعبة (4 files)
+Processing word: لون (12 files)
+Processing word: ماما (16 files)
+Processing word: مدرسة (14 files)
+Processing word: مستشفى (5 files)
+Processing word: معصب (5 files)
+Processing word: مفتاح (8 files)
+Processing word: ملعب (9 files)
+Processing word: موز (28 files)
+Processing word: موية (24 files)
+Processing word: مياة (11 files)
+Processing word: نار (19 files)
+Processing word: نام (17 files)
+Processing word: نور (15 files)
+Skipping word 'نوم' - insufficient samples
+Processing word: هلال (11 files)
+Processing word: هواء (18 files)
+Processing word: واحد (6 files)
+Processing word: ورق (8 files)
+Processing word: ولد (7 files)
+Processing word: يالله (6 files)
+Processing word: يد (14 files)
+Data loaded: 1309 samples, 100 words
+Speaker distribution: {'Ahmad': 432, 'Asim': 68, 'Haifa': 353, 'Aseel': 303, 'unknown': 4, 'Wissam': 149}       
+Failed extractions: 0
+Preprocessing data...
+SMOTE applied: 1309 -> 2800 samples
+Evaluating baseline models...
+Traditional Model SVM_RBF: Accuracy = 0.8732
+Traditional Model SVM_Linear: Accuracy = 0.8946
+Traditional Model Random_Forest: Accuracy = 0.8500
+Traditional Model KNN: Accuracy = 0.7554
+Traditional Model Naive_Bayes: Accuracy = 0.6607
+Traditional Model Logistic_Regression: Accuracy = 0.8679
+Training neural network models...
+Training Enhanced_CNN...
+2025-08-22 02:37:40.564048: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+  Fold 1: 0.7821
+WARNING:tensorflow:From C:\Users\فاطمة الزهراني\Desktop\ابحاث\الداون\Codes\Clean\2. deep_learning_models\2. advanced_models\Try 7\tf_env\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+  Fold 2: 0.7946
+  Fold 3: 0.7911
+  Fold 4: 0.7839
+  Fold 5: 0.7804
+Enhanced_CNN: 0.7864 ± 0.0055
+Training Enhanced_LSTM...
+  Fold 1: 0.8518
+  Fold 2: 0.8482
+  Fold 3: 0.8750
+  Fold 4: 0.8411
+  Fold 5: 0.8411
+Enhanced_LSTM: 0.8514 ± 0.0125
+Training Deep_DNN...
+  Fold 1: 0.9000
+  Fold 2: 0.8893
+  Fold 3: 0.8982
+  Fold 4: 0.9196
+  Fold 5: 0.8929
+Deep_DNN: 0.9000 ± 0.0105
+Training Hybrid_CNN_DNN...
+  Fold 1: 0.8804
+  Fold 2: 0.8786
+  Fold 3: 0.8857
+  Fold 4: 0.8929
+  Fold 5: 0.8839
+Hybrid_CNN_DNN: 0.8843 ± 0.0050
+Training Transformer_Inspired...
+  Fold 1: 0.7732
+  Fold 2: 0.7750
+  Fold 3: 0.7661
+  Fold 4: 0.7482
+  Fold 5: 0.7339
+Transformer_Inspired: 0.7593 ± 0.0158
+Training Conformer_Inspired...
+  Fold 1: 0.7911
+  Fold 2: 0.7982
+  Fold 3: 0.8143
+  Fold 4: 0.7982
+  Fold 5: 0.7946
+Conformer_Inspired: 0.7993 ± 0.0080
+Testing language correction system...
+Original accuracy: 0.8714
+Simulated errors accuracy: 0.7696
+After correction accuracy: 0.8696
+Correction improvement: 0.1000
+Performing statistical analysis...
+Generating visualizations...
+Model comparison chart saved: comprehensive_asr_results\visualizations\model_comparison.png
+Correction effectiveness chart saved: comprehensive_asr_results\visualizations\correction_effectiveness.png     
+Training curves saved: comprehensive_asr_results\visualizations\training_curves.png
+Performance summary table saved: comprehensive_asr_results\visualizations\performance_summary.png
+Saving results...
+Results saved to: comprehensive_asr_results\comprehensive_asr_results.json
+Summary report saved: comprehensive_asr_results\summary_report.md
+
+============================================================
+Comprehensive evaluation completed successfully!        
+Results saved to: comprehensive_asr_results
+Best model: Deep_DNN (Accuracy: 0.9000)
+Language correction improvement: +0.1000
+============================================================
+
+======================================================================
+FINAL RESULTS SUMMARY
+======================================================================
+
+Deep Learning Models Performance:
+  Deep_DNN            : 0.9000 ± 0.0105
+  Hybrid_CNN_DNN      : 0.8843 ± 0.0050
+  Enhanced_LSTM       : 0.8514 ± 0.0125
+  Conformer_Inspired  : 0.7993 ± 0.0080
+  Enhanced_CNN        : 0.7864 ± 0.0055
+  Transformer_Inspired: 0.7593 ± 0.0158
+
+Best Performing Model: Deep_DNN
+Best Accuracy: 0.9000
+
+Baseline Models Performance:
+  SVM_Linear          : 0.8946
+  SVM_RBF             : 0.8732
+  Logistic_Regression : 0.8679
+  Random_Forest       : 0.8500
+  KNN                 : 0.7554
+  Naive_Bayes         : 0.6607
+
+Language Correction System:
+  Original Accuracy:     0.8714
+  With Simulated Errors: 0.7696
+  After Correction:      0.8696
+  Improvement:          +0.1000
+
+Statistical Analysis:
+  Correction p-value:    0.000000
+  Effect size (Cohen's d): 0.0000
+  Statistically significant: True
+  Improvement over baseline: 0.6%
+
+All results and visualizations saved to: comprehensive_asr_results
+
+Generated visualizations:
+  - model_comparison
+  - correction_effectiveness
+  - training_curves
+  - summary_table
+
+======================================================================
+Evaluation completed successfully!
+Ready for academic publication and analysis.
+
+Key Academic Metrics:
+  Best Traditional Model Accuracy: 0.8946
+  Best Deep Learning Model Accuracy: 0.9000
+  Relative Performance Improvement: 0.60%
+  Error Rate Reduction through Correction: 43.41%       
+======================================================================

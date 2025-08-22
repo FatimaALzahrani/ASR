@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-08-12T03:10:58.248516",
+  "system_type": "Realistic ASR (Anti-Overfitting)",
+  "dataset_info": {
+    "total_samples": 2618,
+    "selected_features": 20,
+    "total_words": 100,
+    "extraction_success": 2618,
+    "extraction_failed": 0,
+    "realistic_training": true
+  },
+  "performance_analysis": {
+    "Conservative_ExtraTrees": {
+      "cv_mean": 0.31704227399630786,
+      "cv_std": 0.01251852129889639,
+      "test_accuracy": 0.3524173027989822,
+      "is_overfitted": "False",
+      "overfitting_severity": "none"
+    },
+    "Conservative_RandomForest": {
+      "cv_mean": 0.2215457086709333,
+      "cv_std": 0.01260522269545974,
+      "test_accuracy": 0.22646310432569974,
+      "is_overfitted": "False",
+      "overfitting_severity": "none"
+    },
+    "Regularized_LogisticRegression": {
+      "cv_mean": 0.4618039135323728,
+      "cv_std": 0.008622866103569956,
+      "test_accuracy": 0.44529262086513993,
+      "is_overfitted": "False",
+      "overfitting_severity": "none"
+    },
+    "Simple_SVM": {
+      "cv_mean": 0.14553711235116704,
+      "cv_std": 0.013658642344660972,
+      "test_accuracy": 0.14631043256997456,
+      "is_overfitted": "False",
+      "overfitting_severity": "none"
+    },
+    "Conservative_XGBoost": {
+      "cv_mean": 0.9755544346010628,
+      "cv_std": 0.002153763325385852,
+      "test_accuracy": 0.8778625954198473,
+      "is_overfitted": "True",
+      "overfitting_severity": "severe"
+    }
+  },
+  "best_reliable_model": "Regularized_LogisticRegression",
+  "selected_features": [
+    "mfcc_0_std",
+    "mfcc_0_min",
+    "mfcc_1_mean",
+    "mfcc_1_max",
+    "mfcc_1_min",
+    "mfcc_2_mean",
+    "mfcc_2_min",
+    "mfcc_3_mean",
+    "mfcc_3_max",
+    "mfcc_5_mean",
+    "mfcc_delta_0_std",
+    "spectral_centroid_mean",
+    "spectral_bandwidth_mean",
+    "spectral_rolloff_mean",
+    "mel_0_mean",
+    "rms_mean",
+    "signal_std",
+    "word_length",
+    "difficult_chars_count",
+    "word_difficulty_ratio"
+  ],
+  "recommendations": [
+    "Use only healthy models for production",
+    "Test on new data before deployment",
+    "Monitor performance in real usage"
+  ]
+}

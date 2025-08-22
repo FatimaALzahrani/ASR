@@ -1,0 +1,390 @@
+
+======================================================================
+Enter data folder path: 
+Using path: C:/Users/فاطمة الزهراني/Desktop/ابحاث/الداون/Data/clean
+Starting Realistic ASR System (Anti-Overfitting)
+================================================================================
+Loading and processing data...
+Scanning audio files...
+Processing word: اثنين
+   Processed 54 files
+Processing word: احمر
+   Processed 20 files
+Processing word: اخ
+   Processed 20 files
+Processing word: اخت
+   Processed 14 files
+Processing word: اخضر
+   Processed 14 files
+Processing word: اربعة
+   Processed 50 files
+Processing word: ازرق
+   Processed 12 files
+Processing word: استاذة
+   Processed 18 files
+Processing word: اسد
+   Processed 10 files
+Processing word: اسود
+   Processed 12 files
+Processing word: اشرب
+   Processed 48 files
+Processing word: اصفر
+   Processed 22 files
+Processing word: اكل
+   Processed 44 files
+Processing word: السلام عليكم
+   Processed 28 files
+Processing word: باب
+   Processed 48 files
+Processing word: بابا
+   Processed 30 files
+Processing word: باص
+   Processed 46 files
+Processing word: بسة
+   Processed 34 files
+Processing word: بطة
+   Processed 12 files
+Processing word: بيت
+   Processed 30 files
+Processing word: بيض
+   Processed 44 files
+Processing word: تعبان
+   Processed 8 files
+Processing word: تفاح
+   Processed 38 files
+Processing word: تفاحة
+   Processed 12 files
+Processing word: تمر
+   Processed 40 files
+Processing word: ثلاثة
+   Processed 50 files
+Processing word: ثوب
+   Processed 20 files
+Processing word: جا
+   Processed 44 files
+Processing word: جبل
+   Processed 30 files
+Processing word: جد
+   Processed 10 files
+Processing word: جدة
+   Processed 12 files
+Processing word: جمل
+   Processed 10 files
+Processing word: جوع
+   Processed 16 files
+Processing word: حاسب
+   Processed 20 files
+Processing word: حافظ
+   Processed 32 files
+Processing word: حليب
+   Processed 28 files
+Processing word: خايف
+   Processed 26 files
+Processing word: خبز
+   Processed 22 files
+Processing word: خروف
+   Processed 28 files
+Processing word: خلاص
+   Processed 38 files
+Processing word: خمسة
+   Processed 12 files
+Processing word: دجاج
+   Processed 46 files
+Processing word: ذيب
+   Processed 26 files
+Processing word: راح
+   Processed 44 files
+Processing word: راس
+   Processed 24 files
+Processing word: رز
+   Processed 44 files
+Processing word: زعلان
+   Processed 12 files
+Processing word: زيت
+   Processed 28 files
+Processing word: سبورة
+   Processed 26 files
+Processing word: ستة
+   Processed 16 files
+Processing word: سرير
+   Processed 36 files
+Processing word: سمك
+   Processed 42 files
+Processing word: شمس
+   Processed 32 files
+Processing word: صاروخ
+   Processed 14 files
+Processing word: صقر
+   Processed 14 files
+Processing word: صمغ
+   Processed 16 files
+Processing word: ضوء
+   Processed 36 files
+Processing word: طريق
+   Processed 12 files
+Processing word: طير
+   Processed 20 files
+Processing word: ظهر
+   Processed 14 files
+Processing word: عربية
+   Processed 10 files
+Processing word: عصفور
+   Processed 10 files
+Processing word: علم
+   Processed 30 files
+Processing word: عين
+   Processed 54 files
+Processing word: فراش
+   Processed 34 files
+Processing word: فرحان
+   Processed 12 files
+Processing word: فم
+   Processed 12 files
+Processing word: فيل
+   Processed 46 files
+Processing word: قط
+   Processed 30 files
+Processing word: قلب
+   Processed 12 files
+Processing word: قلم
+   Processed 20 files
+Processing word: قميص
+   Processed 26 files
+Processing word: كاس
+   Processed 32 files
+Processing word: كبير
+   Processed 32 files
+Processing word: كتاب
+   Processed 26 files
+Processing word: كرسي
+   Processed 36 files
+Processing word: كلب
+   Processed 20 files
+Processing word: كورة
+   Processed 30 files
+Processing word: لبن
+   Processed 24 files
+Processing word: لعبة
+   Processed 8 files
+Processing word: لون
+   Processed 24 files
+Processing word: ماما
+   Processed 32 files
+Processing word: مدرسة
+   Processed 28 files
+Processing word: مستشفى
+   Processed 10 files
+Processing word: معصب
+   Processed 10 files
+Processing word: مفتاح
+   Processed 16 files
+Processing word: ملعب
+   Processed 18 files
+Processing word: موز
+   Processed 56 files
+Processing word: موية
+   Processed 48 files
+Processing word: مياة
+   Processed 22 files
+Processing word: نار
+   Processed 38 files
+Processing word: نام
+   Processed 34 files
+Processing word: نور
+   Processed 30 files
+Processing word: نوم
+   Processed 2 files
+Processing word: هلال
+   Processed 22 files
+Processing word: هواء
+   Processed 36 files
+Processing word: واحد
+   Processed 12 files
+Processing word: ورق
+   Processed 16 files
+Processing word: ولد
+   Processed 14 files
+Processing word: يالله
+   Processed 12 files
+Processing word: يد
+   Processed 28 files
+
+Dataset Summary:
+   Total files: 2620
+   Unique words: 101
+   Speakers: 5
+   Sessions: 212
+Filtered dataset:
+   Samples: 2618
+   Words: 100
+   Avg samples/word: 26.2
+Extracting conservative features...
+   Processing 0/2618...
+   Processing 100/2618...
+   Processing 200/2618...
+   Processing 300/2618...
+   Processing 400/2618...
+   Processing 500/2618...
+   Processing 600/2618...
+   Processing 700/2618...
+   Processing 800/2618...
+   Processing 900/2618...
+   Processing 1000/2618...
+   Processing 1100/2618...
+   Processing 1200/2618...
+   Processing 1300/2618...
+   Processing 1400/2618...
+   Processing 1500/2618...
+   Processing 1600/2618...
+   Processing 1700/2618...
+   Processing 1800/2618...
+   Processing 1900/2618...
+   Processing 2000/2618...
+   Processing 2100/2618...
+   Processing 2200/2618...
+   Processing 2300/2618...
+   Processing 2400/2618...
+   Processing 2500/2618...
+   Processing 2600/2618...
+Feature extraction completed:
+   Successful: 2618
+   Failed: 0
+   Features: 62
+   Features/samples ratio: 0.024
+Preparing training data...
+Selecting best 20 features from 62...
+Training data ready:
+   Samples: 2618
+   Selected features: 20
+   Words: 100
+   Safe ratio: 0.0076 (should be < 0.1)
+Training conservative models...
+   Training Conservative_ExtraTrees...
+      Conservative_ExtraTrees:
+         Test: 0.3524
+         CV: 0.3170 ± 0.0125
+         Overfitting: none
+         Status: Healthy model
+   Training Conservative_RandomForest...
+      Conservative_RandomForest:
+         Test: 0.2265
+         CV: 0.2215 ± 0.0126
+         Overfitting: none
+         Status: Healthy model
+   Training Regularized_LogisticRegression...
+      Regularized_LogisticRegression:
+         Test: 0.4453
+         CV: 0.4618 ± 0.0086
+         Overfitting: none
+         Status: Healthy model
+   Training Simple_SVM...
+      Simple_SVM:
+         Test: 0.1463
+         CV: 0.1455 ± 0.0137
+         Overfitting: none
+         Status: Healthy model
+   Training Conservative_XGBoost...
+      Conservative_XGBoost:
+         Test: 0.8779
+         CV: 0.9756 ± 0.0022
+         Overfitting: severe
+         Warning: Generalization issue!
+         Recommendation: Reduce features significantly (< 20)     
+
+================================================================================
+Realistic ASR Performance Report
+================================================================================
+Healthy Models (no overfitting):
+   1. Regularized_LogisticRegression
+      CV: 0.462 ± 0.009
+      Test: 0.445
+      Status: Reliable for production
+
+   2. Conservative_ExtraTrees
+      CV: 0.317 ± 0.013
+      Test: 0.352
+      Status: Reliable for production
+
+   3. Conservative_RandomForest
+      CV: 0.222 ± 0.013
+      Test: 0.226
+      Status: Reliable for production
+
+   4. Simple_SVM
+      CV: 0.146 ± 0.014
+      Test: 0.146
+      Status: Reliable for production
+
+Overfitted Models:
+   1. Conservative_XGBoost
+      CV: 0.976 ± 0.002
+      Test: 0.878
+      Overfitting level: severe
+
+Performance Analysis:
+   Best reliable model: Regularized_LogisticRegression
+   Realistic accuracy: 0.462 (46.2%)
+   Performance: Needs improvement (below 60%)
+
+Data Quality Assessment:
+   Samples: 2618
+   Features: 20
+   Words: 100
+   Samples per word: 26.2
+   Features/samples ratio: 0.0076
+Saving realistic system...
+
+================================================================================
+Realistic ASR Performance Report
+================================================================================
+Healthy Models (no overfitting):
+   1. Regularized_LogisticRegression
+      CV: 0.462 ± 0.009
+      Test: 0.445
+      Status: Reliable for production
+
+   2. Conservative_ExtraTrees
+      CV: 0.317 ± 0.013
+      Test: 0.352
+      Status: Reliable for production
+
+   3. Conservative_RandomForest
+      CV: 0.222 ± 0.013
+      Test: 0.226
+      Status: Reliable for production
+
+   4. Simple_SVM
+      CV: 0.146 ± 0.014
+      Test: 0.146
+      Status: Reliable for production
+
+Overfitted Models:
+   1. Conservative_XGBoost
+      CV: 0.976 ± 0.002
+      Test: 0.878
+      Overfitting level: severe
+
+Performance Analysis:
+   Best reliable model: Regularized_LogisticRegression
+   Realistic accuracy: 0.462 (46.2%)
+   Performance: Needs improvement (below 60%)
+
+Data Quality Assessment:
+   Samples: 2618
+   Features: 20
+   Words: 100
+   Samples per word: 26.2
+   Features/samples ratio: 0.0076
+System saved to: realistic_asr_output
+
+================================================================================
+Realistic System Summary
+================================================================================
+Best reliable model: Regularized_LogisticRegression
+Realistic accuracy: 0.462 (46.2%)
+These are realistic and reliable results for practical use!       
+
+Realistic system completed successfully!
+Results saved to: realistic_asr_output
+
+Do you want to test prediction? (y/n): n

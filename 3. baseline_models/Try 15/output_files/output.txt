@@ -1,0 +1,62 @@
+
+2025-08-13 01:11:02.147134: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-13 01:11:05.467904: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+All required libraries loaded successfully
+Memory-Optimized Speech Recognition Trainer
+============================================================
+Enter audio data folder path (or press Enter for auto-detect):
+Auto-detected path: C:/Users/فاطمة الزهراني/Desktop/ابحاث/الداون/Codes/Real Codes/01_data_processing2/data/clean
+Starting memory-efficient training process...
+============================================================
+
+Step 1: Loading file metadata
+Loading metadata only (no audio files loaded yet)...
+Found 1295 audio files
+Processed metadata for 100 files
+Processed metadata for 200 files
+Processed metadata for 300 files
+Processed metadata for 400 files
+Processed metadata for 500 files
+Processed metadata for 600 files
+Processed metadata for 700 files
+Processed metadata for 800 files
+Processed metadata for 900 files
+Processed metadata for 1000 files
+Processed metadata for 1100 files
+Processed metadata for 1200 files
+Successfully processed metadata for 1295 audio files
+
+Step 2: Creating data splits
+Creating data splits (metadata only)...
+Training split: 777 samples
+Validation split: 259 samples
+Test split: 259 samples
+
+Step 3: Setting up model
+Setting up Whisper model...
+Model setup completed successfully
+
+Step 4: Evaluating model
+Evaluating model with sample-based approach...
+Overall accuracy: 66.9%
+
+Step 5: Saving results
+Saving results to files...
+Results saved to: ultimate_results\ultimate_results.json
+
+============================================================
+Training completed successfully!
+Final accuracy: 66.9%
+Total samples: 259
+============================================================
+
+Final Results Summary:
+Overall accuracy: 66.9%
+Total samples: 259
+
+Speaker Performance:
+  أحمد: 63.6% (427 samples)
+  عاصم: 82.9% (64 samples)
+  هيفاء: 69.9% (354 samples)
+  أسيل: 50.8% (301 samples)
+  وسام: 67.4% (149 samples)
